@@ -14,17 +14,25 @@ from tabulate import tabulate
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
 
-log = logging.getLogger('')
+log = logging.getLogger('data')
 log.setLevel(logging.DEBUG)
-format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
-        
-ch = logging.StreamHandler(sys.stdout)
-ch.setFormatter(format)
-log.addHandler(ch)
-      
+format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")        
+# ch = logging.StreamHandler(sys.stdout)
+# ch.setFormatter(format)
+# log.addHandler(ch) 
 fh = logging.FileHandler('data.log')
 fh.setFormatter(format)
 log.addHandler(fh)
+
+log_debug = logging.getLogger('debug')
+log_debug.setLevel(logging.DEBUG)
+format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")        
+# ch = logging.StreamHandler(sys.stdout)
+# ch.setFormatter(format)
+# log_debug.addHandler(ch) 
+fh = logging.FileHandler('debug.log')
+fh.setFormatter(format)
+log_debug.addHandler(fh)
             
 class CompareProcess(object):
     data_size = [0.75, 0.50, 0.25]
@@ -77,9 +85,9 @@ class CompareProcess(object):
     def cross_validation(self, ml_lst, x, y):
         score_lst = []    
         for ml in ml_lst:
-            print 'start cross val'
+            log_debug.info('start cross val')
             scores = cross_validation.cross_val_score(ml, x, y, cv=2)
-            print 'end cross val'
+            log_debug.info('end cross val')
             score_lst.append(scores.mean())
         np_score = np.array(score_lst)
         max_idx = np_score.argmax()
@@ -111,15 +119,15 @@ class CompareProcess(object):
             total_ins75 = all_data[:, 11]                        
             lst_data.append([m, acc25, acc50, acc75, f1_25, f1_50, f1_75])
             time_data.append([m, time25, total_ins25, time50, total_ins50, time75, total_ins75]) 
-        print tabulate(lst_data, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
-        print '----------------------------'
-        print tabulate(time_data, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75'))
+        log.info(tabulate(lst_data, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
+        log.info('----------------------------')
+        log.info(tabulate(time_data, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
     
     def report_by_dataset_v1(self, result):
-        print 'report by dataset'
+        log_debug.info('report by dataset')
         result_lst = []
         for i in range(0, len(DataSetLoader.dataset_name)):
-            print '----- data set ',DataSetLoader.dataset_name[i]
+            log_debug('----- data set '+DataSetLoader.dataset_name[i])
             for m in ml_name:
                 ml_result = []
                 datasets_data = result[m][i]
@@ -143,7 +151,7 @@ class CompareProcess(object):
                 ml_result.append(f1_50)
                 ml_result.append(f1_75)
                 result_lst.append(ml_result)
-        print tabulate(result_lst, ('ml name','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50','f1 75'))
+        log.info(tabulate(result_lst, ('ml name','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50','f1 75')))
                         
     def report(self, result):
         self.report_by_dataset_v1(result)
@@ -154,7 +162,7 @@ class CompareProcess(object):
         dataset_lst = self.load_dataset()
         result = {}
         for ml_key, ml_value in ml_lst.iteritems():
-            print '*************************************** ',ml_key
+            log_debug.info('*************************************** '+ml_key)
             all_data = []           
             for dataset_name in DataSetLoader.dataset_name:
                 data_value = dataset_lst[dataset_name]
@@ -206,10 +214,10 @@ class CompareProcess(object):
           
         
 def mainCmp():
-    print ' ---------- start cmp -------'
+    log_debug.info(' ---------- start cmp -------')
     obj = CompareProcess()
     obj.process()
-    print ' ---------- end cmp -------'
+    log_debug.info(' ---------- end cmp -------')
     
 if __name__ == '__main__':
     mainCmp()
