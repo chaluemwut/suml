@@ -71,7 +71,7 @@ class CompareProcess(object):
         }
      
     def gen_knn(self, max_size):
-        lst_random = random.sample(range(2, max_size), 5)
+        lst_random = random.sample(range(10, max_size), 5)
         knn_lst = []
         for i in lst_random:
             knn_lst.append(KNeighborsClassifier(n_neighbors=i))
