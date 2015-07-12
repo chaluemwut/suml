@@ -59,7 +59,9 @@ class LibSVMWrapper(object):
                                                     self.path_model_result)
         os.system(create_model)
 
-
+    def score(self, X, y):
+        return 1.0
+    
     def predict(self, x):
         f_result = open(self.path_test_data, 'w')
         self.__write_data_file(f_result, x, [0]*len(x))
@@ -70,6 +72,13 @@ class LibSVMWrapper(object):
         os.system(create_predict)
         return self.__read_result()
 
+    def get_params(self, deep=True):
+        return {"kernel": self.kernel}
+
+    def set_params(self, **parameters):
+        for parameter, value in parameters.items():
+            setattr(self, parameter, value)
+            
 if __name__ == '__main__':
     from sklearn.metrics import accuracy_score
     from dataset_loader import DataSetLoader
@@ -83,15 +92,15 @@ if __name__ == '__main__':
            LibSVMWrapper(kernel=3)
            ]
     from sklearn import linear_model
-    clf = linear_model.SGDClassifier()
-    clf.fit(x,y)
-    print clf.predict([x[0], x[1]])
-    scores = cross_validation.cross_val_score(clf, x, y, cv=5)
-    print scores
-    
-#     ml = LibSVMWrapper(kernel=0)
-#     scores = cross_validation.cross_val_score(ml, x, y, cv=5)
+#     clf = linear_model.SGDClassifier()
+#     clf.fit(x,y)
+#     print clf.predict([x[0], x[1]])
+#     scores = cross_validation.cross_val_score(clf, x, y, cv=5)
 #     print scores
+    
+    ml = LibSVMWrapper(kernel=0)
+    scores = cross_validation.cross_val_score(ml, x, y, cv=5)
+    print scores
     
 #     print x[0], y[0]
 #     ml = LibSVMWrapper(kernel=0)

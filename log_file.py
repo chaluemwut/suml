@@ -8,7 +8,7 @@ import logging, sys
 class LogFile(object):
 
 
-    def __init__(self, log_name, file_name, d_console):
+    def get_log(self, log_name, file_name, d_console):        
         log = logging.getLogger(log_name)
         log.setLevel(logging.DEBUG)
         format = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
