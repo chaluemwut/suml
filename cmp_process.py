@@ -82,7 +82,7 @@ class CompareProcess(object):
         score_lst = []    
         for ml in ml_lst:
             log_debug.info('start cross val')
-            scores = cross_validation.cross_val_score(ml, x, y, cv=2)
+            scores = cross_validation.cross_val_score(ml, x, y, cv=5)
             log_debug.info('end cross val')
             score_lst.append(scores.mean())
         np_score = np.array(score_lst)
