@@ -24,7 +24,7 @@ class SingleProcess(object):
     def __init__(self):
         log_file = LogFile()
         self.log = log_file.get_log('data','data.log', Config.display_console)
-        self.log_debug = log_file.get_log('debug','debug.loh', Config.display_console)
+        self.log_debug = log_file.get_log('debug','debug.log', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
