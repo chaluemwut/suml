@@ -5,12 +5,14 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn.svm import SVC
+from sklearn import linear_model
 
 from dataset_loader import DataSetLoader
 from sklearn import cross_validation
 import copy, random, time, logging, sys, pickle
 import numpy as np
 from tabulate import tabulate
+from svm import LibSVMWrapper
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
 
@@ -53,12 +55,6 @@ class CompareProcess(object):
             bagging_lst.append(BaggingClassifier(DecisionTreeClassifier(), n_estimators=i))
         
         knn_lst = []
-            
-        svm_lst = []
-        svm_lst.append(SVC(kernel='linear'))
-        svm_lst.append(SVC(kernel='poly', degree=2))
-        svm_lst.append(SVC(kernel='poly', degree=3))
-        svm_lst.append(SVC(kernel='sigmoid'))
         
         return {
                 ml_name[0]:bagging_lst,
@@ -67,7 +63,7 @@ class CompareProcess(object):
                 ml_name[3]:[GaussianNB()],
                 ml_name[4]:knn_lst,
                 ml_name[5]:[DecisionTreeClassifier()],
-                ml_name[6]:svm_lst
+                ml_name[6]:[linear_model.SGDClassifier()]
         }
      
     def gen_knn(self, max_size):
@@ -127,7 +123,7 @@ class CompareProcess(object):
         log_debug.info('report by dataset')
         result_lst = []
         for i in range(0, len(DataSetLoader.dataset_name)):
-            log_debug('----- data set '+DataSetLoader.dataset_name[i])
+            log_debug('----- data set ' + DataSetLoader.dataset_name[i])
             for m in ml_name:
                 ml_result = []
                 datasets_data = result[m][i]
@@ -151,7 +147,7 @@ class CompareProcess(object):
                 ml_result.append(f1_50)
                 ml_result.append(f1_75)
                 result_lst.append(ml_result)
-        log.info(tabulate(result_lst, ('ml name','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50','f1 75')))
+        log.info(tabulate(result_lst, ('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
                         
     def report(self, result):
         self.report_by_dataset_v1(result)
@@ -162,7 +158,7 @@ class CompareProcess(object):
         dataset_lst = self.load_dataset()
         result = {}
         for ml_key, ml_value in ml_lst.iteritems():
-            log_debug.info('*************************************** '+ml_key)
+            log_debug.info('*************************************** ' + ml_key)
             all_data = []           
             for dataset_name in DataSetLoader.dataset_name:
                 data_value = dataset_lst[dataset_name]
@@ -170,10 +166,10 @@ class CompareProcess(object):
                 y_data = data_value[1]
                 datasets_data = []            
                 for d_size in self.data_size:
-                    ran_num = random.randint(1,100)
+                    ran_num = random.randint(1, 100)
                     x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
                     if ml_key == ml_name[4]:
-                        max_knn = int(len(x_train)/5.0)
+                        max_knn = int(len(x_train) / 5.0)
                         knn_lst = self.gen_knn(max_knn)
                         ml = self.cross_validation(knn_lst, x_train, y_train)
                     else:
@@ -183,13 +179,13 @@ class CompareProcess(object):
                     time_pred = []
                     total_ins = []
                     for i in range(0, self.reperating_loop):
-                        ran_num = random.randint(1,10000)
+                        ran_num = random.randint(1, 10000)
                         x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
                         ml_c = copy.deepcopy(ml)
                         ml_c.fit(x_train, y_train)
                         start = time.time()
                         y_pred = ml_c.predict(x_test)
-                        total_time = time.time()-start
+                        total_time = time.time() - start
                         acc = accuracy_score(y_test, y_pred)
                         fsc = f1_score(y_test, y_pred)
                         acc_lst.append(acc)
@@ -201,7 +197,7 @@ class CompareProcess(object):
                     datasets_data.append(np.mean(time_pred))
                     datasets_data.append(np.mean(total_ins))
                     log.info('---------------------------------------------') 
-                    log.info('data size '+str(d_size)+' data set '+dataset_name) 
+                    log.info('data size ' + str(d_size) + ' data set ' + dataset_name) 
                     log.info(acc_lst)
                     log.info(f1_lst)
                     log.info(time_pred)
