@@ -23,8 +23,8 @@ class SingleProcess(object):
     
     def __init__(self):
         log_file = LogFile()
-        self.log = log_file.get_log('data','data.log', Config.display_console)
-        self.log_debug = log_file.get_log('debug','debug.log', Config.display_console)
+        self.log = log_file.get_log('data', 'data.log', Config.display_console)
+        self.log_debug = log_file.get_log('debug', 'debug.log', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -141,29 +141,29 @@ class SingleProcess(object):
             self.log_debug.info('*************************************** ' + ml_key)
             all_data = []           
             for dataset_name in DataSetLoader.dataset_name:
-                self.log_debug('***** start '+dataset_name)
+                self.log_debug.info('***** start ' + dataset_name)
                 data_value = dataset_lst[dataset_name]
                 x_data = data_value[0]
                 y_data = data_value[1]
                 datasets_data = []            
                 for d_size in self.data_size:
-                    self.log_debug('***** start size '+str(d_size))
+                    self.log_debug.info('***** start size ' + str(d_size))
                     ran_num = random.randint(1, 100)
                     x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-                    self.log_debug('********* start cross validation')
+                    self.log_debug.info('********* start cross validation')
                     if ml_key == ml_name[4]:
                         max_knn = int(len(x_train) / 5.0)
                         knn_lst = self.gen_knn(max_knn)
                         ml = self.cross_validation(knn_lst, x_train, y_train)
                     else:
                         ml = self.cross_validation(ml_value, x_train, y_train)
-                    self.log_debug('************* end cross validation')
+                    self.log_debug.info('************* end cross validation')
                     acc_lst = []
                     f1_lst = []
                     time_pred = []
                     total_ins = []
                     for i in range(0, Config.reperating_loop):
-                        self.log_debug('loop {} size {} data set {} ml {}',i, d_size, dataset_name, ml_key)
+                        self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, dataset_name, ml_key))
                         ran_num = random.randint(1, 10000)
                         x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
                         ml_c = copy.deepcopy(ml)
@@ -177,7 +177,7 @@ class SingleProcess(object):
                         f1_lst.append(fsc)
                         time_pred.append(total_time)
                         total_ins.append(len(y_test))
-                        self.log_debug('------------- end loop -----')
+                        self.log_debug.info('------------- end loop -----')
                     datasets_data.append(np.mean(acc_lst))
                     datasets_data.append(np.mean(f1_lst))
                     datasets_data.append(np.mean(time_pred))
@@ -189,11 +189,11 @@ class SingleProcess(object):
                     self.log.info(time_pred)
                     self.log.info(total_ins)
                     self.log.info('---------------------------------------------')
-                    self.log_debug('*********** end size')                    
+                    self.log_debug.info('*********** end size')                    
                 all_data.append(datasets_data)
-                self.log_debug('******* end data set')
+                self.log_debug.info('******* end data set')
             result[ml_key] = all_data
-            self.log_debug('************ end ml')
+            self.log_debug.info('************ end ml')
         pickle.dump(result, open('result.obj', 'wb'))
         self.report_all(result)
           

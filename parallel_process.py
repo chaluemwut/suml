@@ -47,11 +47,15 @@ class ParallelProcess(object):
         
     def process(self):
         ml_lst = self.gen_ml_lst()
+        pool = Pool(processes=2)
         for m in Config.ml_name:
             ml = ml_lst[m]
-            p = Process(target=self.process_by_ml_name, args=(ml,))
-            p.start()
-            p.join()
+            pool.map(self.process_by_ml_name,(ml,))
+            pool.close()
+            pool.join()
+#             p = Process(target=self.process_by_ml_name, args=(ml,))
+#             p.start()
+#             p.join()
     
 if __name__ == '__main__':
     obj = ParallelProcess()
