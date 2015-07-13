@@ -57,3 +57,4 @@ if __name__ == '__main__':
 
 # http://aaren.me/notes/2012/04/embarassingly_parallel_python
 # http://stackoverflow.com/questions/15639779/why-does-multiprocessing-use-only-a-single-core-after-i-import-numpy
+# http://www.chioka.in/python-doesnt-use-all-cpu-cores/

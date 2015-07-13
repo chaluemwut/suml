@@ -60,7 +60,9 @@ class LibSVMWrapper(object):
         os.system(create_model)
 
     def score(self, X, y):
-        return 1.0
+        from sklearn.metrics import accuracy_score
+        y_pred = self.predict(X)
+        return accuracy_score(y, y_pred)
     
     def predict(self, x):
         f_result = open(self.path_test_data, 'w')
@@ -84,7 +86,7 @@ if __name__ == '__main__':
     from dataset_loader import DataSetLoader
     from sklearn import cross_validation
     loader = DataSetLoader()
-    x, y = loader.loadData()[DataSetLoader.dataset_name[0]]
+    x, y = loader.loadData()[DataSetLoader.dataset_name[1]]
     lst = [LibSVMWrapper(kernel=0),
            LibSVMWrapper(kernel=1, degree=2),
            LibSVMWrapper(kernel=1, degree=3),
@@ -97,10 +99,15 @@ if __name__ == '__main__':
 #     print clf.predict([x[0], x[1]])
 #     scores = cross_validation.cross_val_score(clf, x, y, cv=5)
 #     print scores
-    
+    from sklearn import cross_validation
     ml = LibSVMWrapper(kernel=0)
-    scores = cross_validation.cross_val_score(ml, x, y, cv=5)
-    print scores
+    from ml_util import MLUtil
+    sc = MLUtil.cross_validation(ml, x, y, cv=5)
+    print sc
+#     scores = cross_validation.cross_val_score(ml, x, y, cv=5)
+#     print scores
+#     scores = cross_validation.cross_val_score(ml, x, y, cv=5)
+#     print scores
     
 #     print x[0], y[0]
 #     ml = LibSVMWrapper(kernel=0)
@@ -113,5 +120,6 @@ if __name__ == '__main__':
 #         print accuracy_score(y_test, y_pred)
 
 
+# [ 0.77358491  0.81132075  0.8490566   0.75        0.84615385]
 
 

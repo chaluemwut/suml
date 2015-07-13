@@ -3,7 +3,7 @@ from sklearn.ensemble import RandomForestClassifier, BaggingClassifier, Gradient
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cross_validation import train_test_split
-from sklearn.metrics import accuracy_score, f1_score
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
 from sklearn.svm import SVC
 from sklearn import linear_model
 from config import Config
@@ -36,6 +36,12 @@ class SingleProcess(object):
             bagging_lst.append(BaggingClassifier(DecisionTreeClassifier(), n_estimators=i))
         knn_lst = []
         
+        svm_lst = [LibSVMWrapper(kernel=0),
+           LibSVMWrapper(kernel=1, degree=2),
+           LibSVMWrapper(kernel=1, degree=3),
+           LibSVMWrapper(kernel=2),
+           LibSVMWrapper(kernel=3)
+           ]    
         return {
                 ml_name[0]:bagging_lst,
                 ml_name[1]:boosted_lst,
@@ -43,11 +49,11 @@ class SingleProcess(object):
                 ml_name[3]:[GaussianNB()],
                 ml_name[4]:knn_lst,
                 ml_name[5]:[DecisionTreeClassifier()],
-                ml_name[6]:[linear_model.SGDClassifier()]
+                ml_name[6]:svm_lst
         }
      
     def gen_knn(self, max_size):
-        lst_random = random.sample(range(10, max_size), 5)
+        lst_random = random.sample(range(1, max_size), 10)
         knn_lst = []
         for i in lst_random:
             knn_lst.append(KNeighborsClassifier(n_neighbors=i))
@@ -162,6 +168,8 @@ class SingleProcess(object):
                     f1_lst = []
                     time_pred = []
                     total_ins = []
+                    precision_lst = []
+                    recall_lst = []
                     for i in range(0, Config.reperating_loop):
                         self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, dataset_name, ml_key))
                         ran_num = random.randint(1, 10000)
@@ -177,6 +185,10 @@ class SingleProcess(object):
                         f1_lst.append(fsc)
                         time_pred.append(total_time)
                         total_ins.append(len(y_test))
+                        pre_score = precision_score(y_test, y_pred)
+                        recall = recall_score(y_test, y_pred)
+                        precision_lst.append(pre_score)
+                        recall_lst.append(recall)
                         self.log_debug.info('------------- end loop -----')
                     datasets_data.append(np.mean(acc_lst))
                     datasets_data.append(np.mean(f1_lst))

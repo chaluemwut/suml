@@ -1,7 +1,7 @@
 import numpy as np
 
 class DataSetLoader(object):
-    dataset_name = ['adult', 'heart', 'letter', 'austra', 'german']
+    dataset_name = ['adult','heart', 'letter', 'austra', 'german']
 
     def __init__(self):
         pass
@@ -69,7 +69,6 @@ class DataSetLoader(object):
         vechicle = self.template_load('data/statlog/vehicle.data')
         x_vechicle, y_vechicle = self.get_y_last(vechicle)
         
-#         return {self.dataset_name[0]:[x_adult, y_adult]}
         return {self.dataset_name[0]:[x_adult, y_adult],
                 self.dataset_name[1]:[x_heart, y_heart],
                 self.dataset_name[2]:[x_letter, y_letter],
