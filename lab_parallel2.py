@@ -1,16 +1,16 @@
 from multiprocessing import Pool
 import time
+         
+def f(name):
+    print 'hello %s,'%name
+    for i in xrange(100000000000):
+        for j in xrange(100000):
+            print i
+    print 'nice to meet you.'
  
-class C:        
-    def f(self, name):
-        print 'hello %s,'%name
-        time.sleep(50)
-        print 'nice to meet you.'
-     
-    def run(self):
-        pool = Pool(processes=10)
-        pool.map(self.f, ('frank', 'justin', 'osi', 'thomas'))
+def run():
+    pool = Pool(processes=10)
+    pool.map(f, ('frank', 'justin', 'osi', 'thomas'))
  
 if __name__ == '__main__':
-    c = C()
-    c.run()
+    run()
