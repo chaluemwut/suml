@@ -44,16 +44,15 @@ def process():
                     Config.ml_name[6]:[linear_model.SGDClassifier()]
         }
     
-#     pool = Pool(processes=10)
+    pool = Pool(processes=10)
     for m in Config.ml_name:
         ml = ml_map[m]
-        process_by_ml_name(ml)
-#         pool.map(process_by_ml_name, (ml,))
-#         pool.close()
-#         pool.join()
+        pool.map(process_by_ml_name, (ml,))
+        pool.close()
+        pool.join()
 
 if __name__ == '__main__':
-    os.system("taskset -p 0xffffffff %d"% os.getpid())        
+    os.system("taskset -p 0xff %d" % os.getpid())       
     process()
 
 # http://aaren.me/notes/2012/04/embarassingly_parallel_python
