@@ -55,4 +55,6 @@ def process():
 
 if __name__ == '__main__':
 #     os.system("taskset -p 0xffffffff %d"% os.getpid())
+    import os
+    os.system("taskset -p 0xfffff %d" % os.getpid())
     process()
