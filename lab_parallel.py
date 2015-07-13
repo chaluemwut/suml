@@ -1,3 +1,4 @@
+import pp
 from multiprocessing import Pool, Process
 from config import Config
 
@@ -8,11 +9,11 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cross_validation import train_test_split
 from sklearn.metrics import accuracy_score, f1_score
 from sklearn import linear_model
-from sklearn import cross_validation
-from dataset_loader import DataSetLoader
-import os
+
 
 def process_by_ml_name(ml):
+    from dataset_loader import DataSetLoader
+    from sklearn import cross_validation
     print 'start ', ml
     loader = DataSetLoader()
     x, y = loader.loadData()[DataSetLoader.dataset_name[0]]
@@ -21,8 +22,8 @@ def process_by_ml_name(ml):
         print 'start cross val'
         scores = cross_validation.cross_val_score(ml, x, y, cv=5)
         print 'end cross val'
-        score_lst.append(scores.mean())        
-    print 'end '
+        score_lst.append(scores.mean())
+    return score_lst      
 
 def process():
     random_lst = []
@@ -43,16 +44,15 @@ def process():
                     Config.ml_name[5]:[DecisionTreeClassifier()],
                     Config.ml_name[6]:[linear_model.SGDClassifier()]
         }
-    
-    pool = Pool(processes=10)
+
+    job_server = pp.Server()
     for m in Config.ml_name:
         ml = ml_map[m]
-        pool.map(process_by_ml_name, (ml,))
-        pool.close()
-        pool.join()
+        job1 = job_server.submit(process_by_ml_name, (ml,))
+        print job1()
+        
+    job_server.print_stats()
 
 if __name__ == '__main__':
-    os.system("taskset -p 0xffffffff %d"% os.getpid())        
+#     os.system("taskset -p 0xffffffff %d"% os.getpid())
     process()
-
-# http://aaren.me/notes/2012/04/embarassingly_parallel_python
