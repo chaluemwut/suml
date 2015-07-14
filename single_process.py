@@ -16,8 +16,8 @@ from tabulate import tabulate
 from svm import LibSVMWrapper
 from log_file import LogFile
 
-# ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
-ml_name = ['knn']
+ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
+# ml_name = ['knn']
 
 class SingleProcess(object):
     data_size = [0.75, 0.50, 0.25]
@@ -43,17 +43,17 @@ class SingleProcess(object):
            LibSVMWrapper(kernel=2),
            LibSVMWrapper(kernel=3)
            ]
-        return {ml_name[0]:knn_lst}
+#         return {ml_name[0]:knn_lst}
     
-#         return {
-#                 ml_name[0]:bagging_lst,
-#                 ml_name[1]:boosted_lst,
-#                 ml_name[2]:random_lst,
-#                 ml_name[3]:[GaussianNB()],
-#                 ml_name[4]:knn_lst,
-#                 ml_name[5]:[DecisionTreeClassifier()],
-#                 ml_name[6]:svm_lst
-#         }
+        return {
+                ml_name[0]:bagging_lst,
+                ml_name[1]:boosted_lst,
+                ml_name[2]:random_lst,
+                ml_name[3]:[GaussianNB()],
+                ml_name[4]:knn_lst,
+                ml_name[5]:[DecisionTreeClassifier()],
+                ml_name[6]:svm_lst
+        }
      
     def gen_knn(self, max_size):
         lst_random = random.sample(range(1, max_size), 10)
@@ -219,9 +219,7 @@ def mainCmp():
     print ' ---------- start cmp -------'
 #     print tabulate([[1,2,3],[4,5,6]], headers=('m1','m2','m3'))
     obj = SingleProcess()
-    result = pickle.load(open('result.obj','rb'))
-    obj.report_all(result)
-#     obj.process()
+    obj.process()
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
