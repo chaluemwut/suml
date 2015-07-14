@@ -16,7 +16,8 @@ from tabulate import tabulate
 from svm import LibSVMWrapper
 from log_file import LogFile
 
-ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
+# ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
+ml_name = ['knn']
 
 class SingleProcess(object):
     data_size = [0.75, 0.50, 0.25]
@@ -41,16 +42,18 @@ class SingleProcess(object):
            LibSVMWrapper(kernel=1, degree=3),
            LibSVMWrapper(kernel=2),
            LibSVMWrapper(kernel=3)
-           ]    
-        return {
-                ml_name[0]:bagging_lst,
-                ml_name[1]:boosted_lst,
-                ml_name[2]:random_lst,
-                ml_name[3]:[GaussianNB()],
-                ml_name[4]:knn_lst,
-                ml_name[5]:[DecisionTreeClassifier()],
-                ml_name[6]:svm_lst
-        }
+           ]
+        return {ml_name[0]:knn_lst}
+    
+#         return {
+#                 ml_name[0]:bagging_lst,
+#                 ml_name[1]:boosted_lst,
+#                 ml_name[2]:random_lst,
+#                 ml_name[3]:[GaussianNB()],
+#                 ml_name[4]:knn_lst,
+#                 ml_name[5]:[DecisionTreeClassifier()],
+#                 ml_name[6]:svm_lst
+#         }
      
     def gen_knn(self, max_size):
         lst_random = random.sample(range(1, max_size), 10)
@@ -82,35 +85,36 @@ class SingleProcess(object):
         return np.mean(lst_acc)
     
     def report_all(self, result):
-        lst_data = []
-        time_data = []
+        perform_result = []
+        time_result = []
         for m in ml_name:
             all_data = result[m]
             all_data = np.array(all_data)
-            acc25 = all_data[:, 0]
-            f1_25 = all_data[:, 1]
-            time25 = all_data[:, 2]
-            total_ins25 = all_data[:, 3]
-            acc50 = all_data[:, 4]
-            f1_50 = all_data[:, 5]
-            time50 = all_data[:, 6]
-            total_ins50 = all_data[:, 7]
-            acc75 = all_data[:, 8]
-            f1_75 = all_data[:, 9]
-            time75 = all_data[:, 10]
-            total_ins75 = all_data[:, 11]                        
-            lst_data.append([m, acc25, acc50, acc75, f1_25, f1_50, f1_75])
-            time_data.append([m, time25, total_ins25, time50, total_ins50, time75, total_ins75]) 
-        self.log.info(tabulate(lst_data, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
-        self.log.info('----------------------------')
-        self.log.info(tabulate(time_data, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
-    
+            acc25 = np.mean(all_data[:, 0])
+            f1_25 = np.mean(all_data[:, 1])
+            time25 = np.mean(all_data[:, 2])
+            total_ins25 = np.mean(all_data[:, 3])
+            acc50 = np.mean(all_data[:, 4])
+            f1_50 = np.mean(all_data[:, 5])
+            time50 = np.mean(all_data[:, 6])
+            total_ins50 = np.mean(all_data[:, 7])
+            acc75 = np.mean(all_data[:, 8])
+            f1_75 = np.mean(all_data[:, 9])
+            time75 = np.mean(all_data[:, 10])
+            total_ins75 = np.mean(all_data[:, 11])
+            perform_result.append([m, acc25, acc50, acc75, f1_25, f1_50, f1_75])
+            time_result.append([m, time25, total_ins25, time50, total_ins50, time75, total_ins75])
+        self.log.info('---------- ml report ----------')
+        self.log.info(tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
+        self.log.info('---------- time report --------')
+        self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
+        self.log.info(self.report_by_dataset_v1(result))
+            
     def report_by_dataset_v1(self, result):
         self.log_debug.info('report by dataset')
         result_lst = []
         for i in range(0, len(DataSetLoader.dataset_name)):
-            self.log_debug('----- data set ' + DataSetLoader.dataset_name[i])
-            for m in ml_name:
+            for m in ['knn']:
                 ml_result = []
                 datasets_data = result[m][i]
                 acc25 = datasets_data[0]
@@ -124,8 +128,9 @@ class SingleProcess(object):
                 acc75 = datasets_data[8]
                 f1_75 = datasets_data[9]
                 time75 = datasets_data[10]
-                total_ins25 = datasets_data[11]                                
-                ml_result.append(m)
+                total_ins25 = datasets_data[11] 
+                ml_result.append(m)                               
+                ml_result.append(DataSetLoader.dataset_name[i])
                 ml_result.append(acc25)
                 ml_result.append(acc50)
                 ml_result.append(acc75)
@@ -133,7 +138,7 @@ class SingleProcess(object):
                 ml_result.append(f1_50)
                 ml_result.append(f1_75)
                 result_lst.append(ml_result)
-        self.log.info(tabulate(result_lst, ('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
+        self.log.info(tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
                         
     def report(self, result):
         self.report_by_dataset_v1(result)
@@ -157,7 +162,7 @@ class SingleProcess(object):
                     ran_num = random.randint(1, 100)
                     x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
                     self.log_debug.info('********* start cross validation')
-                    if ml_key == ml_name[4]:
+                    if ml_key == 'knn':
                         max_knn = int(len(x_train) / 5.0)
                         knn_lst = self.gen_knn(max_knn)
                         ml = self.cross_validation(knn_lst, x_train, y_train)
@@ -212,8 +217,11 @@ class SingleProcess(object):
         
 def mainCmp():
     print ' ---------- start cmp -------'
+#     print tabulate([[1,2,3],[4,5,6]], headers=('m1','m2','m3'))
     obj = SingleProcess()
-    obj.process()
+    result = pickle.load(open('result.obj','rb'))
+    obj.report_all(result)
+#     obj.process()
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
