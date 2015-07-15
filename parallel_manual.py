@@ -17,15 +17,15 @@ from svm import LibSVMWrapper
 from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
-# ml_name = ['knn']
 
-class SingleProcess(object):
+class ParallelManual(object):
     data_size = [0.75, 0.50, 0.25]
     
-    def __init__(self):
+    def __init__(self, ml_key):
+        self.ml_key = ml_key
         log_file = LogFile()
-        self.log = log_file.get_log('data', 'data.log', Config.display_console)
-        self.log_debug = log_file.get_log('debug', 'debug.log', Config.display_console)
+        self.log = log_file.get_log(self.ml_key+'_data', self.ml_key+'_data.log', Config.display_console)
+        self.log_debug = log_file.get_log(self.ml_key+'_debug', self.ml_key+'_debug.log', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -149,80 +149,80 @@ class SingleProcess(object):
         dataset_lst = self.load_dataset()
         result = {}
 #         for ml_key, ml_value in ml_lst.iteritems():
-            
-            self.log_debug.info('*************************************** ' + ml_key)
-            all_data = []           
-            for dataset_name in DataSetLoader.dataset_name:
-                self.log_debug.info('***** start ' + dataset_name)
-                data_value = dataset_lst[dataset_name]
-                x_data = data_value[0]
-                y_data = data_value[1]
-                datasets_data = []            
-                for d_size in self.data_size:
-                    self.log_debug.info('***** start size ' + str(d_size))
-                    ran_num = random.randint(1, 100)
+        ml_value = ml_lst[self.ml_key]
+        self.log_debug.info('*************************************** ' + self.ml_key)
+        all_data = []           
+        for dataset_name in DataSetLoader.dataset_name:
+            self.log_debug.info('***** start ' + dataset_name)
+            data_value = dataset_lst[dataset_name]
+            x_data = data_value[0]
+            y_data = data_value[1]
+            datasets_data = []            
+            for d_size in self.data_size:
+                self.log_debug.info('***** start size ' + str(d_size))
+                ran_num = random.randint(1, 100)
+                x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
+                self.log_debug.info('********* start cross validation')
+                if self.ml_key == 'knn':
+                    max_knn = int(len(x_train) / 5.0)
+                    knn_lst = self.gen_knn(max_knn)
+                    ml = self.cross_validation(knn_lst, x_train, y_train)
+                else:
+                    ml = self.cross_validation(ml_value, x_train, y_train)
+                self.log_debug.info('************* end cross validation')
+                acc_lst = []
+                f1_lst = []
+                time_pred = []
+                total_ins = []
+                precision_lst = []
+                recall_lst = []
+                for i in range(0, Config.reperating_loop):
+                    self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, dataset_name, self.ml_key))
+                    ran_num = random.randint(1, 10000)
                     x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-                    self.log_debug.info('********* start cross validation')
-                    if ml_key == 'knn':
-                        max_knn = int(len(x_train) / 5.0)
-                        knn_lst = self.gen_knn(max_knn)
-                        ml = self.cross_validation(knn_lst, x_train, y_train)
-                    else:
-                        ml = self.cross_validation(ml_value, x_train, y_train)
-                    self.log_debug.info('************* end cross validation')
-                    acc_lst = []
-                    f1_lst = []
-                    time_pred = []
-                    total_ins = []
-                    precision_lst = []
-                    recall_lst = []
-                    for i in range(0, Config.reperating_loop):
-                        self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, dataset_name, ml_key))
-                        ran_num = random.randint(1, 10000)
-                        x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-                        ml_c = copy.deepcopy(ml)
-                        ml_c.fit(x_train, y_train)
-                        start = time.time()
-                        y_pred = ml_c.predict(x_test)
-                        total_time = time.time() - start
-                        acc = accuracy_score(y_test, y_pred)
-                        fsc = f1_score(y_test, y_pred)
-                        acc_lst.append(acc)
-                        f1_lst.append(fsc)
-                        time_pred.append(total_time)
-                        total_ins.append(len(y_test))
-                        pre_score = precision_score(y_test, y_pred)
-                        recall = recall_score(y_test, y_pred)
-                        precision_lst.append(pre_score)
-                        recall_lst.append(recall)
-                        self.log_debug.info('------------- end loop -----')
-                    datasets_data.append(np.mean(acc_lst))
-                    datasets_data.append(np.mean(f1_lst))
-                    datasets_data.append(np.mean(time_pred))
-                    datasets_data.append(np.mean(total_ins))
-                    self.log.info('---------------------------------------------') 
-                    self.log.info('data size ' + str(d_size) + ' data set ' + dataset_name) 
-                    self.log.info(acc_lst)
-                    self.log.info(f1_lst)
-                    self.log.info(time_pred)
-                    self.log.info(total_ins)
-                    self.log.info('---------------------------------------------')
-                    self.log_debug.info('*********** end size')                    
-                all_data.append(datasets_data)
-                self.log_debug.info('******* end data set')
-            result[ml_key] = all_data
-            self.log_debug.info('************ end ml')
-        pickle.dump(result, open('result.obj', 'wb'))
+                    ml_c = copy.deepcopy(ml)
+                    ml_c.fit(x_train, y_train)
+                    start = time.time()
+                    y_pred = ml_c.predict(x_test)
+                    total_time = time.time() - start
+                    acc = accuracy_score(y_test, y_pred)
+                    fsc = f1_score(y_test, y_pred)
+                    acc_lst.append(acc)
+                    f1_lst.append(fsc)
+                    time_pred.append(total_time)
+                    total_ins.append(len(y_test))
+                    pre_score = precision_score(y_test, y_pred)
+                    recall = recall_score(y_test, y_pred)
+                    precision_lst.append(pre_score)
+                    recall_lst.append(recall)
+                    self.log_debug.info('------------- end loop -----')
+                datasets_data.append(np.mean(acc_lst))
+                datasets_data.append(np.mean(f1_lst))
+                datasets_data.append(np.mean(time_pred))
+                datasets_data.append(np.mean(total_ins))
+                self.log.info('---------------------------------------------') 
+                self.log.info('data size ' + str(d_size) + ' data set ' + dataset_name) 
+                self.log.info(acc_lst)
+                self.log.info(f1_lst)
+                self.log.info(time_pred)
+                self.log.info(total_ins)
+                self.log.info('---------------------------------------------')
+                self.log_debug.info('*********** end size')                    
+            all_data.append(datasets_data)
+            self.log_debug.info('******* end data set')
+        result[self.ml_key] = all_data
+        self.log_debug.info('************ end ml')
+        pickle.dump(result, open(self.ml_key+'_result.obj', 'wb'))
         self.report_all(result)
           
         
-def mainCmp():
+def mainCmp(ml_name):
     print ' ---------- start cmp -------'
 #     print tabulate([[1,2,3],[4,5,6]], headers=('m1','m2','m3'))
-    obj = SingleProcess()
+    obj = ParallelManual(ml_name)
     obj.process()
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    print sys.argv[1]
-#     mainCmp()
+    ml_name = sys.argv[1]
+    mainCmp(ml_name)

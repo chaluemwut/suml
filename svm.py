@@ -1,7 +1,9 @@
 import os
 import numpy as np
-libsvm_path = '/home/off/libsvm-3.20'
-temp_path = '/tmp/'
+from config import Config
+
+libsvm_path = Config.svm_path
+temp_path = 'tmp'
 
 class LibSVMWrapper(object):
 
