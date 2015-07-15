@@ -149,6 +149,9 @@ class ParallelManual(object):
         dataset_lst = self.load_dataset()
         result = {}
 #         for ml_key, ml_value in ml_lst.iteritems():
+        for key in ml_lst.iterkeys():
+            print key
+            
         ml_value = ml_lst[self.ml_key]
         self.log_debug.info('*************************************** ' + self.ml_key)
         all_data = []           
@@ -216,13 +219,14 @@ class ParallelManual(object):
         self.report_all(result)
           
         
-def mainCmp(ml_name):
+def mainCmp(ml_key):
     print ' ---------- start cmp -------'
 #     print tabulate([[1,2,3],[4,5,6]], headers=('m1','m2','m3'))
-    obj = ParallelManual(ml_name)
+    print 'ml name ',ml_key
+    obj = ParallelManual(ml_key)
     obj.process()
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    ml_name = sys.argv[1]
-    mainCmp(ml_name)
+    ml_key = sys.argv[1]
+    mainCmp(ml_key)
