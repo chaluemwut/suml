@@ -43,6 +43,7 @@ class ParallelManual(object):
            LibSVMWrapper(kernel=2),
            LibSVMWrapper(kernel=3)
            ]
+#         return {ml_name[0]:knn_lst}
     
         return {
                 ml_name[0]:bagging_lst,
@@ -158,8 +159,7 @@ class ParallelManual(object):
             data_value = dataset_lst[dataset_name]
             x_data = data_value[0]
             y_data = data_value[1]
-            dataset_map = {}
-            datasets_data = []          
+            datasets_data = []            
             for d_size in self.data_size:
                 self.log_debug.info('***** start size ' + str(d_size))
                 ran_num = random.randint(1, 100)
@@ -211,13 +211,13 @@ class ParallelManual(object):
                 self.log.info('---------------------------------------------')
                 self.log_debug.info('*********** end size')                    
             all_data.append(datasets_data)
-            dataset_map[dataset_name] = all_data
             self.log_debug.info('******* end data set')
         result[self.ml_key] = all_data
         self.log_debug.info('************ end ml')
         pickle.dump(result, open(self.ml_key+'_result.obj', 'wb'))
         self.report_all(result)
-                 
+          
+        
 def mainCmp(ml_key):
     print ' ---------- start cmp -------'
     print 'ml name ',ml_key
@@ -226,5 +226,5 @@ def mainCmp(ml_key):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    ml_key = 'nb'
+    ml_key = sys.argv[1]
     mainCmp(ml_key)

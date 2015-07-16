@@ -1,0 +1,1873 @@
+2015-07-15 20:14:33,642 - knn_debug - INFO - *************************************** knn
+2015-07-15 20:14:33,642 - knn_debug - INFO - ***** start adult
+2015-07-15 20:14:33,643 - knn_debug - INFO - ***** start size 0.75
+2015-07-15 20:14:33,717 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:14:33,717 - knn_debug - INFO - start cross val
+2015-07-15 20:14:36,878 - knn_debug - INFO - end cross val
+2015-07-15 20:14:36,878 - knn_debug - INFO - start cross val
+2015-07-15 20:14:43,217 - knn_debug - INFO - end cross val
+2015-07-15 20:14:43,218 - knn_debug - INFO - start cross val
+2015-07-15 20:14:47,043 - knn_debug - INFO - end cross val
+2015-07-15 20:14:47,044 - knn_debug - INFO - start cross val
+2015-07-15 20:14:51,795 - knn_debug - INFO - end cross val
+2015-07-15 20:14:51,795 - knn_debug - INFO - start cross val
+2015-07-15 20:14:53,938 - knn_debug - INFO - end cross val
+2015-07-15 20:14:53,939 - knn_debug - INFO - start cross val
+2015-07-15 20:14:56,667 - knn_debug - INFO - end cross val
+2015-07-15 20:14:56,668 - knn_debug - INFO - start cross val
+2015-07-15 20:15:01,261 - knn_debug - INFO - end cross val
+2015-07-15 20:15:01,261 - knn_debug - INFO - start cross val
+2015-07-15 20:15:06,511 - knn_debug - INFO - end cross val
+2015-07-15 20:15:06,512 - knn_debug - INFO - start cross val
+2015-07-15 20:15:07,982 - knn_debug - INFO - end cross val
+2015-07-15 20:15:07,982 - knn_debug - INFO - start cross val
+2015-07-15 20:15:11,055 - knn_debug - INFO - end cross val
+2015-07-15 20:15:11,056 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:15:11,056 - knn_debug - INFO - loop 0 size 0.75 data set adult ml knn
+2015-07-15 20:15:18,789 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:15:18,790 - knn_debug - INFO - loop 1 size 0.75 data set adult ml knn
+2015-07-15 20:15:25,424 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:15:25,424 - knn_debug - INFO - loop 2 size 0.75 data set adult ml knn
+2015-07-15 20:15:30,601 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:15:30,603 - knn_debug - INFO - loop 3 size 0.75 data set adult ml knn
+2015-07-15 20:15:39,155 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:15:39,155 - knn_debug - INFO - loop 4 size 0.75 data set adult ml knn
+2015-07-15 20:15:46,072 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:15:46,073 - knn_debug - INFO - loop 5 size 0.75 data set adult ml knn
+2015-07-15 20:15:52,190 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:15:52,191 - knn_debug - INFO - loop 6 size 0.75 data set adult ml knn
+2015-07-15 20:15:57,080 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:15:57,080 - knn_debug - INFO - loop 7 size 0.75 data set adult ml knn
+2015-07-15 20:16:01,823 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:01,824 - knn_debug - INFO - loop 8 size 0.75 data set adult ml knn
+2015-07-15 20:16:06,475 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:06,475 - knn_debug - INFO - loop 9 size 0.75 data set adult ml knn
+2015-07-15 20:16:11,060 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:11,060 - knn_debug - INFO - loop 10 size 0.75 data set adult ml knn
+2015-07-15 20:16:15,935 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:15,935 - knn_debug - INFO - loop 11 size 0.75 data set adult ml knn
+2015-07-15 20:16:20,129 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:20,130 - knn_debug - INFO - loop 12 size 0.75 data set adult ml knn
+2015-07-15 20:16:25,091 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:25,092 - knn_debug - INFO - loop 13 size 0.75 data set adult ml knn
+2015-07-15 20:16:29,265 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:29,265 - knn_debug - INFO - loop 14 size 0.75 data set adult ml knn
+2015-07-15 20:16:33,796 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:33,796 - knn_debug - INFO - loop 15 size 0.75 data set adult ml knn
+2015-07-15 20:16:38,499 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:38,499 - knn_debug - INFO - loop 16 size 0.75 data set adult ml knn
+2015-07-15 20:16:42,553 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:42,553 - knn_debug - INFO - loop 17 size 0.75 data set adult ml knn
+2015-07-15 20:16:46,687 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:46,688 - knn_debug - INFO - loop 18 size 0.75 data set adult ml knn
+2015-07-15 20:16:50,836 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:50,836 - knn_debug - INFO - loop 19 size 0.75 data set adult ml knn
+2015-07-15 20:16:55,998 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:16:55,998 - knn_debug - INFO - loop 20 size 0.75 data set adult ml knn
+2015-07-15 20:17:00,721 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:00,728 - knn_debug - INFO - loop 21 size 0.75 data set adult ml knn
+2015-07-15 20:17:07,616 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:07,616 - knn_debug - INFO - loop 22 size 0.75 data set adult ml knn
+2015-07-15 20:17:13,996 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:13,997 - knn_debug - INFO - loop 23 size 0.75 data set adult ml knn
+2015-07-15 20:17:21,500 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:21,500 - knn_debug - INFO - loop 24 size 0.75 data set adult ml knn
+2015-07-15 20:17:27,712 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:27,712 - knn_debug - INFO - loop 25 size 0.75 data set adult ml knn
+2015-07-15 20:17:34,254 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:34,255 - knn_debug - INFO - loop 26 size 0.75 data set adult ml knn
+2015-07-15 20:17:39,587 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:39,588 - knn_debug - INFO - loop 27 size 0.75 data set adult ml knn
+2015-07-15 20:17:45,078 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:45,078 - knn_debug - INFO - loop 28 size 0.75 data set adult ml knn
+2015-07-15 20:17:52,639 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:17:52,641 - knn_debug - INFO - loop 29 size 0.75 data set adult ml knn
+2015-07-15 20:18:06,852 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:18:06,860 - knn_debug - INFO - loop 30 size 0.75 data set adult ml knn
+2015-07-15 20:18:23,196 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:18:23,196 - knn_debug - INFO - loop 31 size 0.75 data set adult ml knn
+2015-07-15 20:18:37,923 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:18:37,925 - knn_debug - INFO - loop 32 size 0.75 data set adult ml knn
+2015-07-15 20:18:47,707 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:18:47,708 - knn_debug - INFO - loop 33 size 0.75 data set adult ml knn
+2015-07-15 20:18:52,973 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:18:52,974 - knn_debug - INFO - loop 34 size 0.75 data set adult ml knn
+2015-07-15 20:18:57,221 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:18:57,221 - knn_debug - INFO - loop 35 size 0.75 data set adult ml knn
+2015-07-15 20:19:02,076 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:02,077 - knn_debug - INFO - loop 36 size 0.75 data set adult ml knn
+2015-07-15 20:19:06,610 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:06,611 - knn_debug - INFO - loop 37 size 0.75 data set adult ml knn
+2015-07-15 20:19:11,099 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:11,100 - knn_debug - INFO - loop 38 size 0.75 data set adult ml knn
+2015-07-15 20:19:15,939 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:15,940 - knn_debug - INFO - loop 39 size 0.75 data set adult ml knn
+2015-07-15 20:19:20,070 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:20,070 - knn_debug - INFO - loop 40 size 0.75 data set adult ml knn
+2015-07-15 20:19:25,083 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:25,084 - knn_debug - INFO - loop 41 size 0.75 data set adult ml knn
+2015-07-15 20:19:29,303 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:29,304 - knn_debug - INFO - loop 42 size 0.75 data set adult ml knn
+2015-07-15 20:19:34,111 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:34,111 - knn_debug - INFO - loop 43 size 0.75 data set adult ml knn
+2015-07-15 20:19:38,671 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:38,671 - knn_debug - INFO - loop 44 size 0.75 data set adult ml knn
+2015-07-15 20:19:43,193 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:43,193 - knn_debug - INFO - loop 45 size 0.75 data set adult ml knn
+2015-07-15 20:19:47,966 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:47,967 - knn_debug - INFO - loop 46 size 0.75 data set adult ml knn
+2015-07-15 20:19:52,135 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:52,136 - knn_debug - INFO - loop 47 size 0.75 data set adult ml knn
+2015-07-15 20:19:57,149 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:19:57,149 - knn_debug - INFO - loop 48 size 0.75 data set adult ml knn
+2015-07-15 20:20:01,346 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:20:01,346 - knn_debug - INFO - loop 49 size 0.75 data set adult ml knn
+2015-07-15 20:20:06,182 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:20:06,186 - knn_debug - INFO - *********** end size
+2015-07-15 20:20:06,186 - knn_debug - INFO - ***** start size 0.5
+2015-07-15 20:20:06,251 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:20:06,251 - knn_debug - INFO - start cross val
+2015-07-15 20:20:47,412 - knn_debug - INFO - end cross val
+2015-07-15 20:20:47,412 - knn_debug - INFO - start cross val
+2015-07-15 20:21:00,471 - knn_debug - INFO - end cross val
+2015-07-15 20:21:00,472 - knn_debug - INFO - start cross val
+2015-07-15 20:21:27,775 - knn_debug - INFO - end cross val
+2015-07-15 20:21:27,776 - knn_debug - INFO - start cross val
+2015-07-15 20:21:33,777 - knn_debug - INFO - end cross val
+2015-07-15 20:21:33,777 - knn_debug - INFO - start cross val
+2015-07-15 20:22:03,781 - knn_debug - INFO - end cross val
+2015-07-15 20:22:03,782 - knn_debug - INFO - start cross val
+2015-07-15 20:22:42,275 - knn_debug - INFO - end cross val
+2015-07-15 20:22:42,276 - knn_debug - INFO - start cross val
+2015-07-15 20:22:47,744 - knn_debug - INFO - end cross val
+2015-07-15 20:22:47,745 - knn_debug - INFO - start cross val
+2015-07-15 20:23:04,693 - knn_debug - INFO - end cross val
+2015-07-15 20:23:04,693 - knn_debug - INFO - start cross val
+2015-07-15 20:23:20,303 - knn_debug - INFO - end cross val
+2015-07-15 20:23:20,304 - knn_debug - INFO - start cross val
+2015-07-15 20:23:40,030 - knn_debug - INFO - end cross val
+2015-07-15 20:23:40,031 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:23:40,031 - knn_debug - INFO - loop 0 size 0.5 data set adult ml knn
+2015-07-15 20:23:44,327 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:23:44,328 - knn_debug - INFO - loop 1 size 0.5 data set adult ml knn
+2015-07-15 20:23:48,054 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:23:48,055 - knn_debug - INFO - loop 2 size 0.5 data set adult ml knn
+2015-07-15 20:23:52,651 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:23:52,651 - knn_debug - INFO - loop 3 size 0.5 data set adult ml knn
+2015-07-15 20:23:56,692 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:23:56,692 - knn_debug - INFO - loop 4 size 0.5 data set adult ml knn
+2015-07-15 20:24:00,917 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:00,917 - knn_debug - INFO - loop 5 size 0.5 data set adult ml knn
+2015-07-15 20:24:04,487 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:04,487 - knn_debug - INFO - loop 6 size 0.5 data set adult ml knn
+2015-07-15 20:24:09,259 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:09,259 - knn_debug - INFO - loop 7 size 0.5 data set adult ml knn
+2015-07-15 20:24:13,106 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:13,107 - knn_debug - INFO - loop 8 size 0.5 data set adult ml knn
+2015-07-15 20:24:17,420 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:17,421 - knn_debug - INFO - loop 9 size 0.5 data set adult ml knn
+2015-07-15 20:24:21,569 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:21,569 - knn_debug - INFO - loop 10 size 0.5 data set adult ml knn
+2015-07-15 20:24:25,665 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:25,666 - knn_debug - INFO - loop 11 size 0.5 data set adult ml knn
+2015-07-15 20:24:29,455 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:29,455 - knn_debug - INFO - loop 12 size 0.5 data set adult ml knn
+2015-07-15 20:24:33,536 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:33,537 - knn_debug - INFO - loop 13 size 0.5 data set adult ml knn
+2015-07-15 20:24:37,780 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:37,781 - knn_debug - INFO - loop 14 size 0.5 data set adult ml knn
+2015-07-15 20:24:41,847 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:41,847 - knn_debug - INFO - loop 15 size 0.5 data set adult ml knn
+2015-07-15 20:24:45,642 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:45,643 - knn_debug - INFO - loop 16 size 0.5 data set adult ml knn
+2015-07-15 20:24:49,675 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:49,675 - knn_debug - INFO - loop 17 size 0.5 data set adult ml knn
+2015-07-15 20:24:54,126 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:54,127 - knn_debug - INFO - loop 18 size 0.5 data set adult ml knn
+2015-07-15 20:24:59,226 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:24:59,226 - knn_debug - INFO - loop 19 size 0.5 data set adult ml knn
+2015-07-15 20:25:03,575 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:03,576 - knn_debug - INFO - loop 20 size 0.5 data set adult ml knn
+2015-07-15 20:25:08,541 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:08,542 - knn_debug - INFO - loop 21 size 0.5 data set adult ml knn
+2015-07-15 20:25:14,392 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:14,393 - knn_debug - INFO - loop 22 size 0.5 data set adult ml knn
+2015-07-15 20:25:21,044 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:21,045 - knn_debug - INFO - loop 23 size 0.5 data set adult ml knn
+2015-07-15 20:25:25,753 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:25,753 - knn_debug - INFO - loop 24 size 0.5 data set adult ml knn
+2015-07-15 20:25:31,979 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:31,980 - knn_debug - INFO - loop 25 size 0.5 data set adult ml knn
+2015-07-15 20:25:36,984 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:36,985 - knn_debug - INFO - loop 26 size 0.5 data set adult ml knn
+2015-07-15 20:25:41,339 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:41,340 - knn_debug - INFO - loop 27 size 0.5 data set adult ml knn
+2015-07-15 20:25:46,255 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:46,256 - knn_debug - INFO - loop 28 size 0.5 data set adult ml knn
+2015-07-15 20:25:52,703 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:52,704 - knn_debug - INFO - loop 29 size 0.5 data set adult ml knn
+2015-07-15 20:25:58,557 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:25:58,557 - knn_debug - INFO - loop 30 size 0.5 data set adult ml knn
+2015-07-15 20:26:02,490 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:02,490 - knn_debug - INFO - loop 31 size 0.5 data set adult ml knn
+2015-07-15 20:26:06,387 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:06,388 - knn_debug - INFO - loop 32 size 0.5 data set adult ml knn
+2015-07-15 20:26:10,303 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:10,303 - knn_debug - INFO - loop 33 size 0.5 data set adult ml knn
+2015-07-15 20:26:14,082 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:14,082 - knn_debug - INFO - loop 34 size 0.5 data set adult ml knn
+2015-07-15 20:26:18,107 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:18,108 - knn_debug - INFO - loop 35 size 0.5 data set adult ml knn
+2015-07-15 20:26:21,866 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:21,867 - knn_debug - INFO - loop 36 size 0.5 data set adult ml knn
+2015-07-15 20:26:25,862 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:25,863 - knn_debug - INFO - loop 37 size 0.5 data set adult ml knn
+2015-07-15 20:26:29,467 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:29,467 - knn_debug - INFO - loop 38 size 0.5 data set adult ml knn
+2015-07-15 20:26:33,528 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:33,528 - knn_debug - INFO - loop 39 size 0.5 data set adult ml knn
+2015-07-15 20:26:37,089 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:37,090 - knn_debug - INFO - loop 40 size 0.5 data set adult ml knn
+2015-07-15 20:26:41,234 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:41,234 - knn_debug - INFO - loop 41 size 0.5 data set adult ml knn
+2015-07-15 20:26:44,792 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:44,793 - knn_debug - INFO - loop 42 size 0.5 data set adult ml knn
+2015-07-15 20:26:48,939 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:48,939 - knn_debug - INFO - loop 43 size 0.5 data set adult ml knn
+2015-07-15 20:26:52,651 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:52,651 - knn_debug - INFO - loop 44 size 0.5 data set adult ml knn
+2015-07-15 20:26:57,710 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:26:57,710 - knn_debug - INFO - loop 45 size 0.5 data set adult ml knn
+2015-07-15 20:27:01,867 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:27:01,867 - knn_debug - INFO - loop 46 size 0.5 data set adult ml knn
+2015-07-15 20:27:07,422 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:27:07,423 - knn_debug - INFO - loop 47 size 0.5 data set adult ml knn
+2015-07-15 20:27:11,553 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:27:11,554 - knn_debug - INFO - loop 48 size 0.5 data set adult ml knn
+2015-07-15 20:27:15,735 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:27:15,735 - knn_debug - INFO - loop 49 size 0.5 data set adult ml knn
+2015-07-15 20:27:20,044 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:27:20,048 - knn_debug - INFO - *********** end size
+2015-07-15 20:27:20,048 - knn_debug - INFO - ***** start size 0.25
+2015-07-15 20:27:20,122 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:27:20,123 - knn_debug - INFO - start cross val
+2015-07-15 20:28:23,708 - knn_debug - INFO - end cross val
+2015-07-15 20:28:23,709 - knn_debug - INFO - start cross val
+2015-07-15 20:29:48,030 - knn_debug - INFO - end cross val
+2015-07-15 20:29:48,031 - knn_debug - INFO - start cross val
+2015-07-15 20:31:10,467 - knn_debug - INFO - end cross val
+2015-07-15 20:31:10,468 - knn_debug - INFO - start cross val
+2015-07-15 20:32:21,152 - knn_debug - INFO - end cross val
+2015-07-15 20:32:21,152 - knn_debug - INFO - start cross val
+2015-07-15 20:33:30,261 - knn_debug - INFO - end cross val
+2015-07-15 20:33:30,262 - knn_debug - INFO - start cross val
+2015-07-15 20:33:35,134 - knn_debug - INFO - end cross val
+2015-07-15 20:33:35,135 - knn_debug - INFO - start cross val
+2015-07-15 20:34:45,004 - knn_debug - INFO - end cross val
+2015-07-15 20:34:45,005 - knn_debug - INFO - start cross val
+2015-07-15 20:35:08,041 - knn_debug - INFO - end cross val
+2015-07-15 20:35:08,041 - knn_debug - INFO - start cross val
+2015-07-15 20:35:53,920 - knn_debug - INFO - end cross val
+2015-07-15 20:35:53,921 - knn_debug - INFO - start cross val
+2015-07-15 20:36:27,726 - knn_debug - INFO - end cross val
+2015-07-15 20:36:27,726 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:36:27,760 - knn_debug - INFO - loop 0 size 0.25 data set adult ml knn
+2015-07-15 20:36:29,367 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:29,384 - knn_debug - INFO - loop 1 size 0.25 data set adult ml knn
+2015-07-15 20:36:31,206 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:31,206 - knn_debug - INFO - loop 2 size 0.25 data set adult ml knn
+2015-07-15 20:36:33,048 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:33,049 - knn_debug - INFO - loop 3 size 0.25 data set adult ml knn
+2015-07-15 20:36:34,616 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:34,616 - knn_debug - INFO - loop 4 size 0.25 data set adult ml knn
+2015-07-15 20:36:36,219 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:36,219 - knn_debug - INFO - loop 5 size 0.25 data set adult ml knn
+2015-07-15 20:36:37,877 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:37,877 - knn_debug - INFO - loop 6 size 0.25 data set adult ml knn
+2015-07-15 20:36:39,709 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:39,710 - knn_debug - INFO - loop 7 size 0.25 data set adult ml knn
+2015-07-15 20:36:41,550 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:41,550 - knn_debug - INFO - loop 8 size 0.25 data set adult ml knn
+2015-07-15 20:36:43,071 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:43,072 - knn_debug - INFO - loop 9 size 0.25 data set adult ml knn
+2015-07-15 20:36:44,595 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:44,595 - knn_debug - INFO - loop 10 size 0.25 data set adult ml knn
+2015-07-15 20:36:46,291 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:46,292 - knn_debug - INFO - loop 11 size 0.25 data set adult ml knn
+2015-07-15 20:36:48,416 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:48,416 - knn_debug - INFO - loop 12 size 0.25 data set adult ml knn
+2015-07-15 20:36:50,332 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:50,332 - knn_debug - INFO - loop 13 size 0.25 data set adult ml knn
+2015-07-15 20:36:51,935 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:51,935 - knn_debug - INFO - loop 14 size 0.25 data set adult ml knn
+2015-07-15 20:36:53,502 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:53,502 - knn_debug - INFO - loop 15 size 0.25 data set adult ml knn
+2015-07-15 20:36:55,348 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:55,349 - knn_debug - INFO - loop 16 size 0.25 data set adult ml knn
+2015-07-15 20:36:57,205 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:57,206 - knn_debug - INFO - loop 17 size 0.25 data set adult ml knn
+2015-07-15 20:36:58,757 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:36:58,757 - knn_debug - INFO - loop 18 size 0.25 data set adult ml knn
+2015-07-15 20:37:00,293 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:00,294 - knn_debug - INFO - loop 19 size 0.25 data set adult ml knn
+2015-07-15 20:37:02,013 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:02,014 - knn_debug - INFO - loop 20 size 0.25 data set adult ml knn
+2015-07-15 20:37:03,820 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:03,821 - knn_debug - INFO - loop 21 size 0.25 data set adult ml knn
+2015-07-15 20:37:05,587 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:05,588 - knn_debug - INFO - loop 22 size 0.25 data set adult ml knn
+2015-07-15 20:37:07,125 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:07,125 - knn_debug - INFO - loop 23 size 0.25 data set adult ml knn
+2015-07-15 20:37:08,632 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:08,632 - knn_debug - INFO - loop 24 size 0.25 data set adult ml knn
+2015-07-15 20:37:10,333 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:10,334 - knn_debug - INFO - loop 25 size 0.25 data set adult ml knn
+2015-07-15 20:37:12,156 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:12,157 - knn_debug - INFO - loop 26 size 0.25 data set adult ml knn
+2015-07-15 20:37:13,888 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:13,889 - knn_debug - INFO - loop 27 size 0.25 data set adult ml knn
+2015-07-15 20:37:15,424 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:15,425 - knn_debug - INFO - loop 28 size 0.25 data set adult ml knn
+2015-07-15 20:37:16,950 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:16,950 - knn_debug - INFO - loop 29 size 0.25 data set adult ml knn
+2015-07-15 20:37:18,771 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:18,771 - knn_debug - INFO - loop 30 size 0.25 data set adult ml knn
+2015-07-15 20:37:20,604 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:20,604 - knn_debug - INFO - loop 31 size 0.25 data set adult ml knn
+2015-07-15 20:37:22,235 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:22,236 - knn_debug - INFO - loop 32 size 0.25 data set adult ml knn
+2015-07-15 20:37:23,852 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:23,852 - knn_debug - INFO - loop 33 size 0.25 data set adult ml knn
+2015-07-15 20:37:25,444 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:25,445 - knn_debug - INFO - loop 34 size 0.25 data set adult ml knn
+2015-07-15 20:37:27,854 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:27,855 - knn_debug - INFO - loop 35 size 0.25 data set adult ml knn
+2015-07-15 20:37:29,818 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:29,818 - knn_debug - INFO - loop 36 size 0.25 data set adult ml knn
+2015-07-15 20:37:31,403 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:31,403 - knn_debug - INFO - loop 37 size 0.25 data set adult ml knn
+2015-07-15 20:37:32,982 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:32,983 - knn_debug - INFO - loop 38 size 0.25 data set adult ml knn
+2015-07-15 20:37:35,358 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:35,358 - knn_debug - INFO - loop 39 size 0.25 data set adult ml knn
+2015-07-15 20:37:37,476 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:37,477 - knn_debug - INFO - loop 40 size 0.25 data set adult ml knn
+2015-07-15 20:37:39,073 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:39,073 - knn_debug - INFO - loop 41 size 0.25 data set adult ml knn
+2015-07-15 20:37:40,686 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:40,686 - knn_debug - INFO - loop 42 size 0.25 data set adult ml knn
+2015-07-15 20:37:42,573 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:42,574 - knn_debug - INFO - loop 43 size 0.25 data set adult ml knn
+2015-07-15 20:37:44,495 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:44,495 - knn_debug - INFO - loop 44 size 0.25 data set adult ml knn
+2015-07-15 20:37:46,194 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:46,195 - knn_debug - INFO - loop 45 size 0.25 data set adult ml knn
+2015-07-15 20:37:47,737 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:47,737 - knn_debug - INFO - loop 46 size 0.25 data set adult ml knn
+2015-07-15 20:37:49,314 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:49,315 - knn_debug - INFO - loop 47 size 0.25 data set adult ml knn
+2015-07-15 20:37:51,319 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:51,319 - knn_debug - INFO - loop 48 size 0.25 data set adult ml knn
+2015-07-15 20:37:53,182 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:53,182 - knn_debug - INFO - loop 49 size 0.25 data set adult ml knn
+2015-07-15 20:37:54,880 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:54,945 - knn_debug - INFO - *********** end size
+2015-07-15 20:37:54,947 - knn_debug - INFO - ******* end data set
+2015-07-15 20:37:54,947 - knn_debug - INFO - ***** start heart
+2015-07-15 20:37:54,948 - knn_debug - INFO - ***** start size 0.75
+2015-07-15 20:37:54,949 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:37:54,955 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,042 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,042 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,078 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,079 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,098 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,099 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,166 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,181 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,278 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,304 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,344 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,352 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,392 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,398 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,436 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,446 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,482 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,485 - knn_debug - INFO - start cross val
+2015-07-15 20:37:55,531 - knn_debug - INFO - end cross val
+2015-07-15 20:37:55,532 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:37:55,532 - knn_debug - INFO - loop 0 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,554 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,555 - knn_debug - INFO - loop 1 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,583 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,585 - knn_debug - INFO - loop 2 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,612 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,613 - knn_debug - INFO - loop 3 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,628 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,637 - knn_debug - INFO - loop 4 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,656 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,665 - knn_debug - INFO - loop 5 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,675 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,684 - knn_debug - INFO - loop 6 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,697 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,705 - knn_debug - INFO - loop 7 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,725 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,732 - knn_debug - INFO - loop 8 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,757 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,758 - knn_debug - INFO - loop 9 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,777 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,778 - knn_debug - INFO - loop 10 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,796 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,798 - knn_debug - INFO - loop 11 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,817 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,825 - knn_debug - INFO - loop 12 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,834 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,834 - knn_debug - INFO - loop 13 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,845 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,845 - knn_debug - INFO - loop 14 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,853 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,854 - knn_debug - INFO - loop 15 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,862 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,862 - knn_debug - INFO - loop 16 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,874 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,874 - knn_debug - INFO - loop 17 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,882 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,883 - knn_debug - INFO - loop 18 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,891 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,891 - knn_debug - INFO - loop 19 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,901 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,903 - knn_debug - INFO - loop 20 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,912 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,912 - knn_debug - INFO - loop 21 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,921 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,921 - knn_debug - INFO - loop 22 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,937 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,938 - knn_debug - INFO - loop 23 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,946 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,947 - knn_debug - INFO - loop 24 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,957 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,957 - knn_debug - INFO - loop 25 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,968 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,968 - knn_debug - INFO - loop 26 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,977 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,977 - knn_debug - INFO - loop 27 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,985 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,986 - knn_debug - INFO - loop 28 size 0.75 data set heart ml knn
+2015-07-15 20:37:55,997 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:55,997 - knn_debug - INFO - loop 29 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,006 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,006 - knn_debug - INFO - loop 30 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,015 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,015 - knn_debug - INFO - loop 31 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,028 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,029 - knn_debug - INFO - loop 32 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,037 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,038 - knn_debug - INFO - loop 33 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,046 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,046 - knn_debug - INFO - loop 34 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,057 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,057 - knn_debug - INFO - loop 35 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,065 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,065 - knn_debug - INFO - loop 36 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,072 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,072 - knn_debug - INFO - loop 37 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,080 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,080 - knn_debug - INFO - loop 38 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,089 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,089 - knn_debug - INFO - loop 39 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,096 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,097 - knn_debug - INFO - loop 40 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,104 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,105 - knn_debug - INFO - loop 41 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,113 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,113 - knn_debug - INFO - loop 42 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,121 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,122 - knn_debug - INFO - loop 43 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,129 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,130 - knn_debug - INFO - loop 44 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,137 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,137 - knn_debug - INFO - loop 45 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,145 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,146 - knn_debug - INFO - loop 46 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,154 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,154 - knn_debug - INFO - loop 47 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,161 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,162 - knn_debug - INFO - loop 48 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,170 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,170 - knn_debug - INFO - loop 49 size 0.75 data set heart ml knn
+2015-07-15 20:37:56,179 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,184 - knn_debug - INFO - *********** end size
+2015-07-15 20:37:56,184 - knn_debug - INFO - ***** start size 0.5
+2015-07-15 20:37:56,185 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:37:56,186 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,201 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,201 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,218 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,219 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,235 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,236 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,252 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,253 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,268 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,268 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,284 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,285 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,300 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,301 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,315 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,316 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,331 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,332 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,347 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,347 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:37:56,348 - knn_debug - INFO - loop 0 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,355 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,356 - knn_debug - INFO - loop 1 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,364 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,365 - knn_debug - INFO - loop 2 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,372 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,373 - knn_debug - INFO - loop 3 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,380 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,381 - knn_debug - INFO - loop 4 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,389 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,389 - knn_debug - INFO - loop 5 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,398 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,398 - knn_debug - INFO - loop 6 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,405 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,406 - knn_debug - INFO - loop 7 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,413 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,414 - knn_debug - INFO - loop 8 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,422 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,423 - knn_debug - INFO - loop 9 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,431 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,431 - knn_debug - INFO - loop 10 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,439 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,439 - knn_debug - INFO - loop 11 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,446 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,447 - knn_debug - INFO - loop 12 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,456 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,456 - knn_debug - INFO - loop 13 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,464 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,464 - knn_debug - INFO - loop 14 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,472 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,472 - knn_debug - INFO - loop 15 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,480 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,480 - knn_debug - INFO - loop 16 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,489 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,489 - knn_debug - INFO - loop 17 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,496 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,497 - knn_debug - INFO - loop 18 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,504 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,505 - knn_debug - INFO - loop 19 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,513 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,514 - knn_debug - INFO - loop 20 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,522 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,522 - knn_debug - INFO - loop 21 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,529 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,530 - knn_debug - INFO - loop 22 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,537 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,538 - knn_debug - INFO - loop 23 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,546 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,547 - knn_debug - INFO - loop 24 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,558 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,558 - knn_debug - INFO - loop 25 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,570 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,570 - knn_debug - INFO - loop 26 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,579 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,579 - knn_debug - INFO - loop 27 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,587 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,588 - knn_debug - INFO - loop 28 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,595 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,596 - knn_debug - INFO - loop 29 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,604 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,605 - knn_debug - INFO - loop 30 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,613 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,613 - knn_debug - INFO - loop 31 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,620 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,621 - knn_debug - INFO - loop 32 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,628 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,628 - knn_debug - INFO - loop 33 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,637 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,638 - knn_debug - INFO - loop 34 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,645 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,646 - knn_debug - INFO - loop 35 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,653 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,654 - knn_debug - INFO - loop 36 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,661 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,661 - knn_debug - INFO - loop 37 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,670 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,670 - knn_debug - INFO - loop 38 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,678 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,679 - knn_debug - INFO - loop 39 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,690 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,690 - knn_debug - INFO - loop 40 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,699 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,699 - knn_debug - INFO - loop 41 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,709 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,709 - knn_debug - INFO - loop 42 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,717 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,717 - knn_debug - INFO - loop 43 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,726 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,726 - knn_debug - INFO - loop 44 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,734 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,735 - knn_debug - INFO - loop 45 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,742 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,743 - knn_debug - INFO - loop 46 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,750 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,751 - knn_debug - INFO - loop 47 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,760 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,761 - knn_debug - INFO - loop 48 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,768 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,769 - knn_debug - INFO - loop 49 size 0.5 data set heart ml knn
+2015-07-15 20:37:56,776 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,779 - knn_debug - INFO - *********** end size
+2015-07-15 20:37:56,780 - knn_debug - INFO - ***** start size 0.25
+2015-07-15 20:37:56,780 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:37:56,781 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,808 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,809 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,827 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,827 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,847 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,848 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,866 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,867 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,886 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,887 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,905 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,905 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,924 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,925 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,949 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,950 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,968 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,969 - knn_debug - INFO - start cross val
+2015-07-15 20:37:56,989 - knn_debug - INFO - end cross val
+2015-07-15 20:37:56,990 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:37:56,990 - knn_debug - INFO - loop 0 size 0.25 data set heart ml knn
+2015-07-15 20:37:56,996 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:56,997 - knn_debug - INFO - loop 1 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,004 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,005 - knn_debug - INFO - loop 2 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,012 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,013 - knn_debug - INFO - loop 3 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,019 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,020 - knn_debug - INFO - loop 4 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,026 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,027 - knn_debug - INFO - loop 5 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,033 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,034 - knn_debug - INFO - loop 6 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,042 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,043 - knn_debug - INFO - loop 7 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,049 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,050 - knn_debug - INFO - loop 8 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,056 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,057 - knn_debug - INFO - loop 9 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,064 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,064 - knn_debug - INFO - loop 10 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,071 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,072 - knn_debug - INFO - loop 11 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,079 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,079 - knn_debug - INFO - loop 12 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,088 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,088 - knn_debug - INFO - loop 13 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,096 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,097 - knn_debug - INFO - loop 14 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,103 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,104 - knn_debug - INFO - loop 15 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,111 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,111 - knn_debug - INFO - loop 16 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,118 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,118 - knn_debug - INFO - loop 17 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,125 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,126 - knn_debug - INFO - loop 18 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,133 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,133 - knn_debug - INFO - loop 19 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,140 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,140 - knn_debug - INFO - loop 20 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,147 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,147 - knn_debug - INFO - loop 21 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,153 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,154 - knn_debug - INFO - loop 22 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,162 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,162 - knn_debug - INFO - loop 23 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,168 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,169 - knn_debug - INFO - loop 24 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,175 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,176 - knn_debug - INFO - loop 25 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,182 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,182 - knn_debug - INFO - loop 26 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,190 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,191 - knn_debug - INFO - loop 27 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,198 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,198 - knn_debug - INFO - loop 28 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,205 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,205 - knn_debug - INFO - loop 29 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,211 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,212 - knn_debug - INFO - loop 30 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,220 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,220 - knn_debug - INFO - loop 31 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,227 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,228 - knn_debug - INFO - loop 32 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,234 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,235 - knn_debug - INFO - loop 33 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,241 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,242 - knn_debug - INFO - loop 34 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,249 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,249 - knn_debug - INFO - loop 35 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,256 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,257 - knn_debug - INFO - loop 36 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,263 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,264 - knn_debug - INFO - loop 37 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,270 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,270 - knn_debug - INFO - loop 38 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,277 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,277 - knn_debug - INFO - loop 39 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,285 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,285 - knn_debug - INFO - loop 40 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,292 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,292 - knn_debug - INFO - loop 41 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,298 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,299 - knn_debug - INFO - loop 42 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,305 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,306 - knn_debug - INFO - loop 43 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,314 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,315 - knn_debug - INFO - loop 44 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,322 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,323 - knn_debug - INFO - loop 45 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,332 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,333 - knn_debug - INFO - loop 46 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,341 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,342 - knn_debug - INFO - loop 47 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,348 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,349 - knn_debug - INFO - loop 48 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,356 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,357 - knn_debug - INFO - loop 49 size 0.25 data set heart ml knn
+2015-07-15 20:37:57,365 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:37:57,371 - knn_debug - INFO - *********** end size
+2015-07-15 20:37:57,372 - knn_debug - INFO - ******* end data set
+2015-07-15 20:37:57,372 - knn_debug - INFO - ***** start letter
+2015-07-15 20:37:57,372 - knn_debug - INFO - ***** start size 0.75
+2015-07-15 20:37:57,429 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:37:57,430 - knn_debug - INFO - start cross val
+2015-07-15 20:38:03,649 - knn_debug - INFO - end cross val
+2015-07-15 20:38:03,650 - knn_debug - INFO - start cross val
+2015-07-15 20:38:11,294 - knn_debug - INFO - end cross val
+2015-07-15 20:38:11,294 - knn_debug - INFO - start cross val
+2015-07-15 20:38:16,352 - knn_debug - INFO - end cross val
+2015-07-15 20:38:16,353 - knn_debug - INFO - start cross val
+2015-07-15 20:38:21,444 - knn_debug - INFO - end cross val
+2015-07-15 20:38:21,445 - knn_debug - INFO - start cross val
+2015-07-15 20:38:26,938 - knn_debug - INFO - end cross val
+2015-07-15 20:38:26,938 - knn_debug - INFO - start cross val
+2015-07-15 20:38:32,843 - knn_debug - INFO - end cross val
+2015-07-15 20:38:32,844 - knn_debug - INFO - start cross val
+2015-07-15 20:38:37,940 - knn_debug - INFO - end cross val
+2015-07-15 20:38:37,941 - knn_debug - INFO - start cross val
+2015-07-15 20:38:40,480 - knn_debug - INFO - end cross val
+2015-07-15 20:38:40,480 - knn_debug - INFO - start cross val
+2015-07-15 20:38:44,438 - knn_debug - INFO - end cross val
+2015-07-15 20:38:44,439 - knn_debug - INFO - start cross val
+2015-07-15 20:38:48,885 - knn_debug - INFO - end cross val
+2015-07-15 20:38:48,886 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:38:48,887 - knn_debug - INFO - loop 0 size 0.75 data set letter ml knn
+2015-07-15 20:38:58,380 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:38:58,381 - knn_debug - INFO - loop 1 size 0.75 data set letter ml knn
+2015-07-15 20:39:07,204 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:39:07,215 - knn_debug - INFO - loop 2 size 0.75 data set letter ml knn
+2015-07-15 20:39:19,977 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:39:19,977 - knn_debug - INFO - loop 3 size 0.75 data set letter ml knn
+2015-07-15 20:39:28,004 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:39:28,004 - knn_debug - INFO - loop 4 size 0.75 data set letter ml knn
+2015-07-15 20:39:36,061 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:39:36,061 - knn_debug - INFO - loop 5 size 0.75 data set letter ml knn
+2015-07-15 20:39:42,963 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:39:42,964 - knn_debug - INFO - loop 6 size 0.75 data set letter ml knn
+2015-07-15 20:39:49,675 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:39:49,675 - knn_debug - INFO - loop 7 size 0.75 data set letter ml knn
+2015-07-15 20:40:00,706 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:00,707 - knn_debug - INFO - loop 8 size 0.75 data set letter ml knn
+2015-07-15 20:40:09,603 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:09,603 - knn_debug - INFO - loop 9 size 0.75 data set letter ml knn
+2015-07-15 20:40:17,192 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:17,192 - knn_debug - INFO - loop 10 size 0.75 data set letter ml knn
+2015-07-15 20:40:25,251 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:25,252 - knn_debug - INFO - loop 11 size 0.75 data set letter ml knn
+2015-07-15 20:40:31,670 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:31,671 - knn_debug - INFO - loop 12 size 0.75 data set letter ml knn
+2015-07-15 20:40:38,105 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:38,105 - knn_debug - INFO - loop 13 size 0.75 data set letter ml knn
+2015-07-15 20:40:45,338 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:45,338 - knn_debug - INFO - loop 14 size 0.75 data set letter ml knn
+2015-07-15 20:40:52,621 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:40:52,622 - knn_debug - INFO - loop 15 size 0.75 data set letter ml knn
+2015-07-15 20:41:00,048 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:00,049 - knn_debug - INFO - loop 16 size 0.75 data set letter ml knn
+2015-07-15 20:41:06,069 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:06,069 - knn_debug - INFO - loop 17 size 0.75 data set letter ml knn
+2015-07-15 20:41:13,631 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:13,632 - knn_debug - INFO - loop 18 size 0.75 data set letter ml knn
+2015-07-15 20:41:24,675 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:24,687 - knn_debug - INFO - loop 19 size 0.75 data set letter ml knn
+2015-07-15 20:41:31,115 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:31,115 - knn_debug - INFO - loop 20 size 0.75 data set letter ml knn
+2015-07-15 20:41:38,174 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:38,175 - knn_debug - INFO - loop 21 size 0.75 data set letter ml knn
+2015-07-15 20:41:44,511 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:44,512 - knn_debug - INFO - loop 22 size 0.75 data set letter ml knn
+2015-07-15 20:41:51,563 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:51,563 - knn_debug - INFO - loop 23 size 0.75 data set letter ml knn
+2015-07-15 20:41:58,346 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:41:58,346 - knn_debug - INFO - loop 24 size 0.75 data set letter ml knn
+2015-07-15 20:42:04,951 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:04,951 - knn_debug - INFO - loop 25 size 0.75 data set letter ml knn
+2015-07-15 20:42:11,439 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:11,440 - knn_debug - INFO - loop 26 size 0.75 data set letter ml knn
+2015-07-15 20:42:19,072 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:19,073 - knn_debug - INFO - loop 27 size 0.75 data set letter ml knn
+2015-07-15 20:42:27,398 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:27,405 - knn_debug - INFO - loop 28 size 0.75 data set letter ml knn
+2015-07-15 20:42:36,593 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:36,594 - knn_debug - INFO - loop 29 size 0.75 data set letter ml knn
+2015-07-15 20:42:42,775 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:42,776 - knn_debug - INFO - loop 30 size 0.75 data set letter ml knn
+2015-07-15 20:42:49,208 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:49,208 - knn_debug - INFO - loop 31 size 0.75 data set letter ml knn
+2015-07-15 20:42:55,686 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:42:55,687 - knn_debug - INFO - loop 32 size 0.75 data set letter ml knn
+2015-07-15 20:43:02,070 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:02,071 - knn_debug - INFO - loop 33 size 0.75 data set letter ml knn
+2015-07-15 20:43:08,168 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:08,169 - knn_debug - INFO - loop 34 size 0.75 data set letter ml knn
+2015-07-15 20:43:15,283 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:15,283 - knn_debug - INFO - loop 35 size 0.75 data set letter ml knn
+2015-07-15 20:43:22,439 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:22,440 - knn_debug - INFO - loop 36 size 0.75 data set letter ml knn
+2015-07-15 20:43:33,033 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:33,034 - knn_debug - INFO - loop 37 size 0.75 data set letter ml knn
+2015-07-15 20:43:39,954 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:39,955 - knn_debug - INFO - loop 38 size 0.75 data set letter ml knn
+2015-07-15 20:43:46,544 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:46,545 - knn_debug - INFO - loop 39 size 0.75 data set letter ml knn
+2015-07-15 20:43:53,259 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:53,259 - knn_debug - INFO - loop 40 size 0.75 data set letter ml knn
+2015-07-15 20:43:59,904 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:43:59,905 - knn_debug - INFO - loop 41 size 0.75 data set letter ml knn
+2015-07-15 20:44:07,015 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:44:07,015 - knn_debug - INFO - loop 42 size 0.75 data set letter ml knn
+2015-07-15 20:44:13,384 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:44:13,385 - knn_debug - INFO - loop 43 size 0.75 data set letter ml knn
+2015-07-15 20:44:19,568 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:44:19,568 - knn_debug - INFO - loop 44 size 0.75 data set letter ml knn
+2015-07-15 20:44:26,332 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:44:26,333 - knn_debug - INFO - loop 45 size 0.75 data set letter ml knn
+2015-07-15 20:44:32,519 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:44:32,520 - knn_debug - INFO - loop 46 size 0.75 data set letter ml knn
+2015-07-15 20:44:41,118 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:44:41,119 - knn_debug - INFO - loop 47 size 0.75 data set letter ml knn
+2015-07-15 20:44:54,858 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:44:54,859 - knn_debug - INFO - loop 48 size 0.75 data set letter ml knn
+2015-07-15 20:45:02,616 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:45:02,625 - knn_debug - INFO - loop 49 size 0.75 data set letter ml knn
+2015-07-15 20:45:13,706 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:45:13,710 - knn_debug - INFO - *********** end size
+2015-07-15 20:45:13,710 - knn_debug - INFO - ***** start size 0.5
+2015-07-15 20:45:13,759 - knn_debug - INFO - ********* start cross validation
+2015-07-15 20:45:13,759 - knn_debug - INFO - start cross val
+2015-07-15 20:45:40,823 - knn_debug - INFO - end cross val
+2015-07-15 20:45:40,824 - knn_debug - INFO - start cross val
+2015-07-15 20:46:14,831 - knn_debug - INFO - end cross val
+2015-07-15 20:46:14,832 - knn_debug - INFO - start cross val
+2015-07-15 20:46:29,631 - knn_debug - INFO - end cross val
+2015-07-15 20:46:29,632 - knn_debug - INFO - start cross val
+2015-07-15 20:47:00,122 - knn_debug - INFO - end cross val
+2015-07-15 20:47:00,123 - knn_debug - INFO - start cross val
+2015-07-15 20:47:26,418 - knn_debug - INFO - end cross val
+2015-07-15 20:47:26,420 - knn_debug - INFO - start cross val
+2015-07-15 20:48:02,704 - knn_debug - INFO - end cross val
+2015-07-15 20:48:02,705 - knn_debug - INFO - start cross val
+2015-07-15 20:48:48,175 - knn_debug - INFO - end cross val
+2015-07-15 20:48:48,176 - knn_debug - INFO - start cross val
+2015-07-15 20:49:16,355 - knn_debug - INFO - end cross val
+2015-07-15 20:49:16,356 - knn_debug - INFO - start cross val
+2015-07-15 20:49:36,198 - knn_debug - INFO - end cross val
+2015-07-15 20:49:36,231 - knn_debug - INFO - start cross val
+2015-07-15 20:50:13,200 - knn_debug - INFO - end cross val
+2015-07-15 20:50:13,201 - knn_debug - INFO - ************* end cross validation
+2015-07-15 20:50:13,202 - knn_debug - INFO - loop 0 size 0.5 data set letter ml knn
+2015-07-15 20:50:35,148 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:50:35,160 - knn_debug - INFO - loop 1 size 0.5 data set letter ml knn
+2015-07-15 20:50:57,736 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:50:57,737 - knn_debug - INFO - loop 2 size 0.5 data set letter ml knn
+2015-07-15 20:51:23,251 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:51:23,253 - knn_debug - INFO - loop 3 size 0.5 data set letter ml knn
+2015-07-15 20:51:46,742 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:51:46,743 - knn_debug - INFO - loop 4 size 0.5 data set letter ml knn
+2015-07-15 20:52:06,506 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:52:06,506 - knn_debug - INFO - loop 5 size 0.5 data set letter ml knn
+2015-07-15 20:52:28,105 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:52:28,105 - knn_debug - INFO - loop 6 size 0.5 data set letter ml knn
+2015-07-15 20:52:55,293 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:52:55,294 - knn_debug - INFO - loop 7 size 0.5 data set letter ml knn
+2015-07-15 20:53:20,220 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:53:20,221 - knn_debug - INFO - loop 8 size 0.5 data set letter ml knn
+2015-07-15 20:53:41,052 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:53:41,053 - knn_debug - INFO - loop 9 size 0.5 data set letter ml knn
+2015-07-15 20:54:01,706 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:54:01,707 - knn_debug - INFO - loop 10 size 0.5 data set letter ml knn
+2015-07-15 20:54:21,461 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:54:21,462 - knn_debug - INFO - loop 11 size 0.5 data set letter ml knn
+2015-07-15 20:54:43,540 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:54:43,555 - knn_debug - INFO - loop 12 size 0.5 data set letter ml knn
+2015-07-15 20:55:07,438 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:55:07,443 - knn_debug - INFO - loop 13 size 0.5 data set letter ml knn
+2015-07-15 20:55:29,992 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:55:29,996 - knn_debug - INFO - loop 14 size 0.5 data set letter ml knn
+2015-07-15 20:55:55,443 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:55:55,444 - knn_debug - INFO - loop 15 size 0.5 data set letter ml knn
+2015-07-15 20:56:15,940 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:56:15,941 - knn_debug - INFO - loop 16 size 0.5 data set letter ml knn
+2015-07-15 20:56:38,068 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:56:38,069 - knn_debug - INFO - loop 17 size 0.5 data set letter ml knn
+2015-07-15 20:56:58,592 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:56:58,592 - knn_debug - INFO - loop 18 size 0.5 data set letter ml knn
+2015-07-15 20:57:21,794 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:57:21,795 - knn_debug - INFO - loop 19 size 0.5 data set letter ml knn
+2015-07-15 20:57:46,886 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:57:46,886 - knn_debug - INFO - loop 20 size 0.5 data set letter ml knn
+2015-07-15 20:58:11,454 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:58:11,454 - knn_debug - INFO - loop 21 size 0.5 data set letter ml knn
+2015-07-15 20:58:33,286 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:58:33,287 - knn_debug - INFO - loop 22 size 0.5 data set letter ml knn
+2015-07-15 20:58:57,512 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:58:57,513 - knn_debug - INFO - loop 23 size 0.5 data set letter ml knn
+2015-07-15 20:59:21,664 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:59:21,665 - knn_debug - INFO - loop 24 size 0.5 data set letter ml knn
+2015-07-15 20:59:47,052 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 20:59:47,053 - knn_debug - INFO - loop 25 size 0.5 data set letter ml knn
+2015-07-15 21:00:08,888 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:00:08,889 - knn_debug - INFO - loop 26 size 0.5 data set letter ml knn
+2015-07-15 21:00:32,830 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:00:32,831 - knn_debug - INFO - loop 27 size 0.5 data set letter ml knn
+2015-07-15 21:00:57,353 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:00:57,354 - knn_debug - INFO - loop 28 size 0.5 data set letter ml knn
+2015-07-15 21:01:25,937 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:01:25,938 - knn_debug - INFO - loop 29 size 0.5 data set letter ml knn
+2015-07-15 21:01:47,707 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:01:47,708 - knn_debug - INFO - loop 30 size 0.5 data set letter ml knn
+2015-07-15 21:02:10,949 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:02:10,950 - knn_debug - INFO - loop 31 size 0.5 data set letter ml knn
+2015-07-15 21:02:38,589 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:02:38,593 - knn_debug - INFO - loop 32 size 0.5 data set letter ml knn
+2015-07-15 21:03:01,154 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:03:01,155 - knn_debug - INFO - loop 33 size 0.5 data set letter ml knn
+2015-07-15 21:03:27,223 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:03:27,224 - knn_debug - INFO - loop 34 size 0.5 data set letter ml knn
+2015-07-15 21:03:51,058 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:03:51,059 - knn_debug - INFO - loop 35 size 0.5 data set letter ml knn
+2015-07-15 21:04:15,997 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:04:15,998 - knn_debug - INFO - loop 36 size 0.5 data set letter ml knn
+2015-07-15 21:04:40,129 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:04:40,130 - knn_debug - INFO - loop 37 size 0.5 data set letter ml knn
+2015-07-15 21:05:04,650 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:05:04,650 - knn_debug - INFO - loop 38 size 0.5 data set letter ml knn
+2015-07-15 21:05:29,508 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:05:29,509 - knn_debug - INFO - loop 39 size 0.5 data set letter ml knn
+2015-07-15 21:05:57,910 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:05:57,916 - knn_debug - INFO - loop 40 size 0.5 data set letter ml knn
+2015-07-15 21:06:20,390 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:06:20,391 - knn_debug - INFO - loop 41 size 0.5 data set letter ml knn
+2015-07-15 21:06:43,606 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:06:43,606 - knn_debug - INFO - loop 42 size 0.5 data set letter ml knn
+2015-07-15 21:07:08,247 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:07:08,258 - knn_debug - INFO - loop 43 size 0.5 data set letter ml knn
+2015-07-15 21:07:33,769 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:07:33,770 - knn_debug - INFO - loop 44 size 0.5 data set letter ml knn
+2015-07-15 21:08:03,751 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:08:03,752 - knn_debug - INFO - loop 45 size 0.5 data set letter ml knn
+2015-07-15 21:08:27,209 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:08:27,210 - knn_debug - INFO - loop 46 size 0.5 data set letter ml knn
+2015-07-15 21:08:50,530 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:08:50,531 - knn_debug - INFO - loop 47 size 0.5 data set letter ml knn
+2015-07-15 21:09:19,007 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:09:19,008 - knn_debug - INFO - loop 48 size 0.5 data set letter ml knn
+2015-07-15 21:09:50,148 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:09:50,150 - knn_debug - INFO - loop 49 size 0.5 data set letter ml knn
+2015-07-15 21:10:19,137 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:10:19,148 - knn_debug - INFO - *********** end size
+2015-07-15 21:10:19,148 - knn_debug - INFO - ***** start size 0.25
+2015-07-15 21:10:19,265 - knn_debug - INFO - ********* start cross validation
+2015-07-15 21:10:19,267 - knn_debug - INFO - start cross val
+2015-07-15 21:12:22,838 - knn_debug - INFO - end cross val
+2015-07-15 21:12:22,839 - knn_debug - INFO - start cross val
+2015-07-15 21:13:42,822 - knn_debug - INFO - end cross val
+2015-07-15 21:13:42,823 - knn_debug - INFO - start cross val
+2015-07-15 21:14:28,237 - knn_debug - INFO - end cross val
+2015-07-15 21:14:28,238 - knn_debug - INFO - start cross val
+2015-07-15 21:15:21,456 - knn_debug - INFO - end cross val
+2015-07-15 21:15:21,456 - knn_debug - INFO - start cross val
+2015-07-15 21:16:26,473 - knn_debug - INFO - end cross val
+2015-07-15 21:16:26,473 - knn_debug - INFO - start cross val
+2015-07-15 21:17:08,995 - knn_debug - INFO - end cross val
+2015-07-15 21:17:08,996 - knn_debug - INFO - start cross val
+2015-07-15 21:17:41,292 - knn_debug - INFO - end cross val
+2015-07-15 21:17:41,292 - knn_debug - INFO - start cross val
+2015-07-15 21:18:26,129 - knn_debug - INFO - end cross val
+2015-07-15 21:18:26,130 - knn_debug - INFO - start cross val
+2015-07-15 21:19:18,438 - knn_debug - INFO - end cross val
+2015-07-15 21:19:18,439 - knn_debug - INFO - start cross val
+2015-07-15 21:20:05,114 - knn_debug - INFO - end cross val
+2015-07-15 21:20:05,115 - knn_debug - INFO - ************* end cross validation
+2015-07-15 21:20:05,115 - knn_debug - INFO - loop 0 size 0.25 data set letter ml knn
+2015-07-15 21:20:17,462 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:20:17,463 - knn_debug - INFO - loop 1 size 0.25 data set letter ml knn
+2015-07-15 21:20:30,701 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:20:30,702 - knn_debug - INFO - loop 2 size 0.25 data set letter ml knn
+2015-07-15 21:20:43,375 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:20:43,376 - knn_debug - INFO - loop 3 size 0.25 data set letter ml knn
+2015-07-15 21:20:55,923 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:20:55,924 - knn_debug - INFO - loop 4 size 0.25 data set letter ml knn
+2015-07-15 21:21:08,766 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:21:08,766 - knn_debug - INFO - loop 5 size 0.25 data set letter ml knn
+2015-07-15 21:21:21,895 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:21:21,895 - knn_debug - INFO - loop 6 size 0.25 data set letter ml knn
+2015-07-15 21:21:34,025 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:21:34,026 - knn_debug - INFO - loop 7 size 0.25 data set letter ml knn
+2015-07-15 21:21:46,605 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:21:46,605 - knn_debug - INFO - loop 8 size 0.25 data set letter ml knn
+2015-07-15 21:21:58,909 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:21:58,910 - knn_debug - INFO - loop 9 size 0.25 data set letter ml knn
+2015-07-15 21:22:11,967 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:22:11,967 - knn_debug - INFO - loop 10 size 0.25 data set letter ml knn
+2015-07-15 21:22:25,312 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:22:25,312 - knn_debug - INFO - loop 11 size 0.25 data set letter ml knn
+2015-07-15 21:22:37,923 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:22:37,923 - knn_debug - INFO - loop 12 size 0.25 data set letter ml knn
+2015-07-15 21:22:50,206 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:22:50,207 - knn_debug - INFO - loop 13 size 0.25 data set letter ml knn
+2015-07-15 21:23:02,207 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:23:02,208 - knn_debug - INFO - loop 14 size 0.25 data set letter ml knn
+2015-07-15 21:23:14,355 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:23:14,355 - knn_debug - INFO - loop 15 size 0.25 data set letter ml knn
+2015-07-15 21:23:28,060 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:23:28,060 - knn_debug - INFO - loop 16 size 0.25 data set letter ml knn
+2015-07-15 21:23:40,358 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:23:40,358 - knn_debug - INFO - loop 17 size 0.25 data set letter ml knn
+2015-07-15 21:23:53,241 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:23:53,242 - knn_debug - INFO - loop 18 size 0.25 data set letter ml knn
+2015-07-15 21:24:06,033 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:24:06,034 - knn_debug - INFO - loop 19 size 0.25 data set letter ml knn
+2015-07-15 21:24:18,103 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:24:18,103 - knn_debug - INFO - loop 20 size 0.25 data set letter ml knn
+2015-07-15 21:24:31,372 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:24:31,377 - knn_debug - INFO - loop 21 size 0.25 data set letter ml knn
+2015-07-15 21:24:43,139 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:24:43,140 - knn_debug - INFO - loop 22 size 0.25 data set letter ml knn
+2015-07-15 21:24:55,236 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:24:55,237 - knn_debug - INFO - loop 23 size 0.25 data set letter ml knn
+2015-07-15 21:25:07,322 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:25:07,323 - knn_debug - INFO - loop 24 size 0.25 data set letter ml knn
+2015-07-15 21:25:20,454 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:25:20,454 - knn_debug - INFO - loop 25 size 0.25 data set letter ml knn
+2015-07-15 21:25:33,604 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:25:33,605 - knn_debug - INFO - loop 26 size 0.25 data set letter ml knn
+2015-07-15 21:25:45,832 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:25:45,833 - knn_debug - INFO - loop 27 size 0.25 data set letter ml knn
+2015-07-15 21:25:57,341 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:25:57,341 - knn_debug - INFO - loop 28 size 0.25 data set letter ml knn
+2015-07-15 21:26:12,679 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:26:12,680 - knn_debug - INFO - loop 29 size 0.25 data set letter ml knn
+2015-07-15 21:26:24,601 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:26:24,601 - knn_debug - INFO - loop 30 size 0.25 data set letter ml knn
+2015-07-15 21:26:37,446 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:26:37,446 - knn_debug - INFO - loop 31 size 0.25 data set letter ml knn
+2015-07-15 21:26:49,227 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:26:49,227 - knn_debug - INFO - loop 32 size 0.25 data set letter ml knn
+2015-07-15 21:27:01,641 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:27:01,642 - knn_debug - INFO - loop 33 size 0.25 data set letter ml knn
+2015-07-15 21:27:14,146 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:27:14,147 - knn_debug - INFO - loop 34 size 0.25 data set letter ml knn
+2015-07-15 21:27:26,317 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:27:26,318 - knn_debug - INFO - loop 35 size 0.25 data set letter ml knn
+2015-07-15 21:27:38,331 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:27:38,332 - knn_debug - INFO - loop 36 size 0.25 data set letter ml knn
+2015-07-15 21:27:50,122 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:27:50,122 - knn_debug - INFO - loop 37 size 0.25 data set letter ml knn
+2015-07-15 21:28:03,262 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:28:03,263 - knn_debug - INFO - loop 38 size 0.25 data set letter ml knn
+2015-07-15 21:28:17,698 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:28:17,699 - knn_debug - INFO - loop 39 size 0.25 data set letter ml knn
+2015-07-15 21:28:30,846 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:28:30,847 - knn_debug - INFO - loop 40 size 0.25 data set letter ml knn
+2015-07-15 21:28:43,139 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:28:43,140 - knn_debug - INFO - loop 41 size 0.25 data set letter ml knn
+2015-07-15 21:28:57,383 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:28:57,385 - knn_debug - INFO - loop 42 size 0.25 data set letter ml knn
+2015-07-15 21:29:11,943 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:29:11,944 - knn_debug - INFO - loop 43 size 0.25 data set letter ml knn
+2015-07-15 21:29:24,754 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:29:24,755 - knn_debug - INFO - loop 44 size 0.25 data set letter ml knn
+2015-07-15 21:29:40,255 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:29:40,255 - knn_debug - INFO - loop 45 size 0.25 data set letter ml knn
+2015-07-15 21:29:53,209 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:29:53,210 - knn_debug - INFO - loop 46 size 0.25 data set letter ml knn
+2015-07-15 21:30:05,213 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:05,213 - knn_debug - INFO - loop 47 size 0.25 data set letter ml knn
+2015-07-15 21:30:18,644 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:18,645 - knn_debug - INFO - loop 48 size 0.25 data set letter ml knn
+2015-07-15 21:30:31,815 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:31,816 - knn_debug - INFO - loop 49 size 0.25 data set letter ml knn
+2015-07-15 21:30:43,956 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:43,962 - knn_debug - INFO - *********** end size
+2015-07-15 21:30:43,962 - knn_debug - INFO - ******* end data set
+2015-07-15 21:30:43,962 - knn_debug - INFO - ***** start austra
+2015-07-15 21:30:43,963 - knn_debug - INFO - ***** start size 0.75
+2015-07-15 21:30:43,964 - knn_debug - INFO - ********* start cross validation
+2015-07-15 21:30:43,965 - knn_debug - INFO - start cross val
+2015-07-15 21:30:43,986 - knn_debug - INFO - end cross val
+2015-07-15 21:30:43,987 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,008 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,008 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,032 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,033 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,049 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,050 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,068 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,069 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,087 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,088 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,104 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,104 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,122 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,122 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,138 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,138 - knn_debug - INFO - start cross val
+2015-07-15 21:30:44,155 - knn_debug - INFO - end cross val
+2015-07-15 21:30:44,156 - knn_debug - INFO - ************* end cross validation
+2015-07-15 21:30:44,156 - knn_debug - INFO - loop 0 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,169 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,169 - knn_debug - INFO - loop 1 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,183 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,183 - knn_debug - INFO - loop 2 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,196 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,196 - knn_debug - INFO - loop 3 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,210 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,210 - knn_debug - INFO - loop 4 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,223 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,223 - knn_debug - INFO - loop 5 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,236 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,237 - knn_debug - INFO - loop 6 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,250 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,250 - knn_debug - INFO - loop 7 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,262 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,263 - knn_debug - INFO - loop 8 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,276 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,277 - knn_debug - INFO - loop 9 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,289 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,290 - knn_debug - INFO - loop 10 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,303 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,303 - knn_debug - INFO - loop 11 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,316 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,316 - knn_debug - INFO - loop 12 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,330 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,330 - knn_debug - INFO - loop 13 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,343 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,344 - knn_debug - INFO - loop 14 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,358 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,359 - knn_debug - INFO - loop 15 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,375 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,375 - knn_debug - INFO - loop 16 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,392 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,393 - knn_debug - INFO - loop 17 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,408 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,409 - knn_debug - INFO - loop 18 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,425 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,426 - knn_debug - INFO - loop 19 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,442 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,443 - knn_debug - INFO - loop 20 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,459 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,460 - knn_debug - INFO - loop 21 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,475 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,476 - knn_debug - INFO - loop 22 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,493 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,493 - knn_debug - INFO - loop 23 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,509 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,510 - knn_debug - INFO - loop 24 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,526 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,526 - knn_debug - INFO - loop 25 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,543 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,544 - knn_debug - INFO - loop 26 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,560 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,561 - knn_debug - INFO - loop 27 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,579 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,579 - knn_debug - INFO - loop 28 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,596 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,596 - knn_debug - INFO - loop 29 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,613 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,614 - knn_debug - INFO - loop 30 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,630 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,630 - knn_debug - INFO - loop 31 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,647 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,647 - knn_debug - INFO - loop 32 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,665 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,665 - knn_debug - INFO - loop 33 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,698 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,699 - knn_debug - INFO - loop 34 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,719 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,719 - knn_debug - INFO - loop 35 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,741 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,742 - knn_debug - INFO - loop 36 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,763 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,764 - knn_debug - INFO - loop 37 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,783 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,786 - knn_debug - INFO - loop 38 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,823 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,824 - knn_debug - INFO - loop 39 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,843 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,844 - knn_debug - INFO - loop 40 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,866 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,867 - knn_debug - INFO - loop 41 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,890 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,891 - knn_debug - INFO - loop 42 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,914 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,914 - knn_debug - INFO - loop 43 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,931 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,931 - knn_debug - INFO - loop 44 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,949 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,949 - knn_debug - INFO - loop 45 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,965 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,965 - knn_debug - INFO - loop 46 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,981 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:44,982 - knn_debug - INFO - loop 47 size 0.75 data set austra ml knn
+2015-07-15 21:30:44,999 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,000 - knn_debug - INFO - loop 48 size 0.75 data set austra ml knn
+2015-07-15 21:30:45,019 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,020 - knn_debug - INFO - loop 49 size 0.75 data set austra ml knn
+2015-07-15 21:30:45,038 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,046 - knn_debug - INFO - *********** end size
+2015-07-15 21:30:45,046 - knn_debug - INFO - ***** start size 0.5
+2015-07-15 21:30:45,048 - knn_debug - INFO - ********* start cross validation
+2015-07-15 21:30:45,049 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,088 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,089 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,121 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,121 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,149 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,149 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,191 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,192 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,218 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,219 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,246 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,247 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,274 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,275 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,301 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,302 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,327 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,327 - knn_debug - INFO - start cross val
+2015-07-15 21:30:45,356 - knn_debug - INFO - end cross val
+2015-07-15 21:30:45,357 - knn_debug - INFO - ************* end cross validation
+2015-07-15 21:30:45,357 - knn_debug - INFO - loop 0 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,370 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,370 - knn_debug - INFO - loop 1 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,382 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,383 - knn_debug - INFO - loop 2 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,395 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,395 - knn_debug - INFO - loop 3 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,408 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,408 - knn_debug - INFO - loop 4 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,420 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,421 - knn_debug - INFO - loop 5 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,434 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,434 - knn_debug - INFO - loop 6 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,446 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,447 - knn_debug - INFO - loop 7 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,459 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,459 - knn_debug - INFO - loop 8 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,472 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,472 - knn_debug - INFO - loop 9 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,485 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,485 - knn_debug - INFO - loop 10 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,499 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,499 - knn_debug - INFO - loop 11 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,511 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,512 - knn_debug - INFO - loop 12 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,526 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,526 - knn_debug - INFO - loop 13 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,540 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,540 - knn_debug - INFO - loop 14 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,554 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,555 - knn_debug - INFO - loop 15 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,569 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,570 - knn_debug - INFO - loop 16 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,584 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,585 - knn_debug - INFO - loop 17 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,600 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,600 - knn_debug - INFO - loop 18 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,614 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,614 - knn_debug - INFO - loop 19 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,628 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,628 - knn_debug - INFO - loop 20 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,643 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,643 - knn_debug - INFO - loop 21 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,657 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,658 - knn_debug - INFO - loop 22 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,672 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,673 - knn_debug - INFO - loop 23 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,688 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,689 - knn_debug - INFO - loop 24 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,705 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,706 - knn_debug - INFO - loop 25 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,721 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,722 - knn_debug - INFO - loop 26 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,739 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,740 - knn_debug - INFO - loop 27 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,756 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,757 - knn_debug - INFO - loop 28 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,774 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,775 - knn_debug - INFO - loop 29 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,790 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,791 - knn_debug - INFO - loop 30 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,807 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,808 - knn_debug - INFO - loop 31 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,824 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,827 - knn_debug - INFO - loop 32 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,842 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,843 - knn_debug - INFO - loop 33 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,859 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,860 - knn_debug - INFO - loop 34 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,875 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,876 - knn_debug - INFO - loop 35 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,901 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,902 - knn_debug - INFO - loop 36 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,922 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,923 - knn_debug - INFO - loop 37 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,941 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,942 - knn_debug - INFO - loop 38 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,960 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,961 - knn_debug - INFO - loop 39 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,979 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,980 - knn_debug - INFO - loop 40 size 0.5 data set austra ml knn
+2015-07-15 21:30:45,993 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:45,993 - knn_debug - INFO - loop 41 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,005 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,006 - knn_debug - INFO - loop 42 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,020 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,020 - knn_debug - INFO - loop 43 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,032 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,033 - knn_debug - INFO - loop 44 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,049 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,049 - knn_debug - INFO - loop 45 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,061 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,062 - knn_debug - INFO - loop 46 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,074 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,075 - knn_debug - INFO - loop 47 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,087 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,088 - knn_debug - INFO - loop 48 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,099 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,100 - knn_debug - INFO - loop 49 size 0.5 data set austra ml knn
+2015-07-15 21:30:46,113 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,117 - knn_debug - INFO - *********** end size
+2015-07-15 21:30:46,117 - knn_debug - INFO - ***** start size 0.25
+2015-07-15 21:30:46,119 - knn_debug - INFO - ********* start cross validation
+2015-07-15 21:30:46,120 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,148 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,148 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,182 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,183 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,219 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,220 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,251 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,251 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,286 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,287 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,341 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,342 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,395 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,396 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,448 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,448 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,494 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,494 - knn_debug - INFO - start cross val
+2015-07-15 21:30:46,537 - knn_debug - INFO - end cross val
+2015-07-15 21:30:46,538 - knn_debug - INFO - ************* end cross validation
+2015-07-15 21:30:46,538 - knn_debug - INFO - loop 0 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,552 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,553 - knn_debug - INFO - loop 1 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,568 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,569 - knn_debug - INFO - loop 2 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,582 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,583 - knn_debug - INFO - loop 3 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,599 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,599 - knn_debug - INFO - loop 4 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,613 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,614 - knn_debug - INFO - loop 5 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,630 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,630 - knn_debug - INFO - loop 6 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,644 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,645 - knn_debug - INFO - loop 7 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,661 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,661 - knn_debug - INFO - loop 8 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,677 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,678 - knn_debug - INFO - loop 9 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,693 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,693 - knn_debug - INFO - loop 10 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,709 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,709 - knn_debug - INFO - loop 11 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,724 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,725 - knn_debug - INFO - loop 12 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,738 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,739 - knn_debug - INFO - loop 13 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,753 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,754 - knn_debug - INFO - loop 14 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,767 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,768 - knn_debug - INFO - loop 15 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,782 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,782 - knn_debug - INFO - loop 16 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,797 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,797 - knn_debug - INFO - loop 17 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,812 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,812 - knn_debug - INFO - loop 18 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,826 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,827 - knn_debug - INFO - loop 19 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,842 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,843 - knn_debug - INFO - loop 20 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,857 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,857 - knn_debug - INFO - loop 21 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,872 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,873 - knn_debug - INFO - loop 22 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,886 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,887 - knn_debug - INFO - loop 23 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,902 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,903 - knn_debug - INFO - loop 24 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,916 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,916 - knn_debug - INFO - loop 25 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,931 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,932 - knn_debug - INFO - loop 26 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,945 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,946 - knn_debug - INFO - loop 27 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,960 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,960 - knn_debug - INFO - loop 28 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,974 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,974 - knn_debug - INFO - loop 29 size 0.25 data set austra ml knn
+2015-07-15 21:30:46,989 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:46,989 - knn_debug - INFO - loop 30 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,003 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,003 - knn_debug - INFO - loop 31 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,018 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,018 - knn_debug - INFO - loop 32 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,032 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,032 - knn_debug - INFO - loop 33 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,046 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,047 - knn_debug - INFO - loop 34 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,061 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,061 - knn_debug - INFO - loop 35 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,075 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,075 - knn_debug - INFO - loop 36 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,089 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,090 - knn_debug - INFO - loop 37 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,103 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,104 - knn_debug - INFO - loop 38 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,118 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,118 - knn_debug - INFO - loop 39 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,132 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,132 - knn_debug - INFO - loop 40 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,146 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,147 - knn_debug - INFO - loop 41 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,160 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,161 - knn_debug - INFO - loop 42 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,175 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,176 - knn_debug - INFO - loop 43 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,189 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,190 - knn_debug - INFO - loop 44 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,204 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,205 - knn_debug - INFO - loop 45 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,218 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,219 - knn_debug - INFO - loop 46 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,233 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,234 - knn_debug - INFO - loop 47 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,248 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,248 - knn_debug - INFO - loop 48 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,262 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,263 - knn_debug - INFO - loop 49 size 0.25 data set austra ml knn
+2015-07-15 21:30:47,277 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,281 - knn_debug - INFO - *********** end size
+2015-07-15 21:30:47,281 - knn_debug - INFO - ******* end data set
+2015-07-15 21:30:47,282 - knn_debug - INFO - ***** start german
+2015-07-15 21:30:47,282 - knn_debug - INFO - ***** start size 0.75
+2015-07-15 21:30:47,284 - knn_debug - INFO - ********* start cross validation
+2015-07-15 21:30:47,285 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,310 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,310 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,339 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,340 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,367 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,367 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,393 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,394 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,427 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,428 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,474 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,475 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,503 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,504 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,529 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,529 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,560 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,561 - knn_debug - INFO - start cross val
+2015-07-15 21:30:47,588 - knn_debug - INFO - end cross val
+2015-07-15 21:30:47,588 - knn_debug - INFO - ************* end cross validation
+2015-07-15 21:30:47,589 - knn_debug - INFO - loop 0 size 0.75 data set german ml knn
+2015-07-15 21:30:47,673 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,673 - knn_debug - INFO - loop 1 size 0.75 data set german ml knn
+2015-07-15 21:30:47,712 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,713 - knn_debug - INFO - loop 2 size 0.75 data set german ml knn
+2015-07-15 21:30:47,754 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,755 - knn_debug - INFO - loop 3 size 0.75 data set german ml knn
+2015-07-15 21:30:47,800 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,800 - knn_debug - INFO - loop 4 size 0.75 data set german ml knn
+2015-07-15 21:30:47,841 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,841 - knn_debug - INFO - loop 5 size 0.75 data set german ml knn
+2015-07-15 21:30:47,880 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,881 - knn_debug - INFO - loop 6 size 0.75 data set german ml knn
+2015-07-15 21:30:47,920 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,920 - knn_debug - INFO - loop 7 size 0.75 data set german ml knn
+2015-07-15 21:30:47,959 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:47,960 - knn_debug - INFO - loop 8 size 0.75 data set german ml knn
+2015-07-15 21:30:48,001 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,001 - knn_debug - INFO - loop 9 size 0.75 data set german ml knn
+2015-07-15 21:30:48,041 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,041 - knn_debug - INFO - loop 10 size 0.75 data set german ml knn
+2015-07-15 21:30:48,081 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,081 - knn_debug - INFO - loop 11 size 0.75 data set german ml knn
+2015-07-15 21:30:48,120 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,121 - knn_debug - INFO - loop 12 size 0.75 data set german ml knn
+2015-07-15 21:30:48,160 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,161 - knn_debug - INFO - loop 13 size 0.75 data set german ml knn
+2015-07-15 21:30:48,201 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,201 - knn_debug - INFO - loop 14 size 0.75 data set german ml knn
+2015-07-15 21:30:48,240 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,241 - knn_debug - INFO - loop 15 size 0.75 data set german ml knn
+2015-07-15 21:30:48,282 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,283 - knn_debug - INFO - loop 16 size 0.75 data set german ml knn
+2015-07-15 21:30:48,322 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,323 - knn_debug - INFO - loop 17 size 0.75 data set german ml knn
+2015-07-15 21:30:48,362 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,363 - knn_debug - INFO - loop 18 size 0.75 data set german ml knn
+2015-07-15 21:30:48,403 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,404 - knn_debug - INFO - loop 19 size 0.75 data set german ml knn
+2015-07-15 21:30:48,443 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,444 - knn_debug - INFO - loop 20 size 0.75 data set german ml knn
+2015-07-15 21:30:48,484 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,484 - knn_debug - INFO - loop 21 size 0.75 data set german ml knn
+2015-07-15 21:30:48,523 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,524 - knn_debug - INFO - loop 22 size 0.75 data set german ml knn
+2015-07-15 21:30:48,565 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,565 - knn_debug - INFO - loop 23 size 0.75 data set german ml knn
+2015-07-15 21:30:48,608 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,608 - knn_debug - INFO - loop 24 size 0.75 data set german ml knn
+2015-07-15 21:30:48,648 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,649 - knn_debug - INFO - loop 25 size 0.75 data set german ml knn
+2015-07-15 21:30:48,688 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,688 - knn_debug - INFO - loop 26 size 0.75 data set german ml knn
+2015-07-15 21:30:48,730 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,731 - knn_debug - INFO - loop 27 size 0.75 data set german ml knn
+2015-07-15 21:30:48,787 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,788 - knn_debug - INFO - loop 28 size 0.75 data set german ml knn
+2015-07-15 21:30:48,828 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,829 - knn_debug - INFO - loop 29 size 0.75 data set german ml knn
+2015-07-15 21:30:48,868 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,869 - knn_debug - INFO - loop 30 size 0.75 data set german ml knn
+2015-07-15 21:30:48,908 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,909 - knn_debug - INFO - loop 31 size 0.75 data set german ml knn
+2015-07-15 21:30:48,948 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,949 - knn_debug - INFO - loop 32 size 0.75 data set german ml knn
+2015-07-15 21:30:48,988 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:48,989 - knn_debug - INFO - loop 33 size 0.75 data set german ml knn
+2015-07-15 21:30:49,029 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,030 - knn_debug - INFO - loop 34 size 0.75 data set german ml knn
+2015-07-15 21:30:49,069 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,070 - knn_debug - INFO - loop 35 size 0.75 data set german ml knn
+2015-07-15 21:30:49,110 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,110 - knn_debug - INFO - loop 36 size 0.75 data set german ml knn
+2015-07-15 21:30:49,150 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,150 - knn_debug - INFO - loop 37 size 0.75 data set german ml knn
+2015-07-15 21:30:49,190 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,190 - knn_debug - INFO - loop 38 size 0.75 data set german ml knn
+2015-07-15 21:30:49,229 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,229 - knn_debug - INFO - loop 39 size 0.75 data set german ml knn
+2015-07-15 21:30:49,268 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,269 - knn_debug - INFO - loop 40 size 0.75 data set german ml knn
+2015-07-15 21:30:49,309 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,309 - knn_debug - INFO - loop 41 size 0.75 data set german ml knn
+2015-07-15 21:30:49,349 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,349 - knn_debug - INFO - loop 42 size 0.75 data set german ml knn
+2015-07-15 21:30:49,392 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,393 - knn_debug - INFO - loop 43 size 0.75 data set german ml knn
+2015-07-15 21:30:49,435 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,435 - knn_debug - INFO - loop 44 size 0.75 data set german ml knn
+2015-07-15 21:30:49,475 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,475 - knn_debug - INFO - loop 45 size 0.75 data set german ml knn
+2015-07-15 21:30:49,516 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,517 - knn_debug - INFO - loop 46 size 0.75 data set german ml knn
+2015-07-15 21:30:49,556 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,556 - knn_debug - INFO - loop 47 size 0.75 data set german ml knn
+2015-07-15 21:30:49,599 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,599 - knn_debug - INFO - loop 48 size 0.75 data set german ml knn
+2015-07-15 21:30:49,640 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,641 - knn_debug - INFO - loop 49 size 0.75 data set german ml knn
+2015-07-15 21:30:49,680 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:49,685 - knn_debug - INFO - *********** end size
+2015-07-15 21:30:49,685 - knn_debug - INFO - ***** start size 0.5
+2015-07-15 21:30:49,688 - knn_debug - INFO - ********* start cross validation
+2015-07-15 21:30:49,689 - knn_debug - INFO - start cross val
+2015-07-15 21:30:49,740 - knn_debug - INFO - end cross val
+2015-07-15 21:30:49,741 - knn_debug - INFO - start cross val
+2015-07-15 21:30:49,787 - knn_debug - INFO - end cross val
+2015-07-15 21:30:49,788 - knn_debug - INFO - start cross val
+2015-07-15 21:30:49,822 - knn_debug - INFO - end cross val
+2015-07-15 21:30:49,823 - knn_debug - INFO - start cross val
+2015-07-15 21:30:49,879 - knn_debug - INFO - end cross val
+2015-07-15 21:30:49,879 - knn_debug - INFO - start cross val
+2015-07-15 21:30:49,943 - knn_debug - INFO - end cross val
+2015-07-15 21:30:49,944 - knn_debug - INFO - start cross val
+2015-07-15 21:30:49,986 - knn_debug - INFO - end cross val
+2015-07-15 21:30:49,987 - knn_debug - INFO - start cross val
+2015-07-15 21:30:50,026 - knn_debug - INFO - end cross val
+2015-07-15 21:30:50,026 - knn_debug - INFO - start cross val
+2015-07-15 21:30:50,072 - knn_debug - INFO - end cross val
+2015-07-15 21:30:50,073 - knn_debug - INFO - start cross val
+2015-07-15 21:30:50,127 - knn_debug - INFO - end cross val
+2015-07-15 21:30:50,128 - knn_debug - INFO - start cross val
+2015-07-15 21:30:50,176 - knn_debug - INFO - end cross val
+2015-07-15 21:30:50,176 - knn_debug - INFO - ************* end cross validation
+2015-07-15 21:30:50,177 - knn_debug - INFO - loop 0 size 0.5 data set german ml knn
+2015-07-15 21:30:50,210 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,210 - knn_debug - INFO - loop 1 size 0.5 data set german ml knn
+2015-07-15 21:30:50,237 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,238 - knn_debug - INFO - loop 2 size 0.5 data set german ml knn
+2015-07-15 21:30:50,268 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,269 - knn_debug - INFO - loop 3 size 0.5 data set german ml knn
+2015-07-15 21:30:50,297 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,297 - knn_debug - INFO - loop 4 size 0.5 data set german ml knn
+2015-07-15 21:30:50,325 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,325 - knn_debug - INFO - loop 5 size 0.5 data set german ml knn
+2015-07-15 21:30:50,352 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,352 - knn_debug - INFO - loop 6 size 0.5 data set german ml knn
+2015-07-15 21:30:50,382 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,382 - knn_debug - INFO - loop 7 size 0.5 data set german ml knn
+2015-07-15 21:30:50,413 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,413 - knn_debug - INFO - loop 8 size 0.5 data set german ml knn
+2015-07-15 21:30:50,442 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,442 - knn_debug - INFO - loop 9 size 0.5 data set german ml knn
+2015-07-15 21:30:50,470 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,470 - knn_debug - INFO - loop 10 size 0.5 data set german ml knn
+2015-07-15 21:30:50,497 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,498 - knn_debug - INFO - loop 11 size 0.5 data set german ml knn
+2015-07-15 21:30:50,525 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,526 - knn_debug - INFO - loop 12 size 0.5 data set german ml knn
+2015-07-15 21:30:50,554 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,554 - knn_debug - INFO - loop 13 size 0.5 data set german ml knn
+2015-07-15 21:30:50,583 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,583 - knn_debug - INFO - loop 14 size 0.5 data set german ml knn
+2015-07-15 21:30:50,611 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,612 - knn_debug - INFO - loop 15 size 0.5 data set german ml knn
+2015-07-15 21:30:50,640 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,640 - knn_debug - INFO - loop 16 size 0.5 data set german ml knn
+2015-07-15 21:30:50,668 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,669 - knn_debug - INFO - loop 17 size 0.5 data set german ml knn
+2015-07-15 21:30:50,696 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,697 - knn_debug - INFO - loop 18 size 0.5 data set german ml knn
+2015-07-15 21:30:50,727 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,727 - knn_debug - INFO - loop 19 size 0.5 data set german ml knn
+2015-07-15 21:30:50,756 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,757 - knn_debug - INFO - loop 20 size 0.5 data set german ml knn
+2015-07-15 21:30:50,784 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,784 - knn_debug - INFO - loop 21 size 0.5 data set german ml knn
+2015-07-15 21:30:50,811 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,811 - knn_debug - INFO - loop 22 size 0.5 data set german ml knn
+2015-07-15 21:30:50,839 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,839 - knn_debug - INFO - loop 23 size 0.5 data set german ml knn
+2015-07-15 21:30:50,866 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,867 - knn_debug - INFO - loop 24 size 0.5 data set german ml knn
+2015-07-15 21:30:50,894 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,895 - knn_debug - INFO - loop 25 size 0.5 data set german ml knn
+2015-07-15 21:30:50,923 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,923 - knn_debug - INFO - loop 26 size 0.5 data set german ml knn
+2015-07-15 21:30:50,952 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,952 - knn_debug - INFO - loop 27 size 0.5 data set german ml knn
+2015-07-15 21:30:50,980 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:50,980 - knn_debug - INFO - loop 28 size 0.5 data set german ml knn
+2015-07-15 21:30:51,008 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,009 - knn_debug - INFO - loop 29 size 0.5 data set german ml knn
+2015-07-15 21:30:51,036 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,036 - knn_debug - INFO - loop 30 size 0.5 data set german ml knn
+2015-07-15 21:30:51,067 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,067 - knn_debug - INFO - loop 31 size 0.5 data set german ml knn
+2015-07-15 21:30:51,095 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,096 - knn_debug - INFO - loop 32 size 0.5 data set german ml knn
+2015-07-15 21:30:51,124 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,125 - knn_debug - INFO - loop 33 size 0.5 data set german ml knn
+2015-07-15 21:30:51,154 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,154 - knn_debug - INFO - loop 34 size 0.5 data set german ml knn
+2015-07-15 21:30:51,182 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,182 - knn_debug - INFO - loop 35 size 0.5 data set german ml knn
+2015-07-15 21:30:51,209 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,209 - knn_debug - INFO - loop 36 size 0.5 data set german ml knn
+2015-07-15 21:30:51,236 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,237 - knn_debug - INFO - loop 37 size 0.5 data set german ml knn
+2015-07-15 21:30:51,263 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,264 - knn_debug - INFO - loop 38 size 0.5 data set german ml knn
+2015-07-15 21:30:51,293 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,294 - knn_debug - INFO - loop 39 size 0.5 data set german ml knn
+2015-07-15 21:30:51,324 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,325 - knn_debug - INFO - loop 40 size 0.5 data set german ml knn
+2015-07-15 21:30:51,355 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,356 - knn_debug - INFO - loop 41 size 0.5 data set german ml knn
+2015-07-15 21:30:51,388 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,389 - knn_debug - INFO - loop 42 size 0.5 data set german ml knn
+2015-07-15 21:30:51,419 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,419 - knn_debug - INFO - loop 43 size 0.5 data set german ml knn
+2015-07-15 21:30:51,449 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,449 - knn_debug - INFO - loop 44 size 0.5 data set german ml knn
+2015-07-15 21:30:51,477 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,477 - knn_debug - INFO - loop 45 size 0.5 data set german ml knn
+2015-07-15 21:30:51,505 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,506 - knn_debug - INFO - loop 46 size 0.5 data set german ml knn
+2015-07-15 21:30:51,533 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,534 - knn_debug - INFO - loop 47 size 0.5 data set german ml knn
+2015-07-15 21:30:51,561 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,562 - knn_debug - INFO - loop 48 size 0.5 data set german ml knn
+2015-07-15 21:30:51,589 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,590 - knn_debug - INFO - loop 49 size 0.5 data set german ml knn
+2015-07-15 21:30:51,618 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:51,622 - knn_debug - INFO - *********** end size
+2015-07-15 21:30:51,623 - knn_debug - INFO - ***** start size 0.25
+2015-07-15 21:30:51,625 - knn_debug - INFO - ********* start cross validation
+2015-07-15 21:30:51,626 - knn_debug - INFO - start cross val
+2015-07-15 21:30:51,716 - knn_debug - INFO - end cross val
+2015-07-15 21:30:51,717 - knn_debug - INFO - start cross val
+2015-07-15 21:30:51,827 - knn_debug - INFO - end cross val
+2015-07-15 21:30:51,828 - knn_debug - INFO - start cross val
+2015-07-15 21:30:51,935 - knn_debug - INFO - end cross val
+2015-07-15 21:30:51,936 - knn_debug - INFO - start cross val
+2015-07-15 21:30:52,049 - knn_debug - INFO - end cross val
+2015-07-15 21:30:52,049 - knn_debug - INFO - start cross val
+2015-07-15 21:30:52,127 - knn_debug - INFO - end cross val
+2015-07-15 21:30:52,128 - knn_debug - INFO - start cross val
+2015-07-15 21:30:52,235 - knn_debug - INFO - end cross val
+2015-07-15 21:30:52,235 - knn_debug - INFO - start cross val
+2015-07-15 21:30:52,354 - knn_debug - INFO - end cross val
+2015-07-15 21:30:52,354 - knn_debug - INFO - start cross val
+2015-07-15 21:30:52,414 - knn_debug - INFO - end cross val
+2015-07-15 21:30:52,415 - knn_debug - INFO - start cross val
+2015-07-15 21:30:52,464 - knn_debug - INFO - end cross val
+2015-07-15 21:30:52,464 - knn_debug - INFO - start cross val
+2015-07-15 21:30:52,533 - knn_debug - INFO - end cross val
+2015-07-15 21:30:52,534 - knn_debug - INFO - ************* end cross validation
+2015-07-15 21:30:52,534 - knn_debug - INFO - loop 0 size 0.25 data set german ml knn
+2015-07-15 21:30:52,551 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,552 - knn_debug - INFO - loop 1 size 0.25 data set german ml knn
+2015-07-15 21:30:52,570 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,570 - knn_debug - INFO - loop 2 size 0.25 data set german ml knn
+2015-07-15 21:30:52,586 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,587 - knn_debug - INFO - loop 3 size 0.25 data set german ml knn
+2015-07-15 21:30:52,604 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,605 - knn_debug - INFO - loop 4 size 0.25 data set german ml knn
+2015-07-15 21:30:52,622 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,622 - knn_debug - INFO - loop 5 size 0.25 data set german ml knn
+2015-07-15 21:30:52,639 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,640 - knn_debug - INFO - loop 6 size 0.25 data set german ml knn
+2015-07-15 21:30:52,656 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,657 - knn_debug - INFO - loop 7 size 0.25 data set german ml knn
+2015-07-15 21:30:52,675 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,675 - knn_debug - INFO - loop 8 size 0.25 data set german ml knn
+2015-07-15 21:30:52,693 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,694 - knn_debug - INFO - loop 9 size 0.25 data set german ml knn
+2015-07-15 21:30:52,710 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,711 - knn_debug - INFO - loop 10 size 0.25 data set german ml knn
+2015-07-15 21:30:52,727 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,727 - knn_debug - INFO - loop 11 size 0.25 data set german ml knn
+2015-07-15 21:30:52,744 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,745 - knn_debug - INFO - loop 12 size 0.25 data set german ml knn
+2015-07-15 21:30:52,762 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,762 - knn_debug - INFO - loop 13 size 0.25 data set german ml knn
+2015-07-15 21:30:52,779 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,780 - knn_debug - INFO - loop 14 size 0.25 data set german ml knn
+2015-07-15 21:30:52,797 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,798 - knn_debug - INFO - loop 15 size 0.25 data set german ml knn
+2015-07-15 21:30:52,815 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,816 - knn_debug - INFO - loop 16 size 0.25 data set german ml knn
+2015-07-15 21:30:52,832 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,832 - knn_debug - INFO - loop 17 size 0.25 data set german ml knn
+2015-07-15 21:30:52,849 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,849 - knn_debug - INFO - loop 18 size 0.25 data set german ml knn
+2015-07-15 21:30:52,866 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,866 - knn_debug - INFO - loop 19 size 0.25 data set german ml knn
+2015-07-15 21:30:52,884 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,884 - knn_debug - INFO - loop 20 size 0.25 data set german ml knn
+2015-07-15 21:30:52,902 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,902 - knn_debug - INFO - loop 21 size 0.25 data set german ml knn
+2015-07-15 21:30:52,921 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,921 - knn_debug - INFO - loop 22 size 0.25 data set german ml knn
+2015-07-15 21:30:52,940 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,940 - knn_debug - INFO - loop 23 size 0.25 data set german ml knn
+2015-07-15 21:30:52,957 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,957 - knn_debug - INFO - loop 24 size 0.25 data set german ml knn
+2015-07-15 21:30:52,975 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,975 - knn_debug - INFO - loop 25 size 0.25 data set german ml knn
+2015-07-15 21:30:52,992 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:52,993 - knn_debug - INFO - loop 26 size 0.25 data set german ml knn
+2015-07-15 21:30:53,011 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,011 - knn_debug - INFO - loop 27 size 0.25 data set german ml knn
+2015-07-15 21:30:53,029 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,030 - knn_debug - INFO - loop 28 size 0.25 data set german ml knn
+2015-07-15 21:30:53,048 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,048 - knn_debug - INFO - loop 29 size 0.25 data set german ml knn
+2015-07-15 21:30:53,066 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,067 - knn_debug - INFO - loop 30 size 0.25 data set german ml knn
+2015-07-15 21:30:53,084 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,084 - knn_debug - INFO - loop 31 size 0.25 data set german ml knn
+2015-07-15 21:30:53,102 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,103 - knn_debug - INFO - loop 32 size 0.25 data set german ml knn
+2015-07-15 21:30:53,121 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,121 - knn_debug - INFO - loop 33 size 0.25 data set german ml knn
+2015-07-15 21:30:53,139 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,139 - knn_debug - INFO - loop 34 size 0.25 data set german ml knn
+2015-07-15 21:30:53,156 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,157 - knn_debug - INFO - loop 35 size 0.25 data set german ml knn
+2015-07-15 21:30:53,174 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,174 - knn_debug - INFO - loop 36 size 0.25 data set german ml knn
+2015-07-15 21:30:53,193 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,193 - knn_debug - INFO - loop 37 size 0.25 data set german ml knn
+2015-07-15 21:30:53,213 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,213 - knn_debug - INFO - loop 38 size 0.25 data set german ml knn
+2015-07-15 21:30:53,238 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,239 - knn_debug - INFO - loop 39 size 0.25 data set german ml knn
+2015-07-15 21:30:53,257 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,257 - knn_debug - INFO - loop 40 size 0.25 data set german ml knn
+2015-07-15 21:30:53,274 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,275 - knn_debug - INFO - loop 41 size 0.25 data set german ml knn
+2015-07-15 21:30:53,291 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,292 - knn_debug - INFO - loop 42 size 0.25 data set german ml knn
+2015-07-15 21:30:53,310 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,310 - knn_debug - INFO - loop 43 size 0.25 data set german ml knn
+2015-07-15 21:30:53,327 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,328 - knn_debug - INFO - loop 44 size 0.25 data set german ml knn
+2015-07-15 21:30:53,345 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,345 - knn_debug - INFO - loop 45 size 0.25 data set german ml knn
+2015-07-15 21:30:53,363 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,363 - knn_debug - INFO - loop 46 size 0.25 data set german ml knn
+2015-07-15 21:30:53,381 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,381 - knn_debug - INFO - loop 47 size 0.25 data set german ml knn
+2015-07-15 21:30:53,399 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,400 - knn_debug - INFO - loop 48 size 0.25 data set german ml knn
+2015-07-15 21:30:53,416 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,417 - knn_debug - INFO - loop 49 size 0.25 data set german ml knn
+2015-07-15 21:30:53,434 - knn_debug - INFO - ------------- end loop -----
+2015-07-15 21:30:53,437 - knn_debug - INFO - *********** end size
+2015-07-15 21:30:53,437 - knn_debug - INFO - ******* end data set
+2015-07-15 21:30:53,438 - knn_debug - INFO - ************ end ml
+2015-07-15 21:30:53,488 - knn_debug - INFO - report by dataset

@@ -1,0 +1,1602 @@
+2015-07-15 17:49:22,719 - nb_debug - INFO - *************************************** nb
+2015-07-15 17:49:22,719 - nb_debug - INFO - ***** start adult
+2015-07-15 17:49:22,719 - nb_debug - INFO - ***** start size 0.75
+2015-07-15 17:49:22,728 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:22,728 - nb_debug - INFO - start cross val
+2015-07-15 17:49:22,756 - nb_debug - INFO - end cross val
+2015-07-15 17:49:22,757 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:22,757 - nb_debug - INFO - loop 0 size 0.75 data set adult ml nb
+2015-07-15 17:49:22,796 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:22,796 - nb_debug - INFO - loop 1 size 0.75 data set adult ml nb
+2015-07-15 17:49:22,833 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:22,833 - nb_debug - INFO - loop 2 size 0.75 data set adult ml nb
+2015-07-15 17:49:22,870 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:22,870 - nb_debug - INFO - loop 3 size 0.75 data set adult ml nb
+2015-07-15 17:49:22,906 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:22,907 - nb_debug - INFO - loop 4 size 0.75 data set adult ml nb
+2015-07-15 17:49:22,943 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:22,943 - nb_debug - INFO - loop 5 size 0.75 data set adult ml nb
+2015-07-15 17:49:22,980 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:22,980 - nb_debug - INFO - loop 6 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,017 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,017 - nb_debug - INFO - loop 7 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,054 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,055 - nb_debug - INFO - loop 8 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,092 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,092 - nb_debug - INFO - loop 9 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,130 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,130 - nb_debug - INFO - loop 10 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,167 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,167 - nb_debug - INFO - loop 11 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,206 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,206 - nb_debug - INFO - loop 12 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,244 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,245 - nb_debug - INFO - loop 13 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,283 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,283 - nb_debug - INFO - loop 14 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,321 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,321 - nb_debug - INFO - loop 15 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,358 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,359 - nb_debug - INFO - loop 16 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,395 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,396 - nb_debug - INFO - loop 17 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,432 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,432 - nb_debug - INFO - loop 18 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,469 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,469 - nb_debug - INFO - loop 19 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,506 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,506 - nb_debug - INFO - loop 20 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,543 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,543 - nb_debug - INFO - loop 21 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,580 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,580 - nb_debug - INFO - loop 22 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,617 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,617 - nb_debug - INFO - loop 23 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,653 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,653 - nb_debug - INFO - loop 24 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,690 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,690 - nb_debug - INFO - loop 25 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,727 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,728 - nb_debug - INFO - loop 26 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,765 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,765 - nb_debug - INFO - loop 27 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,802 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,802 - nb_debug - INFO - loop 28 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,839 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,839 - nb_debug - INFO - loop 29 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,876 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,877 - nb_debug - INFO - loop 30 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,915 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,915 - nb_debug - INFO - loop 31 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,952 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,953 - nb_debug - INFO - loop 32 size 0.75 data set adult ml nb
+2015-07-15 17:49:23,989 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:23,990 - nb_debug - INFO - loop 33 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,027 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,027 - nb_debug - INFO - loop 34 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,064 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,064 - nb_debug - INFO - loop 35 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,100 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,100 - nb_debug - INFO - loop 36 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,137 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,137 - nb_debug - INFO - loop 37 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,174 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,175 - nb_debug - INFO - loop 38 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,211 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,212 - nb_debug - INFO - loop 39 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,248 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,248 - nb_debug - INFO - loop 40 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,285 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,285 - nb_debug - INFO - loop 41 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,322 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,322 - nb_debug - INFO - loop 42 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,359 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,359 - nb_debug - INFO - loop 43 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,397 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,397 - nb_debug - INFO - loop 44 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,435 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,435 - nb_debug - INFO - loop 45 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,472 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,473 - nb_debug - INFO - loop 46 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,510 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,510 - nb_debug - INFO - loop 47 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,549 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,549 - nb_debug - INFO - loop 48 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,588 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,588 - nb_debug - INFO - loop 49 size 0.75 data set adult ml nb
+2015-07-15 17:49:24,626 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,628 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:24,628 - nb_debug - INFO - ***** start size 0.5
+2015-07-15 17:49:24,636 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:24,637 - nb_debug - INFO - start cross val
+2015-07-15 17:49:24,687 - nb_debug - INFO - end cross val
+2015-07-15 17:49:24,687 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:24,687 - nb_debug - INFO - loop 0 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,719 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,719 - nb_debug - INFO - loop 1 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,752 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,752 - nb_debug - INFO - loop 2 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,784 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,785 - nb_debug - INFO - loop 3 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,818 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,818 - nb_debug - INFO - loop 4 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,850 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,850 - nb_debug - INFO - loop 5 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,882 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,882 - nb_debug - INFO - loop 6 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,914 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,914 - nb_debug - INFO - loop 7 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,945 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,946 - nb_debug - INFO - loop 8 size 0.5 data set adult ml nb
+2015-07-15 17:49:24,978 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:24,978 - nb_debug - INFO - loop 9 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,009 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,010 - nb_debug - INFO - loop 10 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,042 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,042 - nb_debug - INFO - loop 11 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,074 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,074 - nb_debug - INFO - loop 12 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,106 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,106 - nb_debug - INFO - loop 13 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,138 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,139 - nb_debug - INFO - loop 14 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,172 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,173 - nb_debug - INFO - loop 15 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,205 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,205 - nb_debug - INFO - loop 16 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,239 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,239 - nb_debug - INFO - loop 17 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,271 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,271 - nb_debug - INFO - loop 18 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,303 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,303 - nb_debug - INFO - loop 19 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,335 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,335 - nb_debug - INFO - loop 20 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,367 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,367 - nb_debug - INFO - loop 21 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,399 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,399 - nb_debug - INFO - loop 22 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,431 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,431 - nb_debug - INFO - loop 23 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,463 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,463 - nb_debug - INFO - loop 24 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,495 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,495 - nb_debug - INFO - loop 25 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,527 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,527 - nb_debug - INFO - loop 26 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,559 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,559 - nb_debug - INFO - loop 27 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,591 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,591 - nb_debug - INFO - loop 28 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,623 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,623 - nb_debug - INFO - loop 29 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,655 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,655 - nb_debug - INFO - loop 30 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,687 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,688 - nb_debug - INFO - loop 31 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,719 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,719 - nb_debug - INFO - loop 32 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,751 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,751 - nb_debug - INFO - loop 33 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,784 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,784 - nb_debug - INFO - loop 34 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,816 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,816 - nb_debug - INFO - loop 35 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,849 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,849 - nb_debug - INFO - loop 36 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,883 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,883 - nb_debug - INFO - loop 37 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,915 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,915 - nb_debug - INFO - loop 38 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,947 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,947 - nb_debug - INFO - loop 39 size 0.5 data set adult ml nb
+2015-07-15 17:49:25,979 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:25,980 - nb_debug - INFO - loop 40 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,011 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,011 - nb_debug - INFO - loop 41 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,043 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,043 - nb_debug - INFO - loop 42 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,076 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,076 - nb_debug - INFO - loop 43 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,107 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,108 - nb_debug - INFO - loop 44 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,139 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,140 - nb_debug - INFO - loop 45 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,171 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,172 - nb_debug - INFO - loop 46 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,203 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,204 - nb_debug - INFO - loop 47 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,236 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,236 - nb_debug - INFO - loop 48 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,268 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,268 - nb_debug - INFO - loop 49 size 0.5 data set adult ml nb
+2015-07-15 17:49:26,300 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,302 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:26,302 - nb_debug - INFO - ***** start size 0.25
+2015-07-15 17:49:26,309 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:26,310 - nb_debug - INFO - start cross val
+2015-07-15 17:49:26,377 - nb_debug - INFO - end cross val
+2015-07-15 17:49:26,377 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:26,377 - nb_debug - INFO - loop 0 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,406 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,407 - nb_debug - INFO - loop 1 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,434 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,434 - nb_debug - INFO - loop 2 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,461 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,461 - nb_debug - INFO - loop 3 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,489 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,489 - nb_debug - INFO - loop 4 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,516 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,516 - nb_debug - INFO - loop 5 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,544 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,544 - nb_debug - INFO - loop 6 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,571 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,571 - nb_debug - INFO - loop 7 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,598 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,599 - nb_debug - INFO - loop 8 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,626 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,627 - nb_debug - INFO - loop 9 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,654 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,654 - nb_debug - INFO - loop 10 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,681 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,681 - nb_debug - INFO - loop 11 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,709 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,709 - nb_debug - INFO - loop 12 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,736 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,736 - nb_debug - INFO - loop 13 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,764 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,764 - nb_debug - INFO - loop 14 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,791 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,792 - nb_debug - INFO - loop 15 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,819 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,819 - nb_debug - INFO - loop 16 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,847 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,847 - nb_debug - INFO - loop 17 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,876 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,876 - nb_debug - INFO - loop 18 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,904 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,904 - nb_debug - INFO - loop 19 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,931 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,931 - nb_debug - INFO - loop 20 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,959 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,959 - nb_debug - INFO - loop 21 size 0.25 data set adult ml nb
+2015-07-15 17:49:26,987 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:26,987 - nb_debug - INFO - loop 22 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,014 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,014 - nb_debug - INFO - loop 23 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,041 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,042 - nb_debug - INFO - loop 24 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,069 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,069 - nb_debug - INFO - loop 25 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,097 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,097 - nb_debug - INFO - loop 26 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,124 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,124 - nb_debug - INFO - loop 27 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,152 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,152 - nb_debug - INFO - loop 28 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,179 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,180 - nb_debug - INFO - loop 29 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,207 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,207 - nb_debug - INFO - loop 30 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,234 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,234 - nb_debug - INFO - loop 31 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,262 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,262 - nb_debug - INFO - loop 32 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,290 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,290 - nb_debug - INFO - loop 33 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,317 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,318 - nb_debug - INFO - loop 34 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,345 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,345 - nb_debug - INFO - loop 35 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,373 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,374 - nb_debug - INFO - loop 36 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,402 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,402 - nb_debug - INFO - loop 37 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,431 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,431 - nb_debug - INFO - loop 38 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,459 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,459 - nb_debug - INFO - loop 39 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,486 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,487 - nb_debug - INFO - loop 40 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,514 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,514 - nb_debug - INFO - loop 41 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,541 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,541 - nb_debug - INFO - loop 42 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,569 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,569 - nb_debug - INFO - loop 43 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,596 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,596 - nb_debug - INFO - loop 44 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,625 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,625 - nb_debug - INFO - loop 45 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,652 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,652 - nb_debug - INFO - loop 46 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,679 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,679 - nb_debug - INFO - loop 47 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,706 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,707 - nb_debug - INFO - loop 48 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,734 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,734 - nb_debug - INFO - loop 49 size 0.25 data set adult ml nb
+2015-07-15 17:49:27,762 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,763 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:27,763 - nb_debug - INFO - ******* end data set
+2015-07-15 17:49:27,764 - nb_debug - INFO - ***** start heart
+2015-07-15 17:49:27,764 - nb_debug - INFO - ***** start size 0.75
+2015-07-15 17:49:27,764 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:27,764 - nb_debug - INFO - start cross val
+2015-07-15 17:49:27,770 - nb_debug - INFO - end cross val
+2015-07-15 17:49:27,770 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:27,770 - nb_debug - INFO - loop 0 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,773 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,774 - nb_debug - INFO - loop 1 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,777 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,777 - nb_debug - INFO - loop 2 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,780 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,780 - nb_debug - INFO - loop 3 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,783 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,783 - nb_debug - INFO - loop 4 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,786 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,786 - nb_debug - INFO - loop 5 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,789 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,789 - nb_debug - INFO - loop 6 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,792 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,793 - nb_debug - INFO - loop 7 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,796 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,796 - nb_debug - INFO - loop 8 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,799 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,799 - nb_debug - INFO - loop 9 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,802 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,802 - nb_debug - INFO - loop 10 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,805 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,806 - nb_debug - INFO - loop 11 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,809 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,809 - nb_debug - INFO - loop 12 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,812 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,812 - nb_debug - INFO - loop 13 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,815 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,815 - nb_debug - INFO - loop 14 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,818 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,818 - nb_debug - INFO - loop 15 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,821 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,821 - nb_debug - INFO - loop 16 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,824 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,825 - nb_debug - INFO - loop 17 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,828 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,828 - nb_debug - INFO - loop 18 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,831 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,831 - nb_debug - INFO - loop 19 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,834 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,834 - nb_debug - INFO - loop 20 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,837 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,837 - nb_debug - INFO - loop 21 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,840 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,841 - nb_debug - INFO - loop 22 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,844 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,844 - nb_debug - INFO - loop 23 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,847 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,847 - nb_debug - INFO - loop 24 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,850 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,850 - nb_debug - INFO - loop 25 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,853 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,853 - nb_debug - INFO - loop 26 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,856 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,856 - nb_debug - INFO - loop 27 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,859 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,860 - nb_debug - INFO - loop 28 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,863 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,863 - nb_debug - INFO - loop 29 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,866 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,866 - nb_debug - INFO - loop 30 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,869 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,869 - nb_debug - INFO - loop 31 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,872 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,872 - nb_debug - INFO - loop 32 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,875 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,876 - nb_debug - INFO - loop 33 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,879 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,879 - nb_debug - INFO - loop 34 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,882 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,882 - nb_debug - INFO - loop 35 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,885 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,885 - nb_debug - INFO - loop 36 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,888 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,889 - nb_debug - INFO - loop 37 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,892 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,892 - nb_debug - INFO - loop 38 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,895 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,895 - nb_debug - INFO - loop 39 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,898 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,898 - nb_debug - INFO - loop 40 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,901 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,901 - nb_debug - INFO - loop 41 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,904 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,904 - nb_debug - INFO - loop 42 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,907 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,908 - nb_debug - INFO - loop 43 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,911 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,911 - nb_debug - INFO - loop 44 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,914 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,914 - nb_debug - INFO - loop 45 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,917 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,918 - nb_debug - INFO - loop 46 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,921 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,921 - nb_debug - INFO - loop 47 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,924 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,924 - nb_debug - INFO - loop 48 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,927 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,927 - nb_debug - INFO - loop 49 size 0.75 data set heart ml nb
+2015-07-15 17:49:27,930 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,932 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:27,932 - nb_debug - INFO - ***** start size 0.5
+2015-07-15 17:49:27,932 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:27,932 - nb_debug - INFO - start cross val
+2015-07-15 17:49:27,940 - nb_debug - INFO - end cross val
+2015-07-15 17:49:27,940 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:27,940 - nb_debug - INFO - loop 0 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,943 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,943 - nb_debug - INFO - loop 1 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,946 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,947 - nb_debug - INFO - loop 2 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,949 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,950 - nb_debug - INFO - loop 3 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,953 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,953 - nb_debug - INFO - loop 4 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,956 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,956 - nb_debug - INFO - loop 5 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,959 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,959 - nb_debug - INFO - loop 6 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,962 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,962 - nb_debug - INFO - loop 7 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,965 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,965 - nb_debug - INFO - loop 8 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,968 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,968 - nb_debug - INFO - loop 9 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,971 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,971 - nb_debug - INFO - loop 10 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,974 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,974 - nb_debug - INFO - loop 11 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,977 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,978 - nb_debug - INFO - loop 12 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,981 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,981 - nb_debug - INFO - loop 13 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,984 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,984 - nb_debug - INFO - loop 14 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,987 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,987 - nb_debug - INFO - loop 15 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,990 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,990 - nb_debug - INFO - loop 16 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,993 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,993 - nb_debug - INFO - loop 17 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,996 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,996 - nb_debug - INFO - loop 18 size 0.5 data set heart ml nb
+2015-07-15 17:49:27,999 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:27,999 - nb_debug - INFO - loop 19 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,002 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,003 - nb_debug - INFO - loop 20 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,006 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,006 - nb_debug - INFO - loop 21 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,009 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,009 - nb_debug - INFO - loop 22 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,012 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,012 - nb_debug - INFO - loop 23 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,015 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,015 - nb_debug - INFO - loop 24 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,018 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,018 - nb_debug - INFO - loop 25 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,021 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,021 - nb_debug - INFO - loop 26 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,024 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,024 - nb_debug - INFO - loop 27 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,027 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,028 - nb_debug - INFO - loop 28 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,031 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,031 - nb_debug - INFO - loop 29 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,034 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,034 - nb_debug - INFO - loop 30 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,037 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,037 - nb_debug - INFO - loop 31 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,040 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,040 - nb_debug - INFO - loop 32 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,043 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,043 - nb_debug - INFO - loop 33 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,046 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,046 - nb_debug - INFO - loop 34 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,049 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,049 - nb_debug - INFO - loop 35 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,052 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,053 - nb_debug - INFO - loop 36 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,055 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,056 - nb_debug - INFO - loop 37 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,059 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,059 - nb_debug - INFO - loop 38 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,062 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,062 - nb_debug - INFO - loop 39 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,065 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,065 - nb_debug - INFO - loop 40 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,068 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,068 - nb_debug - INFO - loop 41 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,071 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,071 - nb_debug - INFO - loop 42 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,074 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,074 - nb_debug - INFO - loop 43 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,077 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,078 - nb_debug - INFO - loop 44 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,081 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,081 - nb_debug - INFO - loop 45 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,084 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,084 - nb_debug - INFO - loop 46 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,087 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,087 - nb_debug - INFO - loop 47 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,090 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,090 - nb_debug - INFO - loop 48 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,093 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,093 - nb_debug - INFO - loop 49 size 0.5 data set heart ml nb
+2015-07-15 17:49:28,096 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,098 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:28,098 - nb_debug - INFO - ***** start size 0.25
+2015-07-15 17:49:28,098 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:28,098 - nb_debug - INFO - start cross val
+2015-07-15 17:49:28,104 - nb_debug - INFO - end cross val
+2015-07-15 17:49:28,105 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:28,105 - nb_debug - INFO - loop 0 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,108 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,108 - nb_debug - INFO - loop 1 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,111 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,111 - nb_debug - INFO - loop 2 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,114 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,114 - nb_debug - INFO - loop 3 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,117 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,117 - nb_debug - INFO - loop 4 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,120 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,120 - nb_debug - INFO - loop 5 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,123 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,123 - nb_debug - INFO - loop 6 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,126 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,126 - nb_debug - INFO - loop 7 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,129 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,129 - nb_debug - INFO - loop 8 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,132 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,133 - nb_debug - INFO - loop 9 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,136 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,136 - nb_debug - INFO - loop 10 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,139 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,139 - nb_debug - INFO - loop 11 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,142 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,142 - nb_debug - INFO - loop 12 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,145 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,146 - nb_debug - INFO - loop 13 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,148 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,149 - nb_debug - INFO - loop 14 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,152 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,152 - nb_debug - INFO - loop 15 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,155 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,155 - nb_debug - INFO - loop 16 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,158 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,158 - nb_debug - INFO - loop 17 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,161 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,161 - nb_debug - INFO - loop 18 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,164 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,164 - nb_debug - INFO - loop 19 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,167 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,167 - nb_debug - INFO - loop 20 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,170 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,170 - nb_debug - INFO - loop 21 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,173 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,173 - nb_debug - INFO - loop 22 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,176 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,176 - nb_debug - INFO - loop 23 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,179 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,180 - nb_debug - INFO - loop 24 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,183 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,183 - nb_debug - INFO - loop 25 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,186 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,186 - nb_debug - INFO - loop 26 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,189 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,189 - nb_debug - INFO - loop 27 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,192 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,192 - nb_debug - INFO - loop 28 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,195 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,195 - nb_debug - INFO - loop 29 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,198 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,198 - nb_debug - INFO - loop 30 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,201 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,201 - nb_debug - INFO - loop 31 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,204 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,205 - nb_debug - INFO - loop 32 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,207 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,208 - nb_debug - INFO - loop 33 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,211 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,211 - nb_debug - INFO - loop 34 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,214 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,214 - nb_debug - INFO - loop 35 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,217 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,217 - nb_debug - INFO - loop 36 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,220 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,220 - nb_debug - INFO - loop 37 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,223 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,223 - nb_debug - INFO - loop 38 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,226 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,226 - nb_debug - INFO - loop 39 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,229 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,229 - nb_debug - INFO - loop 40 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,232 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,232 - nb_debug - INFO - loop 41 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,235 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,235 - nb_debug - INFO - loop 42 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,238 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,238 - nb_debug - INFO - loop 43 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,241 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,242 - nb_debug - INFO - loop 44 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,245 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,245 - nb_debug - INFO - loop 45 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,248 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,248 - nb_debug - INFO - loop 46 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,251 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,251 - nb_debug - INFO - loop 47 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,254 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,254 - nb_debug - INFO - loop 48 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,257 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,257 - nb_debug - INFO - loop 49 size 0.25 data set heart ml nb
+2015-07-15 17:49:28,260 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,262 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:28,262 - nb_debug - INFO - ******* end data set
+2015-07-15 17:49:28,262 - nb_debug - INFO - ***** start letter
+2015-07-15 17:49:28,262 - nb_debug - INFO - ***** start size 0.75
+2015-07-15 17:49:28,267 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:28,268 - nb_debug - INFO - start cross val
+2015-07-15 17:49:28,288 - nb_debug - INFO - end cross val
+2015-07-15 17:49:28,289 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:28,289 - nb_debug - INFO - loop 0 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,316 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,317 - nb_debug - INFO - loop 1 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,343 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,344 - nb_debug - INFO - loop 2 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,372 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,373 - nb_debug - INFO - loop 3 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,401 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,401 - nb_debug - INFO - loop 4 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,429 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,429 - nb_debug - INFO - loop 5 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,456 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,457 - nb_debug - INFO - loop 6 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,484 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,484 - nb_debug - INFO - loop 7 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,511 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,512 - nb_debug - INFO - loop 8 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,539 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,539 - nb_debug - INFO - loop 9 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,566 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,566 - nb_debug - INFO - loop 10 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,593 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,593 - nb_debug - INFO - loop 11 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,621 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,621 - nb_debug - INFO - loop 12 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,648 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,648 - nb_debug - INFO - loop 13 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,676 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,676 - nb_debug - INFO - loop 14 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,703 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,703 - nb_debug - INFO - loop 15 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,730 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,730 - nb_debug - INFO - loop 16 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,758 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,759 - nb_debug - INFO - loop 17 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,786 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,786 - nb_debug - INFO - loop 18 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,814 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,814 - nb_debug - INFO - loop 19 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,841 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,841 - nb_debug - INFO - loop 20 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,869 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,869 - nb_debug - INFO - loop 21 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,896 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,896 - nb_debug - INFO - loop 22 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,923 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,923 - nb_debug - INFO - loop 23 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,950 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,951 - nb_debug - INFO - loop 24 size 0.75 data set letter ml nb
+2015-07-15 17:49:28,978 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:28,978 - nb_debug - INFO - loop 25 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,006 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,006 - nb_debug - INFO - loop 26 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,033 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,034 - nb_debug - INFO - loop 27 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,061 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,061 - nb_debug - INFO - loop 28 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,089 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,089 - nb_debug - INFO - loop 29 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,116 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,116 - nb_debug - INFO - loop 30 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,143 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,143 - nb_debug - INFO - loop 31 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,170 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,171 - nb_debug - INFO - loop 32 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,198 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,198 - nb_debug - INFO - loop 33 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,225 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,225 - nb_debug - INFO - loop 34 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,252 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,252 - nb_debug - INFO - loop 35 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,279 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,279 - nb_debug - INFO - loop 36 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,307 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,307 - nb_debug - INFO - loop 37 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,334 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,334 - nb_debug - INFO - loop 38 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,362 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,362 - nb_debug - INFO - loop 39 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,390 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,390 - nb_debug - INFO - loop 40 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,417 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,417 - nb_debug - INFO - loop 41 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,444 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,444 - nb_debug - INFO - loop 42 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,471 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,472 - nb_debug - INFO - loop 43 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,499 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,499 - nb_debug - INFO - loop 44 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,526 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,526 - nb_debug - INFO - loop 45 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,553 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,554 - nb_debug - INFO - loop 46 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,581 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,581 - nb_debug - INFO - loop 47 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,608 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,608 - nb_debug - INFO - loop 48 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,635 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,635 - nb_debug - INFO - loop 49 size 0.75 data set letter ml nb
+2015-07-15 17:49:29,663 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,665 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:29,665 - nb_debug - INFO - ***** start size 0.5
+2015-07-15 17:49:29,670 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:29,670 - nb_debug - INFO - start cross val
+2015-07-15 17:49:29,706 - nb_debug - INFO - end cross val
+2015-07-15 17:49:29,706 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:29,706 - nb_debug - INFO - loop 0 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,730 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,730 - nb_debug - INFO - loop 1 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,754 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,754 - nb_debug - INFO - loop 2 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,778 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,778 - nb_debug - INFO - loop 3 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,802 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,802 - nb_debug - INFO - loop 4 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,825 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,826 - nb_debug - INFO - loop 5 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,849 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,850 - nb_debug - INFO - loop 6 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,873 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,873 - nb_debug - INFO - loop 7 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,897 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,898 - nb_debug - INFO - loop 8 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,921 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,922 - nb_debug - INFO - loop 9 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,946 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,946 - nb_debug - INFO - loop 10 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,971 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,971 - nb_debug - INFO - loop 11 size 0.5 data set letter ml nb
+2015-07-15 17:49:29,996 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:29,997 - nb_debug - INFO - loop 12 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,020 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,020 - nb_debug - INFO - loop 13 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,044 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,044 - nb_debug - INFO - loop 14 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,068 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,068 - nb_debug - INFO - loop 15 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,092 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,092 - nb_debug - INFO - loop 16 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,116 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,116 - nb_debug - INFO - loop 17 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,140 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,140 - nb_debug - INFO - loop 18 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,164 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,164 - nb_debug - INFO - loop 19 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,188 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,188 - nb_debug - INFO - loop 20 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,211 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,212 - nb_debug - INFO - loop 21 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,235 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,236 - nb_debug - INFO - loop 22 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,259 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,260 - nb_debug - INFO - loop 23 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,284 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,284 - nb_debug - INFO - loop 24 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,308 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,308 - nb_debug - INFO - loop 25 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,332 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,332 - nb_debug - INFO - loop 26 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,356 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,357 - nb_debug - INFO - loop 27 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,381 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,381 - nb_debug - INFO - loop 28 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,404 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,405 - nb_debug - INFO - loop 29 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,428 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,429 - nb_debug - INFO - loop 30 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,453 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,453 - nb_debug - INFO - loop 31 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,477 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,477 - nb_debug - INFO - loop 32 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,500 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,500 - nb_debug - INFO - loop 33 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,524 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,524 - nb_debug - INFO - loop 34 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,558 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,558 - nb_debug - INFO - loop 35 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,595 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,595 - nb_debug - INFO - loop 36 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,630 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,631 - nb_debug - INFO - loop 37 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,666 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,666 - nb_debug - INFO - loop 38 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,703 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,703 - nb_debug - INFO - loop 39 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,738 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,739 - nb_debug - INFO - loop 40 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,774 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,774 - nb_debug - INFO - loop 41 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,811 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,811 - nb_debug - INFO - loop 42 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,846 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,847 - nb_debug - INFO - loop 43 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,882 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,882 - nb_debug - INFO - loop 44 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,917 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,917 - nb_debug - INFO - loop 45 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,952 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,953 - nb_debug - INFO - loop 46 size 0.5 data set letter ml nb
+2015-07-15 17:49:30,988 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:30,988 - nb_debug - INFO - loop 47 size 0.5 data set letter ml nb
+2015-07-15 17:49:31,023 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,024 - nb_debug - INFO - loop 48 size 0.5 data set letter ml nb
+2015-07-15 17:49:31,059 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,059 - nb_debug - INFO - loop 49 size 0.5 data set letter ml nb
+2015-07-15 17:49:31,095 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,097 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:31,097 - nb_debug - INFO - ***** start size 0.25
+2015-07-15 17:49:31,106 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:31,106 - nb_debug - INFO - start cross val
+2015-07-15 17:49:31,178 - nb_debug - INFO - end cross val
+2015-07-15 17:49:31,179 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:31,179 - nb_debug - INFO - loop 0 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,210 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,210 - nb_debug - INFO - loop 1 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,241 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,241 - nb_debug - INFO - loop 2 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,272 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,272 - nb_debug - INFO - loop 3 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,302 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,303 - nb_debug - INFO - loop 4 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,334 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,334 - nb_debug - INFO - loop 5 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,365 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,365 - nb_debug - INFO - loop 6 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,396 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,396 - nb_debug - INFO - loop 7 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,427 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,427 - nb_debug - INFO - loop 8 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,458 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,458 - nb_debug - INFO - loop 9 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,489 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,489 - nb_debug - INFO - loop 10 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,520 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,520 - nb_debug - INFO - loop 11 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,552 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,552 - nb_debug - INFO - loop 12 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,583 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,583 - nb_debug - INFO - loop 13 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,614 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,614 - nb_debug - INFO - loop 14 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,645 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,645 - nb_debug - INFO - loop 15 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,676 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,676 - nb_debug - INFO - loop 16 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,706 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,706 - nb_debug - INFO - loop 17 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,737 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,738 - nb_debug - INFO - loop 18 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,768 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,769 - nb_debug - INFO - loop 19 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,799 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,799 - nb_debug - INFO - loop 20 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,830 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,830 - nb_debug - INFO - loop 21 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,862 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,862 - nb_debug - INFO - loop 22 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,893 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,894 - nb_debug - INFO - loop 23 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,924 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,925 - nb_debug - INFO - loop 24 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,956 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,957 - nb_debug - INFO - loop 25 size 0.25 data set letter ml nb
+2015-07-15 17:49:31,988 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:31,988 - nb_debug - INFO - loop 26 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,019 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,019 - nb_debug - INFO - loop 27 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,049 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,050 - nb_debug - INFO - loop 28 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,080 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,081 - nb_debug - INFO - loop 29 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,111 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,111 - nb_debug - INFO - loop 30 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,142 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,143 - nb_debug - INFO - loop 31 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,173 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,174 - nb_debug - INFO - loop 32 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,204 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,205 - nb_debug - INFO - loop 33 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,235 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,236 - nb_debug - INFO - loop 34 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,266 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,267 - nb_debug - INFO - loop 35 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,297 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,298 - nb_debug - INFO - loop 36 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,328 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,329 - nb_debug - INFO - loop 37 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,360 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,360 - nb_debug - INFO - loop 38 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,391 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,392 - nb_debug - INFO - loop 39 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,423 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,423 - nb_debug - INFO - loop 40 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,453 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,453 - nb_debug - INFO - loop 41 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,485 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,485 - nb_debug - INFO - loop 42 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,516 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,516 - nb_debug - INFO - loop 43 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,547 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,547 - nb_debug - INFO - loop 44 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,579 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,579 - nb_debug - INFO - loop 45 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,610 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,610 - nb_debug - INFO - loop 46 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,641 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,641 - nb_debug - INFO - loop 47 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,671 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,672 - nb_debug - INFO - loop 48 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,702 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,703 - nb_debug - INFO - loop 49 size 0.25 data set letter ml nb
+2015-07-15 17:49:32,733 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,736 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:32,736 - nb_debug - INFO - ******* end data set
+2015-07-15 17:49:32,736 - nb_debug - INFO - ***** start austra
+2015-07-15 17:49:32,736 - nb_debug - INFO - ***** start size 0.75
+2015-07-15 17:49:32,737 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:32,737 - nb_debug - INFO - start cross val
+2015-07-15 17:49:32,746 - nb_debug - INFO - end cross val
+2015-07-15 17:49:32,746 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:32,746 - nb_debug - INFO - loop 0 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,752 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,752 - nb_debug - INFO - loop 1 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,757 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,757 - nb_debug - INFO - loop 2 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,762 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,763 - nb_debug - INFO - loop 3 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,768 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,768 - nb_debug - INFO - loop 4 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,773 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,773 - nb_debug - INFO - loop 5 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,779 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,779 - nb_debug - INFO - loop 6 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,784 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,784 - nb_debug - INFO - loop 7 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,789 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,790 - nb_debug - INFO - loop 8 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,795 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,795 - nb_debug - INFO - loop 9 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,800 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,801 - nb_debug - INFO - loop 10 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,806 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,806 - nb_debug - INFO - loop 11 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,811 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,812 - nb_debug - INFO - loop 12 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,817 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,817 - nb_debug - INFO - loop 13 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,822 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,822 - nb_debug - INFO - loop 14 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,827 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,828 - nb_debug - INFO - loop 15 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,833 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,833 - nb_debug - INFO - loop 16 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,838 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,838 - nb_debug - INFO - loop 17 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,844 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,844 - nb_debug - INFO - loop 18 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,849 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,849 - nb_debug - INFO - loop 19 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,855 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,855 - nb_debug - INFO - loop 20 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,860 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,860 - nb_debug - INFO - loop 21 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,865 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,866 - nb_debug - INFO - loop 22 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,871 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,871 - nb_debug - INFO - loop 23 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,876 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,876 - nb_debug - INFO - loop 24 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,882 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,882 - nb_debug - INFO - loop 25 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,887 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,887 - nb_debug - INFO - loop 26 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,893 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,893 - nb_debug - INFO - loop 27 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,898 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,898 - nb_debug - INFO - loop 28 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,904 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,904 - nb_debug - INFO - loop 29 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,909 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,909 - nb_debug - INFO - loop 30 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,915 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,915 - nb_debug - INFO - loop 31 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,920 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,920 - nb_debug - INFO - loop 32 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,926 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,926 - nb_debug - INFO - loop 33 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,931 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,931 - nb_debug - INFO - loop 34 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,936 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,937 - nb_debug - INFO - loop 35 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,942 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,942 - nb_debug - INFO - loop 36 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,947 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,947 - nb_debug - INFO - loop 37 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,953 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,953 - nb_debug - INFO - loop 38 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,958 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,958 - nb_debug - INFO - loop 39 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,964 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,964 - nb_debug - INFO - loop 40 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,969 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,969 - nb_debug - INFO - loop 41 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,974 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,975 - nb_debug - INFO - loop 42 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,980 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,980 - nb_debug - INFO - loop 43 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,985 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,986 - nb_debug - INFO - loop 44 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,991 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,991 - nb_debug - INFO - loop 45 size 0.75 data set austra ml nb
+2015-07-15 17:49:32,996 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:32,996 - nb_debug - INFO - loop 46 size 0.75 data set austra ml nb
+2015-07-15 17:49:33,001 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,002 - nb_debug - INFO - loop 47 size 0.75 data set austra ml nb
+2015-07-15 17:49:33,007 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,008 - nb_debug - INFO - loop 48 size 0.75 data set austra ml nb
+2015-07-15 17:49:33,013 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,013 - nb_debug - INFO - loop 49 size 0.75 data set austra ml nb
+2015-07-15 17:49:33,019 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,021 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:33,021 - nb_debug - INFO - ***** start size 0.5
+2015-07-15 17:49:33,022 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:33,022 - nb_debug - INFO - start cross val
+2015-07-15 17:49:33,031 - nb_debug - INFO - end cross val
+2015-07-15 17:49:33,032 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:33,032 - nb_debug - INFO - loop 0 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,037 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,037 - nb_debug - INFO - loop 1 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,042 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,042 - nb_debug - INFO - loop 2 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,048 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,048 - nb_debug - INFO - loop 3 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,053 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,053 - nb_debug - INFO - loop 4 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,058 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,058 - nb_debug - INFO - loop 5 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,063 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,064 - nb_debug - INFO - loop 6 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,069 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,069 - nb_debug - INFO - loop 7 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,074 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,074 - nb_debug - INFO - loop 8 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,079 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,079 - nb_debug - INFO - loop 9 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,084 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,084 - nb_debug - INFO - loop 10 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,090 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,090 - nb_debug - INFO - loop 11 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,095 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,095 - nb_debug - INFO - loop 12 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,100 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,101 - nb_debug - INFO - loop 13 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,106 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,106 - nb_debug - INFO - loop 14 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,111 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,112 - nb_debug - INFO - loop 15 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,117 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,117 - nb_debug - INFO - loop 16 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,122 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,123 - nb_debug - INFO - loop 17 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,128 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,128 - nb_debug - INFO - loop 18 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,133 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,133 - nb_debug - INFO - loop 19 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,138 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,138 - nb_debug - INFO - loop 20 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,144 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,144 - nb_debug - INFO - loop 21 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,149 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,149 - nb_debug - INFO - loop 22 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,155 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,155 - nb_debug - INFO - loop 23 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,160 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,160 - nb_debug - INFO - loop 24 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,165 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,166 - nb_debug - INFO - loop 25 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,171 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,171 - nb_debug - INFO - loop 26 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,177 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,177 - nb_debug - INFO - loop 27 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,182 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,183 - nb_debug - INFO - loop 28 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,188 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,188 - nb_debug - INFO - loop 29 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,193 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,193 - nb_debug - INFO - loop 30 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,198 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,199 - nb_debug - INFO - loop 31 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,204 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,204 - nb_debug - INFO - loop 32 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,209 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,209 - nb_debug - INFO - loop 33 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,214 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,214 - nb_debug - INFO - loop 34 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,220 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,220 - nb_debug - INFO - loop 35 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,225 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,226 - nb_debug - INFO - loop 36 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,231 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,231 - nb_debug - INFO - loop 37 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,236 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,236 - nb_debug - INFO - loop 38 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,241 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,241 - nb_debug - INFO - loop 39 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,246 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,247 - nb_debug - INFO - loop 40 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,252 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,252 - nb_debug - INFO - loop 41 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,257 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,257 - nb_debug - INFO - loop 42 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,262 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,262 - nb_debug - INFO - loop 43 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,267 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,267 - nb_debug - INFO - loop 44 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,272 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,273 - nb_debug - INFO - loop 45 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,278 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,278 - nb_debug - INFO - loop 46 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,283 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,283 - nb_debug - INFO - loop 47 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,288 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,288 - nb_debug - INFO - loop 48 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,293 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,293 - nb_debug - INFO - loop 49 size 0.5 data set austra ml nb
+2015-07-15 17:49:33,298 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,300 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:33,301 - nb_debug - INFO - ***** start size 0.25
+2015-07-15 17:49:33,301 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:33,301 - nb_debug - INFO - start cross val
+2015-07-15 17:49:33,312 - nb_debug - INFO - end cross val
+2015-07-15 17:49:33,312 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:33,312 - nb_debug - INFO - loop 0 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,317 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,317 - nb_debug - INFO - loop 1 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,322 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,322 - nb_debug - INFO - loop 2 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,327 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,327 - nb_debug - INFO - loop 3 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,332 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,333 - nb_debug - INFO - loop 4 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,337 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,338 - nb_debug - INFO - loop 5 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,342 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,343 - nb_debug - INFO - loop 6 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,348 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,348 - nb_debug - INFO - loop 7 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,353 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,353 - nb_debug - INFO - loop 8 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,358 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,358 - nb_debug - INFO - loop 9 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,363 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,363 - nb_debug - INFO - loop 10 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,368 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,368 - nb_debug - INFO - loop 11 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,373 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,373 - nb_debug - INFO - loop 12 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,378 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,378 - nb_debug - INFO - loop 13 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,383 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,383 - nb_debug - INFO - loop 14 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,388 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,388 - nb_debug - INFO - loop 15 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,393 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,393 - nb_debug - INFO - loop 16 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,398 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,398 - nb_debug - INFO - loop 17 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,403 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,403 - nb_debug - INFO - loop 18 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,408 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,408 - nb_debug - INFO - loop 19 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,413 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,413 - nb_debug - INFO - loop 20 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,418 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,418 - nb_debug - INFO - loop 21 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,423 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,423 - nb_debug - INFO - loop 22 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,428 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,428 - nb_debug - INFO - loop 23 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,433 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,434 - nb_debug - INFO - loop 24 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,439 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,439 - nb_debug - INFO - loop 25 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,444 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,444 - nb_debug - INFO - loop 26 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,449 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,449 - nb_debug - INFO - loop 27 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,454 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,454 - nb_debug - INFO - loop 28 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,459 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,459 - nb_debug - INFO - loop 29 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,464 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,464 - nb_debug - INFO - loop 30 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,469 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,469 - nb_debug - INFO - loop 31 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,474 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,475 - nb_debug - INFO - loop 32 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,479 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,480 - nb_debug - INFO - loop 33 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,484 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,485 - nb_debug - INFO - loop 34 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,490 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,490 - nb_debug - INFO - loop 35 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,495 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,495 - nb_debug - INFO - loop 36 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,500 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,500 - nb_debug - INFO - loop 37 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,505 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,505 - nb_debug - INFO - loop 38 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,510 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,510 - nb_debug - INFO - loop 39 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,515 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,515 - nb_debug - INFO - loop 40 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,520 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,520 - nb_debug - INFO - loop 41 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,525 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,525 - nb_debug - INFO - loop 42 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,530 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,530 - nb_debug - INFO - loop 43 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,535 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,535 - nb_debug - INFO - loop 44 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,541 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,541 - nb_debug - INFO - loop 45 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,546 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,546 - nb_debug - INFO - loop 46 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,551 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,551 - nb_debug - INFO - loop 47 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,556 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,556 - nb_debug - INFO - loop 48 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,561 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,561 - nb_debug - INFO - loop 49 size 0.25 data set austra ml nb
+2015-07-15 17:49:33,566 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,568 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:33,568 - nb_debug - INFO - ******* end data set
+2015-07-15 17:49:33,568 - nb_debug - INFO - ***** start german
+2015-07-15 17:49:33,568 - nb_debug - INFO - ***** start size 0.75
+2015-07-15 17:49:33,569 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:33,569 - nb_debug - INFO - start cross val
+2015-07-15 17:49:33,579 - nb_debug - INFO - end cross val
+2015-07-15 17:49:33,579 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:33,579 - nb_debug - INFO - loop 0 size 0.75 data set german ml nb
+2015-07-15 17:49:33,585 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,586 - nb_debug - INFO - loop 1 size 0.75 data set german ml nb
+2015-07-15 17:49:33,591 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,592 - nb_debug - INFO - loop 2 size 0.75 data set german ml nb
+2015-07-15 17:49:33,598 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,598 - nb_debug - INFO - loop 3 size 0.75 data set german ml nb
+2015-07-15 17:49:33,604 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,604 - nb_debug - INFO - loop 4 size 0.75 data set german ml nb
+2015-07-15 17:49:33,610 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,611 - nb_debug - INFO - loop 5 size 0.75 data set german ml nb
+2015-07-15 17:49:33,617 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,617 - nb_debug - INFO - loop 6 size 0.75 data set german ml nb
+2015-07-15 17:49:33,623 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,623 - nb_debug - INFO - loop 7 size 0.75 data set german ml nb
+2015-07-15 17:49:33,629 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,629 - nb_debug - INFO - loop 8 size 0.75 data set german ml nb
+2015-07-15 17:49:33,635 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,636 - nb_debug - INFO - loop 9 size 0.75 data set german ml nb
+2015-07-15 17:49:33,642 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,642 - nb_debug - INFO - loop 10 size 0.75 data set german ml nb
+2015-07-15 17:49:33,648 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,648 - nb_debug - INFO - loop 11 size 0.75 data set german ml nb
+2015-07-15 17:49:33,654 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,654 - nb_debug - INFO - loop 12 size 0.75 data set german ml nb
+2015-07-15 17:49:33,660 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,661 - nb_debug - INFO - loop 13 size 0.75 data set german ml nb
+2015-07-15 17:49:33,667 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,667 - nb_debug - INFO - loop 14 size 0.75 data set german ml nb
+2015-07-15 17:49:33,673 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,673 - nb_debug - INFO - loop 15 size 0.75 data set german ml nb
+2015-07-15 17:49:33,679 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,679 - nb_debug - INFO - loop 16 size 0.75 data set german ml nb
+2015-07-15 17:49:33,685 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,685 - nb_debug - INFO - loop 17 size 0.75 data set german ml nb
+2015-07-15 17:49:33,691 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,691 - nb_debug - INFO - loop 18 size 0.75 data set german ml nb
+2015-07-15 17:49:33,698 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,698 - nb_debug - INFO - loop 19 size 0.75 data set german ml nb
+2015-07-15 17:49:33,704 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,704 - nb_debug - INFO - loop 20 size 0.75 data set german ml nb
+2015-07-15 17:49:33,711 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,711 - nb_debug - INFO - loop 21 size 0.75 data set german ml nb
+2015-07-15 17:49:33,718 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,718 - nb_debug - INFO - loop 22 size 0.75 data set german ml nb
+2015-07-15 17:49:33,725 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,725 - nb_debug - INFO - loop 23 size 0.75 data set german ml nb
+2015-07-15 17:49:33,732 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,732 - nb_debug - INFO - loop 24 size 0.75 data set german ml nb
+2015-07-15 17:49:33,739 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,739 - nb_debug - INFO - loop 25 size 0.75 data set german ml nb
+2015-07-15 17:49:33,746 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,747 - nb_debug - INFO - loop 26 size 0.75 data set german ml nb
+2015-07-15 17:49:33,754 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,754 - nb_debug - INFO - loop 27 size 0.75 data set german ml nb
+2015-07-15 17:49:33,761 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,761 - nb_debug - INFO - loop 28 size 0.75 data set german ml nb
+2015-07-15 17:49:33,768 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,768 - nb_debug - INFO - loop 29 size 0.75 data set german ml nb
+2015-07-15 17:49:33,775 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,775 - nb_debug - INFO - loop 30 size 0.75 data set german ml nb
+2015-07-15 17:49:33,783 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,783 - nb_debug - INFO - loop 31 size 0.75 data set german ml nb
+2015-07-15 17:49:33,790 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,790 - nb_debug - INFO - loop 32 size 0.75 data set german ml nb
+2015-07-15 17:49:33,796 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,797 - nb_debug - INFO - loop 33 size 0.75 data set german ml nb
+2015-07-15 17:49:33,803 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,804 - nb_debug - INFO - loop 34 size 0.75 data set german ml nb
+2015-07-15 17:49:33,810 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,810 - nb_debug - INFO - loop 35 size 0.75 data set german ml nb
+2015-07-15 17:49:33,817 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,817 - nb_debug - INFO - loop 36 size 0.75 data set german ml nb
+2015-07-15 17:49:33,824 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,824 - nb_debug - INFO - loop 37 size 0.75 data set german ml nb
+2015-07-15 17:49:33,831 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,831 - nb_debug - INFO - loop 38 size 0.75 data set german ml nb
+2015-07-15 17:49:33,838 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,838 - nb_debug - INFO - loop 39 size 0.75 data set german ml nb
+2015-07-15 17:49:33,845 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,845 - nb_debug - INFO - loop 40 size 0.75 data set german ml nb
+2015-07-15 17:49:33,852 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,852 - nb_debug - INFO - loop 41 size 0.75 data set german ml nb
+2015-07-15 17:49:33,858 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,858 - nb_debug - INFO - loop 42 size 0.75 data set german ml nb
+2015-07-15 17:49:33,864 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,865 - nb_debug - INFO - loop 43 size 0.75 data set german ml nb
+2015-07-15 17:49:33,871 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,871 - nb_debug - INFO - loop 44 size 0.75 data set german ml nb
+2015-07-15 17:49:33,877 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,877 - nb_debug - INFO - loop 45 size 0.75 data set german ml nb
+2015-07-15 17:49:33,883 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,883 - nb_debug - INFO - loop 46 size 0.75 data set german ml nb
+2015-07-15 17:49:33,889 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,889 - nb_debug - INFO - loop 47 size 0.75 data set german ml nb
+2015-07-15 17:49:33,895 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,896 - nb_debug - INFO - loop 48 size 0.75 data set german ml nb
+2015-07-15 17:49:33,902 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,902 - nb_debug - INFO - loop 49 size 0.75 data set german ml nb
+2015-07-15 17:49:33,908 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,910 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:33,910 - nb_debug - INFO - ***** start size 0.5
+2015-07-15 17:49:33,911 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:33,911 - nb_debug - INFO - start cross val
+2015-07-15 17:49:33,922 - nb_debug - INFO - end cross val
+2015-07-15 17:49:33,922 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:33,922 - nb_debug - INFO - loop 0 size 0.5 data set german ml nb
+2015-07-15 17:49:33,928 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,928 - nb_debug - INFO - loop 1 size 0.5 data set german ml nb
+2015-07-15 17:49:33,934 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,935 - nb_debug - INFO - loop 2 size 0.5 data set german ml nb
+2015-07-15 17:49:33,940 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,941 - nb_debug - INFO - loop 3 size 0.5 data set german ml nb
+2015-07-15 17:49:33,946 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,947 - nb_debug - INFO - loop 4 size 0.5 data set german ml nb
+2015-07-15 17:49:33,952 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,953 - nb_debug - INFO - loop 5 size 0.5 data set german ml nb
+2015-07-15 17:49:33,959 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,959 - nb_debug - INFO - loop 6 size 0.5 data set german ml nb
+2015-07-15 17:49:33,965 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,965 - nb_debug - INFO - loop 7 size 0.5 data set german ml nb
+2015-07-15 17:49:33,971 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,971 - nb_debug - INFO - loop 8 size 0.5 data set german ml nb
+2015-07-15 17:49:33,977 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,977 - nb_debug - INFO - loop 9 size 0.5 data set german ml nb
+2015-07-15 17:49:33,983 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,983 - nb_debug - INFO - loop 10 size 0.5 data set german ml nb
+2015-07-15 17:49:33,989 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,989 - nb_debug - INFO - loop 11 size 0.5 data set german ml nb
+2015-07-15 17:49:33,995 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:33,995 - nb_debug - INFO - loop 12 size 0.5 data set german ml nb
+2015-07-15 17:49:34,000 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,001 - nb_debug - INFO - loop 13 size 0.5 data set german ml nb
+2015-07-15 17:49:34,006 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,006 - nb_debug - INFO - loop 14 size 0.5 data set german ml nb
+2015-07-15 17:49:34,013 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,013 - nb_debug - INFO - loop 15 size 0.5 data set german ml nb
+2015-07-15 17:49:34,019 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,019 - nb_debug - INFO - loop 16 size 0.5 data set german ml nb
+2015-07-15 17:49:34,025 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,025 - nb_debug - INFO - loop 17 size 0.5 data set german ml nb
+2015-07-15 17:49:34,031 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,031 - nb_debug - INFO - loop 18 size 0.5 data set german ml nb
+2015-07-15 17:49:34,037 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,037 - nb_debug - INFO - loop 19 size 0.5 data set german ml nb
+2015-07-15 17:49:34,043 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,043 - nb_debug - INFO - loop 20 size 0.5 data set german ml nb
+2015-07-15 17:49:34,049 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,049 - nb_debug - INFO - loop 21 size 0.5 data set german ml nb
+2015-07-15 17:49:34,055 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,055 - nb_debug - INFO - loop 22 size 0.5 data set german ml nb
+2015-07-15 17:49:34,061 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,061 - nb_debug - INFO - loop 23 size 0.5 data set german ml nb
+2015-07-15 17:49:34,067 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,067 - nb_debug - INFO - loop 24 size 0.5 data set german ml nb
+2015-07-15 17:49:34,073 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,073 - nb_debug - INFO - loop 25 size 0.5 data set german ml nb
+2015-07-15 17:49:34,079 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,080 - nb_debug - INFO - loop 26 size 0.5 data set german ml nb
+2015-07-15 17:49:34,085 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,085 - nb_debug - INFO - loop 27 size 0.5 data set german ml nb
+2015-07-15 17:49:34,091 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,091 - nb_debug - INFO - loop 28 size 0.5 data set german ml nb
+2015-07-15 17:49:34,097 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,098 - nb_debug - INFO - loop 29 size 0.5 data set german ml nb
+2015-07-15 17:49:34,103 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,104 - nb_debug - INFO - loop 30 size 0.5 data set german ml nb
+2015-07-15 17:49:34,109 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,110 - nb_debug - INFO - loop 31 size 0.5 data set german ml nb
+2015-07-15 17:49:34,116 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,116 - nb_debug - INFO - loop 32 size 0.5 data set german ml nb
+2015-07-15 17:49:34,122 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,122 - nb_debug - INFO - loop 33 size 0.5 data set german ml nb
+2015-07-15 17:49:34,128 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,128 - nb_debug - INFO - loop 34 size 0.5 data set german ml nb
+2015-07-15 17:49:34,134 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,134 - nb_debug - INFO - loop 35 size 0.5 data set german ml nb
+2015-07-15 17:49:34,140 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,140 - nb_debug - INFO - loop 36 size 0.5 data set german ml nb
+2015-07-15 17:49:34,146 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,146 - nb_debug - INFO - loop 37 size 0.5 data set german ml nb
+2015-07-15 17:49:34,152 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,152 - nb_debug - INFO - loop 38 size 0.5 data set german ml nb
+2015-07-15 17:49:34,158 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,158 - nb_debug - INFO - loop 39 size 0.5 data set german ml nb
+2015-07-15 17:49:34,164 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,164 - nb_debug - INFO - loop 40 size 0.5 data set german ml nb
+2015-07-15 17:49:34,170 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,170 - nb_debug - INFO - loop 41 size 0.5 data set german ml nb
+2015-07-15 17:49:34,176 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,176 - nb_debug - INFO - loop 42 size 0.5 data set german ml nb
+2015-07-15 17:49:34,182 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,182 - nb_debug - INFO - loop 43 size 0.5 data set german ml nb
+2015-07-15 17:49:34,188 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,188 - nb_debug - INFO - loop 44 size 0.5 data set german ml nb
+2015-07-15 17:49:34,194 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,194 - nb_debug - INFO - loop 45 size 0.5 data set german ml nb
+2015-07-15 17:49:34,200 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,200 - nb_debug - INFO - loop 46 size 0.5 data set german ml nb
+2015-07-15 17:49:34,206 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,207 - nb_debug - INFO - loop 47 size 0.5 data set german ml nb
+2015-07-15 17:49:34,213 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,213 - nb_debug - INFO - loop 48 size 0.5 data set german ml nb
+2015-07-15 17:49:34,219 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,219 - nb_debug - INFO - loop 49 size 0.5 data set german ml nb
+2015-07-15 17:49:34,225 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,227 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:34,227 - nb_debug - INFO - ***** start size 0.25
+2015-07-15 17:49:34,228 - nb_debug - INFO - ********* start cross validation
+2015-07-15 17:49:34,228 - nb_debug - INFO - start cross val
+2015-07-15 17:49:34,241 - nb_debug - INFO - end cross val
+2015-07-15 17:49:34,241 - nb_debug - INFO - ************* end cross validation
+2015-07-15 17:49:34,241 - nb_debug - INFO - loop 0 size 0.25 data set german ml nb
+2015-07-15 17:49:34,247 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,247 - nb_debug - INFO - loop 1 size 0.25 data set german ml nb
+2015-07-15 17:49:34,253 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,253 - nb_debug - INFO - loop 2 size 0.25 data set german ml nb
+2015-07-15 17:49:34,258 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,259 - nb_debug - INFO - loop 3 size 0.25 data set german ml nb
+2015-07-15 17:49:34,264 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,265 - nb_debug - INFO - loop 4 size 0.25 data set german ml nb
+2015-07-15 17:49:34,270 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,270 - nb_debug - INFO - loop 5 size 0.25 data set german ml nb
+2015-07-15 17:49:34,276 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,276 - nb_debug - INFO - loop 6 size 0.25 data set german ml nb
+2015-07-15 17:49:34,282 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,282 - nb_debug - INFO - loop 7 size 0.25 data set german ml nb
+2015-07-15 17:49:34,288 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,288 - nb_debug - INFO - loop 8 size 0.25 data set german ml nb
+2015-07-15 17:49:34,294 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,294 - nb_debug - INFO - loop 9 size 0.25 data set german ml nb
+2015-07-15 17:49:34,300 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,300 - nb_debug - INFO - loop 10 size 0.25 data set german ml nb
+2015-07-15 17:49:34,306 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,306 - nb_debug - INFO - loop 11 size 0.25 data set german ml nb
+2015-07-15 17:49:34,312 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,312 - nb_debug - INFO - loop 12 size 0.25 data set german ml nb
+2015-07-15 17:49:34,318 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,318 - nb_debug - INFO - loop 13 size 0.25 data set german ml nb
+2015-07-15 17:49:34,323 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,324 - nb_debug - INFO - loop 14 size 0.25 data set german ml nb
+2015-07-15 17:49:34,330 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,330 - nb_debug - INFO - loop 15 size 0.25 data set german ml nb
+2015-07-15 17:49:34,336 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,336 - nb_debug - INFO - loop 16 size 0.25 data set german ml nb
+2015-07-15 17:49:34,342 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,342 - nb_debug - INFO - loop 17 size 0.25 data set german ml nb
+2015-07-15 17:49:34,348 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,348 - nb_debug - INFO - loop 18 size 0.25 data set german ml nb
+2015-07-15 17:49:34,354 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,354 - nb_debug - INFO - loop 19 size 0.25 data set german ml nb
+2015-07-15 17:49:34,360 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,360 - nb_debug - INFO - loop 20 size 0.25 data set german ml nb
+2015-07-15 17:49:34,366 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,366 - nb_debug - INFO - loop 21 size 0.25 data set german ml nb
+2015-07-15 17:49:34,372 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,372 - nb_debug - INFO - loop 22 size 0.25 data set german ml nb
+2015-07-15 17:49:34,378 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,379 - nb_debug - INFO - loop 23 size 0.25 data set german ml nb
+2015-07-15 17:49:34,384 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,385 - nb_debug - INFO - loop 24 size 0.25 data set german ml nb
+2015-07-15 17:49:34,390 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,390 - nb_debug - INFO - loop 25 size 0.25 data set german ml nb
+2015-07-15 17:49:34,396 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,396 - nb_debug - INFO - loop 26 size 0.25 data set german ml nb
+2015-07-15 17:49:34,402 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,402 - nb_debug - INFO - loop 27 size 0.25 data set german ml nb
+2015-07-15 17:49:34,408 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,408 - nb_debug - INFO - loop 28 size 0.25 data set german ml nb
+2015-07-15 17:49:34,414 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,414 - nb_debug - INFO - loop 29 size 0.25 data set german ml nb
+2015-07-15 17:49:34,419 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,420 - nb_debug - INFO - loop 30 size 0.25 data set german ml nb
+2015-07-15 17:49:34,425 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,425 - nb_debug - INFO - loop 31 size 0.25 data set german ml nb
+2015-07-15 17:49:34,431 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,431 - nb_debug - INFO - loop 32 size 0.25 data set german ml nb
+2015-07-15 17:49:34,437 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,437 - nb_debug - INFO - loop 33 size 0.25 data set german ml nb
+2015-07-15 17:49:34,443 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,443 - nb_debug - INFO - loop 34 size 0.25 data set german ml nb
+2015-07-15 17:49:34,449 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,449 - nb_debug - INFO - loop 35 size 0.25 data set german ml nb
+2015-07-15 17:49:34,455 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,455 - nb_debug - INFO - loop 36 size 0.25 data set german ml nb
+2015-07-15 17:49:34,461 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,461 - nb_debug - INFO - loop 37 size 0.25 data set german ml nb
+2015-07-15 17:49:34,466 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,466 - nb_debug - INFO - loop 38 size 0.25 data set german ml nb
+2015-07-15 17:49:34,472 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,472 - nb_debug - INFO - loop 39 size 0.25 data set german ml nb
+2015-07-15 17:49:34,478 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,478 - nb_debug - INFO - loop 40 size 0.25 data set german ml nb
+2015-07-15 17:49:34,483 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,484 - nb_debug - INFO - loop 41 size 0.25 data set german ml nb
+2015-07-15 17:49:34,490 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,490 - nb_debug - INFO - loop 42 size 0.25 data set german ml nb
+2015-07-15 17:49:34,495 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,496 - nb_debug - INFO - loop 43 size 0.25 data set german ml nb
+2015-07-15 17:49:34,501 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,502 - nb_debug - INFO - loop 44 size 0.25 data set german ml nb
+2015-07-15 17:49:34,507 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,507 - nb_debug - INFO - loop 45 size 0.25 data set german ml nb
+2015-07-15 17:49:34,513 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,513 - nb_debug - INFO - loop 46 size 0.25 data set german ml nb
+2015-07-15 17:49:34,519 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,519 - nb_debug - INFO - loop 47 size 0.25 data set german ml nb
+2015-07-15 17:49:34,525 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,525 - nb_debug - INFO - loop 48 size 0.25 data set german ml nb
+2015-07-15 17:49:34,531 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,531 - nb_debug - INFO - loop 49 size 0.25 data set german ml nb
+2015-07-15 17:49:34,537 - nb_debug - INFO - ------------- end loop -----
+2015-07-15 17:49:34,539 - nb_debug - INFO - *********** end size
+2015-07-15 17:49:34,539 - nb_debug - INFO - ******* end data set
+2015-07-15 17:49:34,539 - nb_debug - INFO - ************ end ml

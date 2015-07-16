@@ -1,0 +1,1872 @@
+2015-07-15 17:49:22,521 - randomforest_debug - INFO - *************************************** randomforest
+2015-07-15 17:49:22,521 - randomforest_debug - INFO - ***** start adult
+2015-07-15 17:49:22,522 - randomforest_debug - INFO - ***** start size 0.75
+2015-07-15 17:49:22,529 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 17:49:22,530 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:22,617 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:22,617 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:22,772 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:22,773 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:23,051 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:23,051 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:23,608 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:23,608 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:24,712 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:24,712 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:26,870 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:26,871 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:31,978 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:31,978 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:40,587 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:40,587 - randomforest_debug - INFO - start cross val
+2015-07-15 17:49:57,658 - randomforest_debug - INFO - end cross val
+2015-07-15 17:49:57,658 - randomforest_debug - INFO - start cross val
+2015-07-15 17:50:31,645 - randomforest_debug - INFO - end cross val
+2015-07-15 17:50:31,648 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 17:50:31,648 - randomforest_debug - INFO - loop 0 size 0.75 data set adult ml randomforest
+2015-07-15 17:50:37,367 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:50:37,368 - randomforest_debug - INFO - loop 1 size 0.75 data set adult ml randomforest
+2015-07-15 17:50:43,025 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:50:43,025 - randomforest_debug - INFO - loop 2 size 0.75 data set adult ml randomforest
+2015-07-15 17:50:48,678 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:50:48,678 - randomforest_debug - INFO - loop 3 size 0.75 data set adult ml randomforest
+2015-07-15 17:50:54,314 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:50:54,314 - randomforest_debug - INFO - loop 4 size 0.75 data set adult ml randomforest
+2015-07-15 17:50:59,965 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:50:59,965 - randomforest_debug - INFO - loop 5 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:05,807 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:05,807 - randomforest_debug - INFO - loop 6 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:11,458 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:11,458 - randomforest_debug - INFO - loop 7 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:17,200 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:17,201 - randomforest_debug - INFO - loop 8 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:22,966 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:22,966 - randomforest_debug - INFO - loop 9 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:28,713 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:28,713 - randomforest_debug - INFO - loop 10 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:34,521 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:34,521 - randomforest_debug - INFO - loop 11 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:40,040 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:40,041 - randomforest_debug - INFO - loop 12 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:45,758 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:45,758 - randomforest_debug - INFO - loop 13 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:51,504 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:51,504 - randomforest_debug - INFO - loop 14 size 0.75 data set adult ml randomforest
+2015-07-15 17:51:57,162 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:51:57,162 - randomforest_debug - INFO - loop 15 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:02,795 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:02,795 - randomforest_debug - INFO - loop 16 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:08,231 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:08,231 - randomforest_debug - INFO - loop 17 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:13,725 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:13,725 - randomforest_debug - INFO - loop 18 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:19,228 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:19,228 - randomforest_debug - INFO - loop 19 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:24,793 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:24,793 - randomforest_debug - INFO - loop 20 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:30,307 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:30,307 - randomforest_debug - INFO - loop 21 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:35,761 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:35,761 - randomforest_debug - INFO - loop 22 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:41,287 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:41,287 - randomforest_debug - INFO - loop 23 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:46,794 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:46,794 - randomforest_debug - INFO - loop 24 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:52,399 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:52,399 - randomforest_debug - INFO - loop 25 size 0.75 data set adult ml randomforest
+2015-07-15 17:52:58,051 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:52:58,051 - randomforest_debug - INFO - loop 26 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:03,689 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:03,689 - randomforest_debug - INFO - loop 27 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:09,225 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:09,225 - randomforest_debug - INFO - loop 28 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:14,792 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:14,792 - randomforest_debug - INFO - loop 29 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:20,324 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:20,325 - randomforest_debug - INFO - loop 30 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:26,008 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:26,008 - randomforest_debug - INFO - loop 31 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:31,533 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:31,533 - randomforest_debug - INFO - loop 32 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:37,077 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:37,077 - randomforest_debug - INFO - loop 33 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:42,540 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:42,540 - randomforest_debug - INFO - loop 34 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:48,020 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:48,020 - randomforest_debug - INFO - loop 35 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:53,598 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:53,598 - randomforest_debug - INFO - loop 36 size 0.75 data set adult ml randomforest
+2015-07-15 17:53:59,144 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:53:59,145 - randomforest_debug - INFO - loop 37 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:04,545 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:04,545 - randomforest_debug - INFO - loop 38 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:10,116 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:10,116 - randomforest_debug - INFO - loop 39 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:15,670 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:15,670 - randomforest_debug - INFO - loop 40 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:21,148 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:21,148 - randomforest_debug - INFO - loop 41 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:26,580 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:26,580 - randomforest_debug - INFO - loop 42 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:32,187 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:32,187 - randomforest_debug - INFO - loop 43 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:37,685 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:37,685 - randomforest_debug - INFO - loop 44 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:43,085 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:43,085 - randomforest_debug - INFO - loop 45 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:48,615 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:48,615 - randomforest_debug - INFO - loop 46 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:54,097 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:54,097 - randomforest_debug - INFO - loop 47 size 0.75 data set adult ml randomforest
+2015-07-15 17:54:59,605 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:54:59,605 - randomforest_debug - INFO - loop 48 size 0.75 data set adult ml randomforest
+2015-07-15 17:55:05,117 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:55:05,117 - randomforest_debug - INFO - loop 49 size 0.75 data set adult ml randomforest
+2015-07-15 17:55:10,732 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:55:10,733 - randomforest_debug - INFO - *********** end size
+2015-07-15 17:55:10,733 - randomforest_debug - INFO - ***** start size 0.5
+2015-07-15 17:55:10,741 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 17:55:10,741 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:10,892 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:10,892 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:11,175 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:11,175 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:11,720 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:11,720 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:12,776 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:12,776 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:14,896 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:14,896 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:19,159 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:19,159 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:27,505 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:27,505 - randomforest_debug - INFO - start cross val
+2015-07-15 17:55:44,279 - randomforest_debug - INFO - end cross val
+2015-07-15 17:55:44,279 - randomforest_debug - INFO - start cross val
+2015-07-15 17:56:17,822 - randomforest_debug - INFO - end cross val
+2015-07-15 17:56:17,822 - randomforest_debug - INFO - start cross val
+2015-07-15 17:57:24,842 - randomforest_debug - INFO - end cross val
+2015-07-15 17:57:24,842 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 17:57:24,842 - randomforest_debug - INFO - loop 0 size 0.5 data set adult ml randomforest
+2015-07-15 17:57:34,382 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:57:34,382 - randomforest_debug - INFO - loop 1 size 0.5 data set adult ml randomforest
+2015-07-15 17:57:43,753 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:57:43,753 - randomforest_debug - INFO - loop 2 size 0.5 data set adult ml randomforest
+2015-07-15 17:57:53,211 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:57:53,211 - randomforest_debug - INFO - loop 3 size 0.5 data set adult ml randomforest
+2015-07-15 17:58:02,720 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:58:02,721 - randomforest_debug - INFO - loop 4 size 0.5 data set adult ml randomforest
+2015-07-15 17:58:12,118 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:58:12,118 - randomforest_debug - INFO - loop 5 size 0.5 data set adult ml randomforest
+2015-07-15 17:58:21,671 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:58:21,671 - randomforest_debug - INFO - loop 6 size 0.5 data set adult ml randomforest
+2015-07-15 17:58:31,160 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:58:31,160 - randomforest_debug - INFO - loop 7 size 0.5 data set adult ml randomforest
+2015-07-15 17:58:41,033 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:58:41,033 - randomforest_debug - INFO - loop 8 size 0.5 data set adult ml randomforest
+2015-07-15 17:58:50,927 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:58:50,927 - randomforest_debug - INFO - loop 9 size 0.5 data set adult ml randomforest
+2015-07-15 17:59:00,902 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:59:00,903 - randomforest_debug - INFO - loop 10 size 0.5 data set adult ml randomforest
+2015-07-15 17:59:10,725 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:59:10,725 - randomforest_debug - INFO - loop 11 size 0.5 data set adult ml randomforest
+2015-07-15 17:59:20,426 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:59:20,426 - randomforest_debug - INFO - loop 12 size 0.5 data set adult ml randomforest
+2015-07-15 17:59:30,344 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:59:30,344 - randomforest_debug - INFO - loop 13 size 0.5 data set adult ml randomforest
+2015-07-15 17:59:40,066 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:59:40,066 - randomforest_debug - INFO - loop 14 size 0.5 data set adult ml randomforest
+2015-07-15 17:59:49,786 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:59:49,786 - randomforest_debug - INFO - loop 15 size 0.5 data set adult ml randomforest
+2015-07-15 17:59:59,548 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 17:59:59,549 - randomforest_debug - INFO - loop 16 size 0.5 data set adult ml randomforest
+2015-07-15 18:00:09,350 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:00:09,351 - randomforest_debug - INFO - loop 17 size 0.5 data set adult ml randomforest
+2015-07-15 18:00:19,300 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:00:19,300 - randomforest_debug - INFO - loop 18 size 0.5 data set adult ml randomforest
+2015-07-15 18:00:29,054 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:00:29,055 - randomforest_debug - INFO - loop 19 size 0.5 data set adult ml randomforest
+2015-07-15 18:00:38,778 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:00:38,778 - randomforest_debug - INFO - loop 20 size 0.5 data set adult ml randomforest
+2015-07-15 18:00:48,472 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:00:48,472 - randomforest_debug - INFO - loop 21 size 0.5 data set adult ml randomforest
+2015-07-15 18:00:58,097 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:00:58,097 - randomforest_debug - INFO - loop 22 size 0.5 data set adult ml randomforest
+2015-07-15 18:01:07,727 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:01:07,727 - randomforest_debug - INFO - loop 23 size 0.5 data set adult ml randomforest
+2015-07-15 18:01:17,266 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:01:17,267 - randomforest_debug - INFO - loop 24 size 0.5 data set adult ml randomforest
+2015-07-15 18:01:26,937 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:01:26,938 - randomforest_debug - INFO - loop 25 size 0.5 data set adult ml randomforest
+2015-07-15 18:01:36,481 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:01:36,481 - randomforest_debug - INFO - loop 26 size 0.5 data set adult ml randomforest
+2015-07-15 18:01:46,184 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:01:46,184 - randomforest_debug - INFO - loop 27 size 0.5 data set adult ml randomforest
+2015-07-15 18:01:55,780 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:01:55,780 - randomforest_debug - INFO - loop 28 size 0.5 data set adult ml randomforest
+2015-07-15 18:02:05,511 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:02:05,511 - randomforest_debug - INFO - loop 29 size 0.5 data set adult ml randomforest
+2015-07-15 18:02:15,157 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:02:15,157 - randomforest_debug - INFO - loop 30 size 0.5 data set adult ml randomforest
+2015-07-15 18:02:24,749 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:02:24,749 - randomforest_debug - INFO - loop 31 size 0.5 data set adult ml randomforest
+2015-07-15 18:02:34,400 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:02:34,400 - randomforest_debug - INFO - loop 32 size 0.5 data set adult ml randomforest
+2015-07-15 18:02:44,052 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:02:44,052 - randomforest_debug - INFO - loop 33 size 0.5 data set adult ml randomforest
+2015-07-15 18:02:53,840 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:02:53,840 - randomforest_debug - INFO - loop 34 size 0.5 data set adult ml randomforest
+2015-07-15 18:03:03,547 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:03:03,547 - randomforest_debug - INFO - loop 35 size 0.5 data set adult ml randomforest
+2015-07-15 18:03:13,195 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:03:13,196 - randomforest_debug - INFO - loop 36 size 0.5 data set adult ml randomforest
+2015-07-15 18:03:22,999 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:03:22,999 - randomforest_debug - INFO - loop 37 size 0.5 data set adult ml randomforest
+2015-07-15 18:03:32,630 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:03:32,630 - randomforest_debug - INFO - loop 38 size 0.5 data set adult ml randomforest
+2015-07-15 18:03:42,169 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:03:42,170 - randomforest_debug - INFO - loop 39 size 0.5 data set adult ml randomforest
+2015-07-15 18:03:52,007 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:03:52,007 - randomforest_debug - INFO - loop 40 size 0.5 data set adult ml randomforest
+2015-07-15 18:04:01,623 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:04:01,623 - randomforest_debug - INFO - loop 41 size 0.5 data set adult ml randomforest
+2015-07-15 18:04:11,249 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:04:11,249 - randomforest_debug - INFO - loop 42 size 0.5 data set adult ml randomforest
+2015-07-15 18:04:20,902 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:04:20,902 - randomforest_debug - INFO - loop 43 size 0.5 data set adult ml randomforest
+2015-07-15 18:04:30,546 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:04:30,546 - randomforest_debug - INFO - loop 44 size 0.5 data set adult ml randomforest
+2015-07-15 18:04:40,173 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:04:40,173 - randomforest_debug - INFO - loop 45 size 0.5 data set adult ml randomforest
+2015-07-15 18:04:49,879 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:04:49,879 - randomforest_debug - INFO - loop 46 size 0.5 data set adult ml randomforest
+2015-07-15 18:04:59,533 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:04:59,533 - randomforest_debug - INFO - loop 47 size 0.5 data set adult ml randomforest
+2015-07-15 18:05:09,156 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:05:09,156 - randomforest_debug - INFO - loop 48 size 0.5 data set adult ml randomforest
+2015-07-15 18:05:18,715 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:05:18,716 - randomforest_debug - INFO - loop 49 size 0.5 data set adult ml randomforest
+2015-07-15 18:05:28,404 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:05:28,406 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:05:28,406 - randomforest_debug - INFO - ***** start size 0.25
+2015-07-15 18:05:28,413 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:05:28,413 - randomforest_debug - INFO - start cross val
+2015-07-15 18:05:28,650 - randomforest_debug - INFO - end cross val
+2015-07-15 18:05:28,650 - randomforest_debug - INFO - start cross val
+2015-07-15 18:05:29,090 - randomforest_debug - INFO - end cross val
+2015-07-15 18:05:29,090 - randomforest_debug - INFO - start cross val
+2015-07-15 18:05:29,965 - randomforest_debug - INFO - end cross val
+2015-07-15 18:05:29,965 - randomforest_debug - INFO - start cross val
+2015-07-15 18:05:31,793 - randomforest_debug - INFO - end cross val
+2015-07-15 18:05:31,793 - randomforest_debug - INFO - start cross val
+2015-07-15 18:05:35,177 - randomforest_debug - INFO - end cross val
+2015-07-15 18:05:35,177 - randomforest_debug - INFO - start cross val
+2015-07-15 18:05:41,976 - randomforest_debug - INFO - end cross val
+2015-07-15 18:05:41,976 - randomforest_debug - INFO - start cross val
+2015-07-15 18:05:55,538 - randomforest_debug - INFO - end cross val
+2015-07-15 18:05:55,538 - randomforest_debug - INFO - start cross val
+2015-07-15 18:06:22,541 - randomforest_debug - INFO - end cross val
+2015-07-15 18:06:22,541 - randomforest_debug - INFO - start cross val
+2015-07-15 18:07:16,269 - randomforest_debug - INFO - end cross val
+2015-07-15 18:07:16,269 - randomforest_debug - INFO - start cross val
+2015-07-15 18:09:04,418 - randomforest_debug - INFO - end cross val
+2015-07-15 18:09:04,418 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:09:04,442 - randomforest_debug - INFO - loop 0 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:11,329 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:11,329 - randomforest_debug - INFO - loop 1 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:18,197 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:18,197 - randomforest_debug - INFO - loop 2 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:25,076 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:25,076 - randomforest_debug - INFO - loop 3 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:31,960 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:31,960 - randomforest_debug - INFO - loop 4 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:38,788 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:38,788 - randomforest_debug - INFO - loop 5 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:45,625 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:45,625 - randomforest_debug - INFO - loop 6 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:52,488 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:52,488 - randomforest_debug - INFO - loop 7 size 0.25 data set adult ml randomforest
+2015-07-15 18:09:59,326 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:09:59,326 - randomforest_debug - INFO - loop 8 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:06,278 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:06,279 - randomforest_debug - INFO - loop 9 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:13,091 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:13,091 - randomforest_debug - INFO - loop 10 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:20,425 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:20,426 - randomforest_debug - INFO - loop 11 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:27,288 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:27,288 - randomforest_debug - INFO - loop 12 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:34,169 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:34,169 - randomforest_debug - INFO - loop 13 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:41,006 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:41,006 - randomforest_debug - INFO - loop 14 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:47,949 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:47,949 - randomforest_debug - INFO - loop 15 size 0.25 data set adult ml randomforest
+2015-07-15 18:10:55,685 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:10:55,685 - randomforest_debug - INFO - loop 16 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:02,535 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:02,535 - randomforest_debug - INFO - loop 17 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:09,325 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:09,326 - randomforest_debug - INFO - loop 18 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:16,156 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:16,156 - randomforest_debug - INFO - loop 19 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:23,015 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:23,015 - randomforest_debug - INFO - loop 20 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:29,860 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:29,860 - randomforest_debug - INFO - loop 21 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:36,750 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:36,750 - randomforest_debug - INFO - loop 22 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:43,666 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:43,666 - randomforest_debug - INFO - loop 23 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:50,539 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:50,540 - randomforest_debug - INFO - loop 24 size 0.25 data set adult ml randomforest
+2015-07-15 18:11:57,323 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:11:57,323 - randomforest_debug - INFO - loop 25 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:04,210 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:04,211 - randomforest_debug - INFO - loop 26 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:11,047 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:11,047 - randomforest_debug - INFO - loop 27 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:17,965 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:17,965 - randomforest_debug - INFO - loop 28 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:24,903 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:24,903 - randomforest_debug - INFO - loop 29 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:31,830 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:31,830 - randomforest_debug - INFO - loop 30 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:38,693 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:38,693 - randomforest_debug - INFO - loop 31 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:45,533 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:45,533 - randomforest_debug - INFO - loop 32 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:52,403 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:52,403 - randomforest_debug - INFO - loop 33 size 0.25 data set adult ml randomforest
+2015-07-15 18:12:59,328 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:12:59,329 - randomforest_debug - INFO - loop 34 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:06,151 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:06,152 - randomforest_debug - INFO - loop 35 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:13,022 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:13,022 - randomforest_debug - INFO - loop 36 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:19,913 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:19,914 - randomforest_debug - INFO - loop 37 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:26,838 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:26,838 - randomforest_debug - INFO - loop 38 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:33,693 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:33,693 - randomforest_debug - INFO - loop 39 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:40,522 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:40,522 - randomforest_debug - INFO - loop 40 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:47,346 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:47,347 - randomforest_debug - INFO - loop 41 size 0.25 data set adult ml randomforest
+2015-07-15 18:13:54,155 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:13:54,155 - randomforest_debug - INFO - loop 42 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:01,091 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:01,091 - randomforest_debug - INFO - loop 43 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:07,928 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:07,928 - randomforest_debug - INFO - loop 44 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:14,844 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:14,844 - randomforest_debug - INFO - loop 45 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:21,699 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:21,699 - randomforest_debug - INFO - loop 46 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:28,566 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:28,567 - randomforest_debug - INFO - loop 47 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:35,530 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:35,530 - randomforest_debug - INFO - loop 48 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:42,388 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:42,388 - randomforest_debug - INFO - loop 49 size 0.25 data set adult ml randomforest
+2015-07-15 18:14:49,325 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:49,327 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:14:49,327 - randomforest_debug - INFO - ******* end data set
+2015-07-15 18:14:49,327 - randomforest_debug - INFO - ***** start heart
+2015-07-15 18:14:49,327 - randomforest_debug - INFO - ***** start size 0.75
+2015-07-15 18:14:49,327 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:14:49,327 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:49,339 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:49,339 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:49,358 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:49,358 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:49,390 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:49,390 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:49,448 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:49,448 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:49,557 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:49,557 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:49,768 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:49,768 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:50,181 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:50,181 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:51,001 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:51,001 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:52,625 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:52,625 - randomforest_debug - INFO - start cross val
+2015-07-15 18:14:55,866 - randomforest_debug - INFO - end cross val
+2015-07-15 18:14:55,866 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:14:55,867 - randomforest_debug - INFO - loop 0 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:56,208 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:56,208 - randomforest_debug - INFO - loop 1 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:56,545 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:56,546 - randomforest_debug - INFO - loop 2 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:56,884 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:56,885 - randomforest_debug - INFO - loop 3 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:57,226 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:57,226 - randomforest_debug - INFO - loop 4 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:57,563 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:57,563 - randomforest_debug - INFO - loop 5 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:57,903 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:57,903 - randomforest_debug - INFO - loop 6 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:58,254 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:58,254 - randomforest_debug - INFO - loop 7 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:58,595 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:58,595 - randomforest_debug - INFO - loop 8 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:58,936 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:58,936 - randomforest_debug - INFO - loop 9 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:59,278 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:59,278 - randomforest_debug - INFO - loop 10 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:59,618 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:59,618 - randomforest_debug - INFO - loop 11 size 0.75 data set heart ml randomforest
+2015-07-15 18:14:59,960 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:14:59,960 - randomforest_debug - INFO - loop 12 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:00,302 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:00,302 - randomforest_debug - INFO - loop 13 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:00,644 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:00,644 - randomforest_debug - INFO - loop 14 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:00,986 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:00,986 - randomforest_debug - INFO - loop 15 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:01,327 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:01,327 - randomforest_debug - INFO - loop 16 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:01,667 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:01,668 - randomforest_debug - INFO - loop 17 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:02,009 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:02,010 - randomforest_debug - INFO - loop 18 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:02,352 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:02,352 - randomforest_debug - INFO - loop 19 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:02,691 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:02,691 - randomforest_debug - INFO - loop 20 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:03,031 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:03,031 - randomforest_debug - INFO - loop 21 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:03,372 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:03,372 - randomforest_debug - INFO - loop 22 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:03,712 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:03,712 - randomforest_debug - INFO - loop 23 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:04,052 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:04,053 - randomforest_debug - INFO - loop 24 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:04,392 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:04,392 - randomforest_debug - INFO - loop 25 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:04,734 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:04,734 - randomforest_debug - INFO - loop 26 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:05,074 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:05,074 - randomforest_debug - INFO - loop 27 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:05,414 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:05,414 - randomforest_debug - INFO - loop 28 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:05,756 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:05,756 - randomforest_debug - INFO - loop 29 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:06,097 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:06,097 - randomforest_debug - INFO - loop 30 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:06,438 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:06,439 - randomforest_debug - INFO - loop 31 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:06,780 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:06,780 - randomforest_debug - INFO - loop 32 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:07,122 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:07,122 - randomforest_debug - INFO - loop 33 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:07,472 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:07,472 - randomforest_debug - INFO - loop 34 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:07,815 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:07,815 - randomforest_debug - INFO - loop 35 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:08,160 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:08,160 - randomforest_debug - INFO - loop 36 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:08,500 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:08,500 - randomforest_debug - INFO - loop 37 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:08,841 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:08,841 - randomforest_debug - INFO - loop 38 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:09,184 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:09,184 - randomforest_debug - INFO - loop 39 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:09,525 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:09,526 - randomforest_debug - INFO - loop 40 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:09,866 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:09,867 - randomforest_debug - INFO - loop 41 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:10,210 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:10,211 - randomforest_debug - INFO - loop 42 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:10,551 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:10,551 - randomforest_debug - INFO - loop 43 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:10,894 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:10,894 - randomforest_debug - INFO - loop 44 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:11,235 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:11,235 - randomforest_debug - INFO - loop 45 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:11,575 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:11,575 - randomforest_debug - INFO - loop 46 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:11,918 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:11,918 - randomforest_debug - INFO - loop 47 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:12,261 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:12,261 - randomforest_debug - INFO - loop 48 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:12,602 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:12,602 - randomforest_debug - INFO - loop 49 size 0.75 data set heart ml randomforest
+2015-07-15 18:15:12,944 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:12,945 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:15:12,945 - randomforest_debug - INFO - ***** start size 0.5
+2015-07-15 18:15:12,946 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:15:12,946 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:12,958 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:12,958 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:12,978 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:12,978 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:13,011 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:13,012 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:13,072 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:13,072 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:13,187 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:13,187 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:13,410 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:13,410 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:13,849 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:13,850 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:14,722 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:14,722 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:16,459 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:16,460 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:19,937 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:19,937 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:15:19,937 - randomforest_debug - INFO - loop 0 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:19,963 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:19,963 - randomforest_debug - INFO - loop 1 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:19,989 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:19,989 - randomforest_debug - INFO - loop 2 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,015 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,016 - randomforest_debug - INFO - loop 3 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,042 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,042 - randomforest_debug - INFO - loop 4 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,067 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,068 - randomforest_debug - INFO - loop 5 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,094 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,094 - randomforest_debug - INFO - loop 6 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,120 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,120 - randomforest_debug - INFO - loop 7 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,146 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,146 - randomforest_debug - INFO - loop 8 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,172 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,172 - randomforest_debug - INFO - loop 9 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,198 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,198 - randomforest_debug - INFO - loop 10 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,224 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,225 - randomforest_debug - INFO - loop 11 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,251 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,251 - randomforest_debug - INFO - loop 12 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,277 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,277 - randomforest_debug - INFO - loop 13 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,303 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,303 - randomforest_debug - INFO - loop 14 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,329 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,329 - randomforest_debug - INFO - loop 15 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,355 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,355 - randomforest_debug - INFO - loop 16 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,381 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,381 - randomforest_debug - INFO - loop 17 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,407 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,407 - randomforest_debug - INFO - loop 18 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,433 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,433 - randomforest_debug - INFO - loop 19 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,459 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,459 - randomforest_debug - INFO - loop 20 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,485 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,485 - randomforest_debug - INFO - loop 21 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,511 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,511 - randomforest_debug - INFO - loop 22 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,537 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,537 - randomforest_debug - INFO - loop 23 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,563 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,563 - randomforest_debug - INFO - loop 24 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,589 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,589 - randomforest_debug - INFO - loop 25 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,616 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,616 - randomforest_debug - INFO - loop 26 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,642 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,642 - randomforest_debug - INFO - loop 27 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,668 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,669 - randomforest_debug - INFO - loop 28 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,695 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,695 - randomforest_debug - INFO - loop 29 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,721 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,721 - randomforest_debug - INFO - loop 30 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,747 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,748 - randomforest_debug - INFO - loop 31 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,774 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,774 - randomforest_debug - INFO - loop 32 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,800 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,800 - randomforest_debug - INFO - loop 33 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,827 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,827 - randomforest_debug - INFO - loop 34 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,853 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,853 - randomforest_debug - INFO - loop 35 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,880 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,880 - randomforest_debug - INFO - loop 36 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,906 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,906 - randomforest_debug - INFO - loop 37 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,932 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,932 - randomforest_debug - INFO - loop 38 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,958 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,958 - randomforest_debug - INFO - loop 39 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:20,984 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:20,984 - randomforest_debug - INFO - loop 40 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,010 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,010 - randomforest_debug - INFO - loop 41 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,036 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,037 - randomforest_debug - INFO - loop 42 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,062 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,063 - randomforest_debug - INFO - loop 43 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,088 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,089 - randomforest_debug - INFO - loop 44 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,114 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,115 - randomforest_debug - INFO - loop 45 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,140 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,140 - randomforest_debug - INFO - loop 46 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,166 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,166 - randomforest_debug - INFO - loop 47 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,192 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,192 - randomforest_debug - INFO - loop 48 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,218 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,218 - randomforest_debug - INFO - loop 49 size 0.5 data set heart ml randomforest
+2015-07-15 18:15:21,244 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:21,245 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:15:21,245 - randomforest_debug - INFO - ***** start size 0.25
+2015-07-15 18:15:21,245 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:15:21,245 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:21,258 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:21,259 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:21,279 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:21,279 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:21,315 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:21,315 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:21,379 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:21,380 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:21,502 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:21,503 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:21,742 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:21,742 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:22,212 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:22,212 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:23,143 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:23,143 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:24,998 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:24,999 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:28,703 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:28,704 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:15:28,704 - randomforest_debug - INFO - loop 0 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:28,804 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:28,804 - randomforest_debug - INFO - loop 1 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:28,904 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:28,904 - randomforest_debug - INFO - loop 2 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,003 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,004 - randomforest_debug - INFO - loop 3 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,104 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,104 - randomforest_debug - INFO - loop 4 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,204 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,204 - randomforest_debug - INFO - loop 5 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,303 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,303 - randomforest_debug - INFO - loop 6 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,403 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,403 - randomforest_debug - INFO - loop 7 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,504 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,504 - randomforest_debug - INFO - loop 8 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,605 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,605 - randomforest_debug - INFO - loop 9 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,705 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,705 - randomforest_debug - INFO - loop 10 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,805 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,805 - randomforest_debug - INFO - loop 11 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:29,905 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:29,905 - randomforest_debug - INFO - loop 12 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,004 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,004 - randomforest_debug - INFO - loop 13 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,104 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,104 - randomforest_debug - INFO - loop 14 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,204 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,204 - randomforest_debug - INFO - loop 15 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,303 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,303 - randomforest_debug - INFO - loop 16 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,403 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,403 - randomforest_debug - INFO - loop 17 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,502 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,502 - randomforest_debug - INFO - loop 18 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,601 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,602 - randomforest_debug - INFO - loop 19 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,701 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,701 - randomforest_debug - INFO - loop 20 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,800 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,800 - randomforest_debug - INFO - loop 21 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:30,901 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:30,901 - randomforest_debug - INFO - loop 22 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,000 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,000 - randomforest_debug - INFO - loop 23 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,099 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,099 - randomforest_debug - INFO - loop 24 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,199 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,199 - randomforest_debug - INFO - loop 25 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,299 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,299 - randomforest_debug - INFO - loop 26 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,398 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,398 - randomforest_debug - INFO - loop 27 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,497 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,497 - randomforest_debug - INFO - loop 28 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,596 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,596 - randomforest_debug - INFO - loop 29 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,695 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,695 - randomforest_debug - INFO - loop 30 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,795 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,795 - randomforest_debug - INFO - loop 31 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,894 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,894 - randomforest_debug - INFO - loop 32 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:31,993 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:31,994 - randomforest_debug - INFO - loop 33 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,092 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,093 - randomforest_debug - INFO - loop 34 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,192 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,192 - randomforest_debug - INFO - loop 35 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,292 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,292 - randomforest_debug - INFO - loop 36 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,392 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,392 - randomforest_debug - INFO - loop 37 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,492 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,493 - randomforest_debug - INFO - loop 38 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,592 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,592 - randomforest_debug - INFO - loop 39 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,692 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,692 - randomforest_debug - INFO - loop 40 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,792 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,792 - randomforest_debug - INFO - loop 41 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,892 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,892 - randomforest_debug - INFO - loop 42 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:32,991 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:32,992 - randomforest_debug - INFO - loop 43 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:33,091 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:33,091 - randomforest_debug - INFO - loop 44 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:33,191 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:33,191 - randomforest_debug - INFO - loop 45 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:33,291 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:33,291 - randomforest_debug - INFO - loop 46 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:33,390 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:33,391 - randomforest_debug - INFO - loop 47 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:33,490 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:33,490 - randomforest_debug - INFO - loop 48 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:33,590 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:33,590 - randomforest_debug - INFO - loop 49 size 0.25 data set heart ml randomforest
+2015-07-15 18:15:33,689 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:15:33,691 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:15:33,691 - randomforest_debug - INFO - ******* end data set
+2015-07-15 18:15:33,691 - randomforest_debug - INFO - ***** start letter
+2015-07-15 18:15:33,691 - randomforest_debug - INFO - ***** start size 0.75
+2015-07-15 18:15:33,696 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:15:33,696 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:33,748 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:33,749 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:33,841 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:33,841 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:34,014 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:34,015 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:34,350 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:34,350 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:35,010 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:35,010 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:36,323 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:36,323 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:38,942 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:38,943 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:44,172 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:44,172 - randomforest_debug - INFO - start cross val
+2015-07-15 18:15:54,620 - randomforest_debug - INFO - end cross val
+2015-07-15 18:15:54,620 - randomforest_debug - INFO - start cross val
+2015-07-15 18:16:15,475 - randomforest_debug - INFO - end cross val
+2015-07-15 18:16:15,475 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:16:15,476 - randomforest_debug - INFO - loop 0 size 0.75 data set letter ml randomforest
+2015-07-15 18:16:22,460 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:16:22,460 - randomforest_debug - INFO - loop 1 size 0.75 data set letter ml randomforest
+2015-07-15 18:16:29,426 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:16:29,426 - randomforest_debug - INFO - loop 2 size 0.75 data set letter ml randomforest
+2015-07-15 18:16:36,391 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:16:36,392 - randomforest_debug - INFO - loop 3 size 0.75 data set letter ml randomforest
+2015-07-15 18:16:43,341 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:16:43,341 - randomforest_debug - INFO - loop 4 size 0.75 data set letter ml randomforest
+2015-07-15 18:16:50,315 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:16:50,316 - randomforest_debug - INFO - loop 5 size 0.75 data set letter ml randomforest
+2015-07-15 18:16:57,325 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:16:57,325 - randomforest_debug - INFO - loop 6 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:04,369 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:04,369 - randomforest_debug - INFO - loop 7 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:11,398 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:11,399 - randomforest_debug - INFO - loop 8 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:18,393 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:18,393 - randomforest_debug - INFO - loop 9 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:25,382 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:25,382 - randomforest_debug - INFO - loop 10 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:32,390 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:32,390 - randomforest_debug - INFO - loop 11 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:39,341 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:39,341 - randomforest_debug - INFO - loop 12 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:46,320 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:46,320 - randomforest_debug - INFO - loop 13 size 0.75 data set letter ml randomforest
+2015-07-15 18:17:53,285 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:17:53,285 - randomforest_debug - INFO - loop 14 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:00,305 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:00,305 - randomforest_debug - INFO - loop 15 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:07,260 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:07,260 - randomforest_debug - INFO - loop 16 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:14,307 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:14,307 - randomforest_debug - INFO - loop 17 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:21,291 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:21,291 - randomforest_debug - INFO - loop 18 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:28,382 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:28,382 - randomforest_debug - INFO - loop 19 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:35,386 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:35,386 - randomforest_debug - INFO - loop 20 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:42,360 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:42,360 - randomforest_debug - INFO - loop 21 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:49,340 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:49,341 - randomforest_debug - INFO - loop 22 size 0.75 data set letter ml randomforest
+2015-07-15 18:18:56,303 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:18:56,303 - randomforest_debug - INFO - loop 23 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:03,327 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:03,327 - randomforest_debug - INFO - loop 24 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:10,312 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:10,312 - randomforest_debug - INFO - loop 25 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:17,273 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:17,273 - randomforest_debug - INFO - loop 26 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:24,274 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:24,274 - randomforest_debug - INFO - loop 27 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:31,288 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:31,288 - randomforest_debug - INFO - loop 28 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:38,261 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:38,262 - randomforest_debug - INFO - loop 29 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:45,314 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:45,315 - randomforest_debug - INFO - loop 30 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:52,340 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:52,340 - randomforest_debug - INFO - loop 31 size 0.75 data set letter ml randomforest
+2015-07-15 18:19:59,386 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:19:59,386 - randomforest_debug - INFO - loop 32 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:06,423 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:06,423 - randomforest_debug - INFO - loop 33 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:13,429 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:13,430 - randomforest_debug - INFO - loop 34 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:20,396 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:20,396 - randomforest_debug - INFO - loop 35 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:27,377 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:27,378 - randomforest_debug - INFO - loop 36 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:34,377 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:34,377 - randomforest_debug - INFO - loop 37 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:41,327 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:41,328 - randomforest_debug - INFO - loop 38 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:48,323 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:48,324 - randomforest_debug - INFO - loop 39 size 0.75 data set letter ml randomforest
+2015-07-15 18:20:55,294 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:20:55,294 - randomforest_debug - INFO - loop 40 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:02,311 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:02,311 - randomforest_debug - INFO - loop 41 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:09,148 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:09,149 - randomforest_debug - INFO - loop 42 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:15,907 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:15,907 - randomforest_debug - INFO - loop 43 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:22,686 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:22,687 - randomforest_debug - INFO - loop 44 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:29,535 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:29,535 - randomforest_debug - INFO - loop 45 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:36,242 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:36,242 - randomforest_debug - INFO - loop 46 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:42,958 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:42,958 - randomforest_debug - INFO - loop 47 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:49,690 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:49,691 - randomforest_debug - INFO - loop 48 size 0.75 data set letter ml randomforest
+2015-07-15 18:21:56,464 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:21:56,464 - randomforest_debug - INFO - loop 49 size 0.75 data set letter ml randomforest
+2015-07-15 18:22:03,199 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:22:03,200 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:22:03,200 - randomforest_debug - INFO - ***** start size 0.5
+2015-07-15 18:22:03,205 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:22:03,206 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:03,297 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:03,297 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:03,461 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:03,461 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:03,775 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:03,775 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:04,383 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:04,383 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:05,584 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:05,584 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:07,972 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:07,972 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:12,711 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:12,712 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:22,180 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:22,180 - randomforest_debug - INFO - start cross val
+2015-07-15 18:22:41,154 - randomforest_debug - INFO - end cross val
+2015-07-15 18:22:41,155 - randomforest_debug - INFO - start cross val
+2015-07-15 18:23:19,088 - randomforest_debug - INFO - end cross val
+2015-07-15 18:23:19,089 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:23:19,089 - randomforest_debug - INFO - loop 0 size 0.5 data set letter ml randomforest
+2015-07-15 18:23:29,711 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:23:29,711 - randomforest_debug - INFO - loop 1 size 0.5 data set letter ml randomforest
+2015-07-15 18:23:40,296 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:23:40,296 - randomforest_debug - INFO - loop 2 size 0.5 data set letter ml randomforest
+2015-07-15 18:23:50,973 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:23:50,973 - randomforest_debug - INFO - loop 3 size 0.5 data set letter ml randomforest
+2015-07-15 18:24:01,572 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:24:01,572 - randomforest_debug - INFO - loop 4 size 0.5 data set letter ml randomforest
+2015-07-15 18:24:12,154 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:24:12,154 - randomforest_debug - INFO - loop 5 size 0.5 data set letter ml randomforest
+2015-07-15 18:24:22,788 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:24:22,789 - randomforest_debug - INFO - loop 6 size 0.5 data set letter ml randomforest
+2015-07-15 18:24:33,441 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:24:33,441 - randomforest_debug - INFO - loop 7 size 0.5 data set letter ml randomforest
+2015-07-15 18:24:44,037 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:24:44,037 - randomforest_debug - INFO - loop 8 size 0.5 data set letter ml randomforest
+2015-07-15 18:24:54,634 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:24:54,634 - randomforest_debug - INFO - loop 9 size 0.5 data set letter ml randomforest
+2015-07-15 18:25:05,205 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:25:05,205 - randomforest_debug - INFO - loop 10 size 0.5 data set letter ml randomforest
+2015-07-15 18:25:15,855 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:25:15,855 - randomforest_debug - INFO - loop 11 size 0.5 data set letter ml randomforest
+2015-07-15 18:25:26,401 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:25:26,401 - randomforest_debug - INFO - loop 12 size 0.5 data set letter ml randomforest
+2015-07-15 18:25:37,125 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:25:37,125 - randomforest_debug - INFO - loop 13 size 0.5 data set letter ml randomforest
+2015-07-15 18:25:47,726 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:25:47,726 - randomforest_debug - INFO - loop 14 size 0.5 data set letter ml randomforest
+2015-07-15 18:25:58,326 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:25:58,326 - randomforest_debug - INFO - loop 15 size 0.5 data set letter ml randomforest
+2015-07-15 18:26:08,969 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:26:08,969 - randomforest_debug - INFO - loop 16 size 0.5 data set letter ml randomforest
+2015-07-15 18:26:19,540 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:26:19,540 - randomforest_debug - INFO - loop 17 size 0.5 data set letter ml randomforest
+2015-07-15 18:26:30,202 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:26:30,202 - randomforest_debug - INFO - loop 18 size 0.5 data set letter ml randomforest
+2015-07-15 18:26:40,840 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:26:40,840 - randomforest_debug - INFO - loop 19 size 0.5 data set letter ml randomforest
+2015-07-15 18:26:51,467 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:26:51,467 - randomforest_debug - INFO - loop 20 size 0.5 data set letter ml randomforest
+2015-07-15 18:27:02,067 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:27:02,068 - randomforest_debug - INFO - loop 21 size 0.5 data set letter ml randomforest
+2015-07-15 18:27:12,613 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:27:12,613 - randomforest_debug - INFO - loop 22 size 0.5 data set letter ml randomforest
+2015-07-15 18:27:23,214 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:27:23,214 - randomforest_debug - INFO - loop 23 size 0.5 data set letter ml randomforest
+2015-07-15 18:27:33,871 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:27:33,871 - randomforest_debug - INFO - loop 24 size 0.5 data set letter ml randomforest
+2015-07-15 18:27:44,500 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:27:44,500 - randomforest_debug - INFO - loop 25 size 0.5 data set letter ml randomforest
+2015-07-15 18:27:55,140 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:27:55,140 - randomforest_debug - INFO - loop 26 size 0.5 data set letter ml randomforest
+2015-07-15 18:28:05,734 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:28:05,734 - randomforest_debug - INFO - loop 27 size 0.5 data set letter ml randomforest
+2015-07-15 18:28:16,310 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:28:16,310 - randomforest_debug - INFO - loop 28 size 0.5 data set letter ml randomforest
+2015-07-15 18:28:26,992 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:28:26,992 - randomforest_debug - INFO - loop 29 size 0.5 data set letter ml randomforest
+2015-07-15 18:28:37,563 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:28:37,563 - randomforest_debug - INFO - loop 30 size 0.5 data set letter ml randomforest
+2015-07-15 18:28:48,108 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:28:48,108 - randomforest_debug - INFO - loop 31 size 0.5 data set letter ml randomforest
+2015-07-15 18:28:58,644 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:28:58,644 - randomforest_debug - INFO - loop 32 size 0.5 data set letter ml randomforest
+2015-07-15 18:29:09,333 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:29:09,334 - randomforest_debug - INFO - loop 33 size 0.5 data set letter ml randomforest
+2015-07-15 18:29:19,984 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:29:19,984 - randomforest_debug - INFO - loop 34 size 0.5 data set letter ml randomforest
+2015-07-15 18:29:30,515 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:29:30,516 - randomforest_debug - INFO - loop 35 size 0.5 data set letter ml randomforest
+2015-07-15 18:29:41,229 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:29:41,229 - randomforest_debug - INFO - loop 36 size 0.5 data set letter ml randomforest
+2015-07-15 18:29:51,828 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:29:51,828 - randomforest_debug - INFO - loop 37 size 0.5 data set letter ml randomforest
+2015-07-15 18:30:02,431 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:30:02,431 - randomforest_debug - INFO - loop 38 size 0.5 data set letter ml randomforest
+2015-07-15 18:30:13,056 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:30:13,057 - randomforest_debug - INFO - loop 39 size 0.5 data set letter ml randomforest
+2015-07-15 18:30:23,682 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:30:23,682 - randomforest_debug - INFO - loop 40 size 0.5 data set letter ml randomforest
+2015-07-15 18:30:34,254 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:30:34,254 - randomforest_debug - INFO - loop 41 size 0.5 data set letter ml randomforest
+2015-07-15 18:30:44,803 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:30:44,804 - randomforest_debug - INFO - loop 42 size 0.5 data set letter ml randomforest
+2015-07-15 18:30:55,452 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:30:55,452 - randomforest_debug - INFO - loop 43 size 0.5 data set letter ml randomforest
+2015-07-15 18:31:06,149 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:31:06,149 - randomforest_debug - INFO - loop 44 size 0.5 data set letter ml randomforest
+2015-07-15 18:31:16,725 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:31:16,725 - randomforest_debug - INFO - loop 45 size 0.5 data set letter ml randomforest
+2015-07-15 18:31:27,329 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:31:27,330 - randomforest_debug - INFO - loop 46 size 0.5 data set letter ml randomforest
+2015-07-15 18:31:37,973 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:31:37,973 - randomforest_debug - INFO - loop 47 size 0.5 data set letter ml randomforest
+2015-07-15 18:31:48,548 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:31:48,548 - randomforest_debug - INFO - loop 48 size 0.5 data set letter ml randomforest
+2015-07-15 18:31:59,164 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:31:59,164 - randomforest_debug - INFO - loop 49 size 0.5 data set letter ml randomforest
+2015-07-15 18:32:09,741 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:32:09,742 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:32:09,742 - randomforest_debug - INFO - ***** start size 0.25
+2015-07-15 18:32:09,747 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:32:09,747 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:09,879 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:09,879 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:10,123 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:10,123 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:10,586 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:10,586 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:11,499 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:11,499 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:13,301 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:13,301 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:16,878 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:16,878 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:24,024 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:24,024 - randomforest_debug - INFO - start cross val
+2015-07-15 18:32:38,272 - randomforest_debug - INFO - end cross val
+2015-07-15 18:32:38,272 - randomforest_debug - INFO - start cross val
+2015-07-15 18:33:06,634 - randomforest_debug - INFO - end cross val
+2015-07-15 18:33:06,635 - randomforest_debug - INFO - start cross val
+2015-07-15 18:34:03,640 - randomforest_debug - INFO - end cross val
+2015-07-15 18:34:03,640 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:34:03,640 - randomforest_debug - INFO - loop 0 size 0.25 data set letter ml randomforest
+2015-07-15 18:34:10,746 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:34:10,746 - randomforest_debug - INFO - loop 1 size 0.25 data set letter ml randomforest
+2015-07-15 18:34:17,884 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:34:17,884 - randomforest_debug - INFO - loop 2 size 0.25 data set letter ml randomforest
+2015-07-15 18:34:25,025 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:34:25,025 - randomforest_debug - INFO - loop 3 size 0.25 data set letter ml randomforest
+2015-07-15 18:34:32,117 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:34:32,117 - randomforest_debug - INFO - loop 4 size 0.25 data set letter ml randomforest
+2015-07-15 18:34:39,195 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:34:39,195 - randomforest_debug - INFO - loop 5 size 0.25 data set letter ml randomforest
+2015-07-15 18:34:46,322 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:34:46,322 - randomforest_debug - INFO - loop 6 size 0.25 data set letter ml randomforest
+2015-07-15 18:34:53,464 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:34:53,465 - randomforest_debug - INFO - loop 7 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:00,567 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:00,567 - randomforest_debug - INFO - loop 8 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:07,718 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:07,718 - randomforest_debug - INFO - loop 9 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:14,820 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:14,820 - randomforest_debug - INFO - loop 10 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:21,942 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:21,942 - randomforest_debug - INFO - loop 11 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:30,543 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:30,543 - randomforest_debug - INFO - loop 12 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:37,713 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:37,714 - randomforest_debug - INFO - loop 13 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:44,858 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:44,858 - randomforest_debug - INFO - loop 14 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:52,057 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:52,057 - randomforest_debug - INFO - loop 15 size 0.25 data set letter ml randomforest
+2015-07-15 18:35:59,236 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:35:59,237 - randomforest_debug - INFO - loop 16 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:06,358 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:06,358 - randomforest_debug - INFO - loop 17 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:13,499 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:13,499 - randomforest_debug - INFO - loop 18 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:20,627 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:20,627 - randomforest_debug - INFO - loop 19 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:27,753 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:27,753 - randomforest_debug - INFO - loop 20 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:34,889 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:34,890 - randomforest_debug - INFO - loop 21 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:41,990 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:41,990 - randomforest_debug - INFO - loop 22 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:50,727 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:50,727 - randomforest_debug - INFO - loop 23 size 0.25 data set letter ml randomforest
+2015-07-15 18:36:57,836 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:36:57,836 - randomforest_debug - INFO - loop 24 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:04,951 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:04,951 - randomforest_debug - INFO - loop 25 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:12,053 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:12,053 - randomforest_debug - INFO - loop 26 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:19,148 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:19,148 - randomforest_debug - INFO - loop 27 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:26,324 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:26,325 - randomforest_debug - INFO - loop 28 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:33,453 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:33,453 - randomforest_debug - INFO - loop 29 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:40,611 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:40,611 - randomforest_debug - INFO - loop 30 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:47,731 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:47,732 - randomforest_debug - INFO - loop 31 size 0.25 data set letter ml randomforest
+2015-07-15 18:37:54,875 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:37:54,876 - randomforest_debug - INFO - loop 32 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:01,998 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:01,998 - randomforest_debug - INFO - loop 33 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:09,135 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:09,135 - randomforest_debug - INFO - loop 34 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:16,276 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:16,277 - randomforest_debug - INFO - loop 35 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:23,402 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:23,402 - randomforest_debug - INFO - loop 36 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:30,550 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:30,551 - randomforest_debug - INFO - loop 37 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:37,677 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:37,677 - randomforest_debug - INFO - loop 38 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:44,806 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:44,806 - randomforest_debug - INFO - loop 39 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:51,963 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:51,963 - randomforest_debug - INFO - loop 40 size 0.25 data set letter ml randomforest
+2015-07-15 18:38:59,096 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:38:59,096 - randomforest_debug - INFO - loop 41 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:06,203 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:06,203 - randomforest_debug - INFO - loop 42 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:13,317 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:13,318 - randomforest_debug - INFO - loop 43 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:20,454 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:20,454 - randomforest_debug - INFO - loop 44 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:27,597 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:27,597 - randomforest_debug - INFO - loop 45 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:34,728 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:34,728 - randomforest_debug - INFO - loop 46 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:41,868 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:41,868 - randomforest_debug - INFO - loop 47 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:49,005 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:49,006 - randomforest_debug - INFO - loop 48 size 0.25 data set letter ml randomforest
+2015-07-15 18:39:56,129 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:39:56,129 - randomforest_debug - INFO - loop 49 size 0.25 data set letter ml randomforest
+2015-07-15 18:40:03,446 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:03,447 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:40:03,448 - randomforest_debug - INFO - ******* end data set
+2015-07-15 18:40:03,448 - randomforest_debug - INFO - ***** start austra
+2015-07-15 18:40:03,448 - randomforest_debug - INFO - ***** start size 0.75
+2015-07-15 18:40:03,448 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:40:03,448 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:03,461 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:03,461 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:03,480 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:03,480 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:03,513 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:03,514 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:03,574 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:03,574 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:03,689 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:03,689 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:03,911 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:03,911 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:04,348 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:04,349 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:05,218 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:05,218 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:06,950 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:06,950 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:10,412 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:10,412 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:40:10,412 - randomforest_debug - INFO - loop 0 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:10,510 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:10,510 - randomforest_debug - INFO - loop 1 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:10,606 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:10,606 - randomforest_debug - INFO - loop 2 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:10,703 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:10,704 - randomforest_debug - INFO - loop 3 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:10,799 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:10,799 - randomforest_debug - INFO - loop 4 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:10,895 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:10,896 - randomforest_debug - INFO - loop 5 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:10,993 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:10,993 - randomforest_debug - INFO - loop 6 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,089 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,090 - randomforest_debug - INFO - loop 7 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,186 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,186 - randomforest_debug - INFO - loop 8 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,282 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,282 - randomforest_debug - INFO - loop 9 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,378 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,378 - randomforest_debug - INFO - loop 10 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,472 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,472 - randomforest_debug - INFO - loop 11 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,569 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,569 - randomforest_debug - INFO - loop 12 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,666 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,666 - randomforest_debug - INFO - loop 13 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,763 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,763 - randomforest_debug - INFO - loop 14 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,860 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,860 - randomforest_debug - INFO - loop 15 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:11,956 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:11,956 - randomforest_debug - INFO - loop 16 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:12,100 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:12,100 - randomforest_debug - INFO - loop 17 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:12,244 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:12,244 - randomforest_debug - INFO - loop 18 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:12,387 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:12,387 - randomforest_debug - INFO - loop 19 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:12,531 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:12,531 - randomforest_debug - INFO - loop 20 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:12,674 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:12,675 - randomforest_debug - INFO - loop 21 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:12,817 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:12,817 - randomforest_debug - INFO - loop 22 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:12,961 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:12,961 - randomforest_debug - INFO - loop 23 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:13,106 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:13,106 - randomforest_debug - INFO - loop 24 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:13,249 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:13,249 - randomforest_debug - INFO - loop 25 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:13,391 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:13,391 - randomforest_debug - INFO - loop 26 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:13,534 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:13,534 - randomforest_debug - INFO - loop 27 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:13,679 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:13,679 - randomforest_debug - INFO - loop 28 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:13,822 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:13,822 - randomforest_debug - INFO - loop 29 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:13,964 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:13,965 - randomforest_debug - INFO - loop 30 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:14,109 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:14,109 - randomforest_debug - INFO - loop 31 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:14,252 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:14,252 - randomforest_debug - INFO - loop 32 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:14,395 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:14,396 - randomforest_debug - INFO - loop 33 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:14,540 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:14,541 - randomforest_debug - INFO - loop 34 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:14,684 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:14,684 - randomforest_debug - INFO - loop 35 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:14,827 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:14,827 - randomforest_debug - INFO - loop 36 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:14,970 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:14,971 - randomforest_debug - INFO - loop 37 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,105 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,105 - randomforest_debug - INFO - loop 38 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,201 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,201 - randomforest_debug - INFO - loop 39 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,298 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,299 - randomforest_debug - INFO - loop 40 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,394 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,394 - randomforest_debug - INFO - loop 41 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,490 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,490 - randomforest_debug - INFO - loop 42 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,586 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,586 - randomforest_debug - INFO - loop 43 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,682 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,682 - randomforest_debug - INFO - loop 44 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,777 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,777 - randomforest_debug - INFO - loop 45 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,872 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,873 - randomforest_debug - INFO - loop 46 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:15,969 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:15,969 - randomforest_debug - INFO - loop 47 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:16,064 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:16,064 - randomforest_debug - INFO - loop 48 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:16,160 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:16,160 - randomforest_debug - INFO - loop 49 size 0.75 data set austra ml randomforest
+2015-07-15 18:40:16,256 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:16,257 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:40:16,257 - randomforest_debug - INFO - ***** start size 0.5
+2015-07-15 18:40:16,258 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:40:16,258 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:16,271 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:16,271 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:16,292 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:16,292 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:16,328 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:16,328 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:16,394 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:16,394 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:16,520 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:16,520 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:16,765 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:16,765 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:17,249 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:17,249 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:18,209 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:18,210 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:20,136 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:20,137 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:23,970 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:23,971 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:40:23,971 - randomforest_debug - INFO - loop 0 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,077 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,077 - randomforest_debug - INFO - loop 1 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,185 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,185 - randomforest_debug - INFO - loop 2 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,292 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,292 - randomforest_debug - INFO - loop 3 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,400 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,400 - randomforest_debug - INFO - loop 4 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,507 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,507 - randomforest_debug - INFO - loop 5 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,615 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,615 - randomforest_debug - INFO - loop 6 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,723 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,723 - randomforest_debug - INFO - loop 7 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,832 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,832 - randomforest_debug - INFO - loop 8 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:24,938 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:24,939 - randomforest_debug - INFO - loop 9 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,047 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,047 - randomforest_debug - INFO - loop 10 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,154 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,155 - randomforest_debug - INFO - loop 11 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,261 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,261 - randomforest_debug - INFO - loop 12 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,368 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,369 - randomforest_debug - INFO - loop 13 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,476 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,476 - randomforest_debug - INFO - loop 14 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,584 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,584 - randomforest_debug - INFO - loop 15 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,690 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,691 - randomforest_debug - INFO - loop 16 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,798 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,798 - randomforest_debug - INFO - loop 17 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:25,904 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:25,905 - randomforest_debug - INFO - loop 18 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,012 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,013 - randomforest_debug - INFO - loop 19 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,122 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,122 - randomforest_debug - INFO - loop 20 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,228 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,228 - randomforest_debug - INFO - loop 21 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,334 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,335 - randomforest_debug - INFO - loop 22 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,443 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,443 - randomforest_debug - INFO - loop 23 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,551 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,551 - randomforest_debug - INFO - loop 24 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,659 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,659 - randomforest_debug - INFO - loop 25 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,767 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,767 - randomforest_debug - INFO - loop 26 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,874 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,874 - randomforest_debug - INFO - loop 27 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:26,982 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:26,983 - randomforest_debug - INFO - loop 28 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,089 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,090 - randomforest_debug - INFO - loop 29 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,197 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,197 - randomforest_debug - INFO - loop 30 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,304 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,304 - randomforest_debug - INFO - loop 31 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,412 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,412 - randomforest_debug - INFO - loop 32 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,519 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,520 - randomforest_debug - INFO - loop 33 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,626 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,627 - randomforest_debug - INFO - loop 34 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,734 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,734 - randomforest_debug - INFO - loop 35 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,841 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,841 - randomforest_debug - INFO - loop 36 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:27,948 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:27,949 - randomforest_debug - INFO - loop 37 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,055 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,055 - randomforest_debug - INFO - loop 38 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,162 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,162 - randomforest_debug - INFO - loop 39 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,269 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,269 - randomforest_debug - INFO - loop 40 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,376 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,376 - randomforest_debug - INFO - loop 41 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,484 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,484 - randomforest_debug - INFO - loop 42 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,592 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,592 - randomforest_debug - INFO - loop 43 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,700 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,700 - randomforest_debug - INFO - loop 44 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,807 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,807 - randomforest_debug - INFO - loop 45 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:28,914 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:28,915 - randomforest_debug - INFO - loop 46 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:29,023 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:29,023 - randomforest_debug - INFO - loop 47 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:29,184 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:29,184 - randomforest_debug - INFO - loop 48 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:29,343 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:29,343 - randomforest_debug - INFO - loop 49 size 0.5 data set austra ml randomforest
+2015-07-15 18:40:29,503 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:29,505 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:40:29,505 - randomforest_debug - INFO - ***** start size 0.25
+2015-07-15 18:40:29,505 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:40:29,506 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:29,526 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:29,526 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:29,560 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:29,560 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:29,618 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:29,618 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:29,726 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:29,727 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:29,935 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:29,935 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:30,344 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:30,344 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:31,153 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:31,153 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:32,762 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:32,762 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:35,511 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:35,511 - randomforest_debug - INFO - start cross val
+2015-07-15 18:40:39,775 - randomforest_debug - INFO - end cross val
+2015-07-15 18:40:39,775 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:40:39,775 - randomforest_debug - INFO - loop 0 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:40,713 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:40,713 - randomforest_debug - INFO - loop 1 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:41,651 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:41,651 - randomforest_debug - INFO - loop 2 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:42,590 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:42,590 - randomforest_debug - INFO - loop 3 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:43,525 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:43,525 - randomforest_debug - INFO - loop 4 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:44,464 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:44,464 - randomforest_debug - INFO - loop 5 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:45,406 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:45,406 - randomforest_debug - INFO - loop 6 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:46,731 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:46,731 - randomforest_debug - INFO - loop 7 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:47,674 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:47,674 - randomforest_debug - INFO - loop 8 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:48,610 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:48,610 - randomforest_debug - INFO - loop 9 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:49,559 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:49,560 - randomforest_debug - INFO - loop 10 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:50,507 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:50,508 - randomforest_debug - INFO - loop 11 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:51,913 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:51,913 - randomforest_debug - INFO - loop 12 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:53,318 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:53,318 - randomforest_debug - INFO - loop 13 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:54,676 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:54,676 - randomforest_debug - INFO - loop 14 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:55,614 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:55,614 - randomforest_debug - INFO - loop 15 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:57,023 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:57,024 - randomforest_debug - INFO - loop 16 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:58,439 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:58,439 - randomforest_debug - INFO - loop 17 size 0.25 data set austra ml randomforest
+2015-07-15 18:40:59,852 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:40:59,852 - randomforest_debug - INFO - loop 18 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:01,270 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:01,270 - randomforest_debug - INFO - loop 19 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:02,677 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:02,677 - randomforest_debug - INFO - loop 20 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:04,087 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:04,087 - randomforest_debug - INFO - loop 21 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:05,503 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:05,503 - randomforest_debug - INFO - loop 22 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:06,900 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:06,901 - randomforest_debug - INFO - loop 23 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:08,306 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:08,306 - randomforest_debug - INFO - loop 24 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:09,717 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:09,717 - randomforest_debug - INFO - loop 25 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:10,934 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:10,934 - randomforest_debug - INFO - loop 26 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:11,868 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:11,869 - randomforest_debug - INFO - loop 27 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:12,799 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:12,800 - randomforest_debug - INFO - loop 28 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:13,740 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:13,741 - randomforest_debug - INFO - loop 29 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:14,676 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:14,676 - randomforest_debug - INFO - loop 30 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:15,613 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:15,614 - randomforest_debug - INFO - loop 31 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:16,561 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:16,561 - randomforest_debug - INFO - loop 32 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:17,485 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:17,486 - randomforest_debug - INFO - loop 33 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:18,434 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:18,434 - randomforest_debug - INFO - loop 34 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:19,369 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:19,370 - randomforest_debug - INFO - loop 35 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:20,311 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:20,311 - randomforest_debug - INFO - loop 36 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:21,250 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:21,250 - randomforest_debug - INFO - loop 37 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:22,190 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:22,190 - randomforest_debug - INFO - loop 38 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:23,122 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:23,122 - randomforest_debug - INFO - loop 39 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:24,066 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:24,066 - randomforest_debug - INFO - loop 40 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:25,481 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:25,481 - randomforest_debug - INFO - loop 41 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:26,898 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:26,898 - randomforest_debug - INFO - loop 42 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:27,910 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:27,910 - randomforest_debug - INFO - loop 43 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:28,847 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:28,847 - randomforest_debug - INFO - loop 44 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:29,787 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:29,787 - randomforest_debug - INFO - loop 45 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:30,733 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:30,733 - randomforest_debug - INFO - loop 46 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:31,670 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:31,670 - randomforest_debug - INFO - loop 47 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:32,607 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:32,607 - randomforest_debug - INFO - loop 48 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:33,544 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:33,544 - randomforest_debug - INFO - loop 49 size 0.25 data set austra ml randomforest
+2015-07-15 18:41:34,478 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:34,479 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:41:34,479 - randomforest_debug - INFO - ******* end data set
+2015-07-15 18:41:34,479 - randomforest_debug - INFO - ***** start german
+2015-07-15 18:41:34,480 - randomforest_debug - INFO - ***** start size 0.75
+2015-07-15 18:41:34,480 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:41:34,480 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:34,493 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:34,493 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:34,514 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:34,514 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:34,549 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:34,550 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:34,614 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:34,614 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:34,738 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:34,738 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:34,979 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:34,979 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:35,709 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:35,709 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:37,160 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:37,160 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:39,722 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:39,722 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:43,489 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:43,489 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:41:43,489 - randomforest_debug - INFO - loop 0 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,501 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,501 - randomforest_debug - INFO - loop 1 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,511 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,511 - randomforest_debug - INFO - loop 2 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,521 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,521 - randomforest_debug - INFO - loop 3 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,531 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,531 - randomforest_debug - INFO - loop 4 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,541 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,541 - randomforest_debug - INFO - loop 5 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,551 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,551 - randomforest_debug - INFO - loop 6 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,561 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,561 - randomforest_debug - INFO - loop 7 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,571 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,571 - randomforest_debug - INFO - loop 8 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,581 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,581 - randomforest_debug - INFO - loop 9 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,590 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,591 - randomforest_debug - INFO - loop 10 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,600 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,601 - randomforest_debug - INFO - loop 11 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,611 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,611 - randomforest_debug - INFO - loop 12 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,621 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,621 - randomforest_debug - INFO - loop 13 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,631 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,631 - randomforest_debug - INFO - loop 14 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,641 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,641 - randomforest_debug - INFO - loop 15 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,651 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,651 - randomforest_debug - INFO - loop 16 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,661 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,661 - randomforest_debug - INFO - loop 17 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,671 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,671 - randomforest_debug - INFO - loop 18 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,681 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,681 - randomforest_debug - INFO - loop 19 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,691 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,691 - randomforest_debug - INFO - loop 20 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,701 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,701 - randomforest_debug - INFO - loop 21 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,711 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,711 - randomforest_debug - INFO - loop 22 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,721 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,721 - randomforest_debug - INFO - loop 23 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,731 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,731 - randomforest_debug - INFO - loop 24 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,741 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,741 - randomforest_debug - INFO - loop 25 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,751 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,751 - randomforest_debug - INFO - loop 26 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,761 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,761 - randomforest_debug - INFO - loop 27 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,771 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,771 - randomforest_debug - INFO - loop 28 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,781 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,781 - randomforest_debug - INFO - loop 29 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,791 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,791 - randomforest_debug - INFO - loop 30 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,801 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,801 - randomforest_debug - INFO - loop 31 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,811 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,811 - randomforest_debug - INFO - loop 32 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,821 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,821 - randomforest_debug - INFO - loop 33 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,831 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,831 - randomforest_debug - INFO - loop 34 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,841 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,841 - randomforest_debug - INFO - loop 35 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,851 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,851 - randomforest_debug - INFO - loop 36 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,861 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,861 - randomforest_debug - INFO - loop 37 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,871 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,871 - randomforest_debug - INFO - loop 38 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,881 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,881 - randomforest_debug - INFO - loop 39 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,891 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,891 - randomforest_debug - INFO - loop 40 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,901 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,901 - randomforest_debug - INFO - loop 41 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,911 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,911 - randomforest_debug - INFO - loop 42 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,921 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,921 - randomforest_debug - INFO - loop 43 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,931 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,931 - randomforest_debug - INFO - loop 44 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,941 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,941 - randomforest_debug - INFO - loop 45 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,951 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,951 - randomforest_debug - INFO - loop 46 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,961 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,961 - randomforest_debug - INFO - loop 47 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,971 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,971 - randomforest_debug - INFO - loop 48 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,981 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,981 - randomforest_debug - INFO - loop 49 size 0.75 data set german ml randomforest
+2015-07-15 18:41:43,991 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:43,992 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:41:43,992 - randomforest_debug - INFO - ***** start size 0.5
+2015-07-15 18:41:43,992 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:41:43,993 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:44,007 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:44,008 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:44,032 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:44,032 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:44,074 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:44,075 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:44,153 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:44,153 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:44,304 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:44,304 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:44,598 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:44,598 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:45,179 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:45,179 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:46,334 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:46,334 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:48,644 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:48,644 - randomforest_debug - INFO - start cross val
+2015-07-15 18:41:53,261 - randomforest_debug - INFO - end cross val
+2015-07-15 18:41:53,262 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:41:53,262 - randomforest_debug - INFO - loop 0 size 0.5 data set german ml randomforest
+2015-07-15 18:41:53,786 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:53,786 - randomforest_debug - INFO - loop 1 size 0.5 data set german ml randomforest
+2015-07-15 18:41:54,315 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:54,315 - randomforest_debug - INFO - loop 2 size 0.5 data set german ml randomforest
+2015-07-15 18:41:54,837 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:54,837 - randomforest_debug - INFO - loop 3 size 0.5 data set german ml randomforest
+2015-07-15 18:41:55,363 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:55,363 - randomforest_debug - INFO - loop 4 size 0.5 data set german ml randomforest
+2015-07-15 18:41:55,889 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:55,889 - randomforest_debug - INFO - loop 5 size 0.5 data set german ml randomforest
+2015-07-15 18:41:56,413 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:56,413 - randomforest_debug - INFO - loop 6 size 0.5 data set german ml randomforest
+2015-07-15 18:41:56,937 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:56,937 - randomforest_debug - INFO - loop 7 size 0.5 data set german ml randomforest
+2015-07-15 18:41:57,464 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:57,465 - randomforest_debug - INFO - loop 8 size 0.5 data set german ml randomforest
+2015-07-15 18:41:57,986 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:57,986 - randomforest_debug - INFO - loop 9 size 0.5 data set german ml randomforest
+2015-07-15 18:41:58,510 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:58,510 - randomforest_debug - INFO - loop 10 size 0.5 data set german ml randomforest
+2015-07-15 18:41:59,306 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:41:59,307 - randomforest_debug - INFO - loop 11 size 0.5 data set german ml randomforest
+2015-07-15 18:42:00,105 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:00,106 - randomforest_debug - INFO - loop 12 size 0.5 data set german ml randomforest
+2015-07-15 18:42:00,907 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:00,907 - randomforest_debug - INFO - loop 13 size 0.5 data set german ml randomforest
+2015-07-15 18:42:01,695 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:01,695 - randomforest_debug - INFO - loop 14 size 0.5 data set german ml randomforest
+2015-07-15 18:42:02,501 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:02,501 - randomforest_debug - INFO - loop 15 size 0.5 data set german ml randomforest
+2015-07-15 18:42:03,222 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:03,222 - randomforest_debug - INFO - loop 16 size 0.5 data set german ml randomforest
+2015-07-15 18:42:03,747 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:03,747 - randomforest_debug - INFO - loop 17 size 0.5 data set german ml randomforest
+2015-07-15 18:42:04,542 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:04,542 - randomforest_debug - INFO - loop 18 size 0.5 data set german ml randomforest
+2015-07-15 18:42:05,348 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:05,349 - randomforest_debug - INFO - loop 19 size 0.5 data set german ml randomforest
+2015-07-15 18:42:06,151 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:06,152 - randomforest_debug - INFO - loop 20 size 0.5 data set german ml randomforest
+2015-07-15 18:42:06,823 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:06,823 - randomforest_debug - INFO - loop 21 size 0.5 data set german ml randomforest
+2015-07-15 18:42:07,347 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:07,347 - randomforest_debug - INFO - loop 22 size 0.5 data set german ml randomforest
+2015-07-15 18:42:07,872 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:07,873 - randomforest_debug - INFO - loop 23 size 0.5 data set german ml randomforest
+2015-07-15 18:42:08,397 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:08,397 - randomforest_debug - INFO - loop 24 size 0.5 data set german ml randomforest
+2015-07-15 18:42:08,921 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:08,921 - randomforest_debug - INFO - loop 25 size 0.5 data set german ml randomforest
+2015-07-15 18:42:09,729 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:09,729 - randomforest_debug - INFO - loop 26 size 0.5 data set german ml randomforest
+2015-07-15 18:42:10,528 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:10,528 - randomforest_debug - INFO - loop 27 size 0.5 data set german ml randomforest
+2015-07-15 18:42:11,332 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:11,332 - randomforest_debug - INFO - loop 28 size 0.5 data set german ml randomforest
+2015-07-15 18:42:12,129 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:12,129 - randomforest_debug - INFO - loop 29 size 0.5 data set german ml randomforest
+2015-07-15 18:42:12,930 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:12,931 - randomforest_debug - INFO - loop 30 size 0.5 data set german ml randomforest
+2015-07-15 18:42:13,736 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:13,736 - randomforest_debug - INFO - loop 31 size 0.5 data set german ml randomforest
+2015-07-15 18:42:14,540 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:14,540 - randomforest_debug - INFO - loop 32 size 0.5 data set german ml randomforest
+2015-07-15 18:42:15,266 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:15,266 - randomforest_debug - INFO - loop 33 size 0.5 data set german ml randomforest
+2015-07-15 18:42:15,790 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:15,790 - randomforest_debug - INFO - loop 34 size 0.5 data set german ml randomforest
+2015-07-15 18:42:16,324 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:16,324 - randomforest_debug - INFO - loop 35 size 0.5 data set german ml randomforest
+2015-07-15 18:42:16,849 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:16,849 - randomforest_debug - INFO - loop 36 size 0.5 data set german ml randomforest
+2015-07-15 18:42:17,375 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:17,375 - randomforest_debug - INFO - loop 37 size 0.5 data set german ml randomforest
+2015-07-15 18:42:17,899 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:17,899 - randomforest_debug - INFO - loop 38 size 0.5 data set german ml randomforest
+2015-07-15 18:42:18,426 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:18,426 - randomforest_debug - INFO - loop 39 size 0.5 data set german ml randomforest
+2015-07-15 18:42:18,958 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:18,958 - randomforest_debug - INFO - loop 40 size 0.5 data set german ml randomforest
+2015-07-15 18:42:19,482 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:19,482 - randomforest_debug - INFO - loop 41 size 0.5 data set german ml randomforest
+2015-07-15 18:42:20,006 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:20,006 - randomforest_debug - INFO - loop 42 size 0.5 data set german ml randomforest
+2015-07-15 18:42:20,808 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:20,809 - randomforest_debug - INFO - loop 43 size 0.5 data set german ml randomforest
+2015-07-15 18:42:21,613 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:21,613 - randomforest_debug - INFO - loop 44 size 0.5 data set german ml randomforest
+2015-07-15 18:42:22,412 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:22,413 - randomforest_debug - INFO - loop 45 size 0.5 data set german ml randomforest
+2015-07-15 18:42:22,981 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:22,982 - randomforest_debug - INFO - loop 46 size 0.5 data set german ml randomforest
+2015-07-15 18:42:23,512 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:23,512 - randomforest_debug - INFO - loop 47 size 0.5 data set german ml randomforest
+2015-07-15 18:42:24,041 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:24,041 - randomforest_debug - INFO - loop 48 size 0.5 data set german ml randomforest
+2015-07-15 18:42:24,575 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:24,575 - randomforest_debug - INFO - loop 49 size 0.5 data set german ml randomforest
+2015-07-15 18:42:25,105 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:25,107 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:42:25,107 - randomforest_debug - INFO - ***** start size 0.25
+2015-07-15 18:42:25,107 - randomforest_debug - INFO - ********* start cross validation
+2015-07-15 18:42:25,107 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:25,124 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:25,125 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:25,152 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:25,153 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:25,202 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:25,202 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:25,294 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:25,294 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:25,472 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:25,472 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:25,819 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:25,819 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:26,511 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:26,511 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:27,885 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:27,885 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:30,627 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:30,628 - randomforest_debug - INFO - start cross val
+2015-07-15 18:42:36,116 - randomforest_debug - INFO - end cross val
+2015-07-15 18:42:36,116 - randomforest_debug - INFO - ************* end cross validation
+2015-07-15 18:42:36,117 - randomforest_debug - INFO - loop 0 size 0.25 data set german ml randomforest
+2015-07-15 18:42:37,074 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:37,074 - randomforest_debug - INFO - loop 1 size 0.25 data set german ml randomforest
+2015-07-15 18:42:38,025 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:38,025 - randomforest_debug - INFO - loop 2 size 0.25 data set german ml randomforest
+2015-07-15 18:42:38,973 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:38,973 - randomforest_debug - INFO - loop 3 size 0.25 data set german ml randomforest
+2015-07-15 18:42:39,919 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:39,919 - randomforest_debug - INFO - loop 4 size 0.25 data set german ml randomforest
+2015-07-15 18:42:40,870 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:40,870 - randomforest_debug - INFO - loop 5 size 0.25 data set german ml randomforest
+2015-07-15 18:42:41,818 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:41,818 - randomforest_debug - INFO - loop 6 size 0.25 data set german ml randomforest
+2015-07-15 18:42:42,765 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:42,765 - randomforest_debug - INFO - loop 7 size 0.25 data set german ml randomforest
+2015-07-15 18:42:43,708 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:43,708 - randomforest_debug - INFO - loop 8 size 0.25 data set german ml randomforest
+2015-07-15 18:42:44,653 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:44,654 - randomforest_debug - INFO - loop 9 size 0.25 data set german ml randomforest
+2015-07-15 18:42:45,597 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:45,597 - randomforest_debug - INFO - loop 10 size 0.25 data set german ml randomforest
+2015-07-15 18:42:46,544 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:46,544 - randomforest_debug - INFO - loop 11 size 0.25 data set german ml randomforest
+2015-07-15 18:42:47,172 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:47,172 - randomforest_debug - INFO - loop 12 size 0.25 data set german ml randomforest
+2015-07-15 18:42:48,123 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:48,123 - randomforest_debug - INFO - loop 13 size 0.25 data set german ml randomforest
+2015-07-15 18:42:49,081 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:49,081 - randomforest_debug - INFO - loop 14 size 0.25 data set german ml randomforest
+2015-07-15 18:42:50,041 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:50,041 - randomforest_debug - INFO - loop 15 size 0.25 data set german ml randomforest
+2015-07-15 18:42:50,987 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:50,987 - randomforest_debug - INFO - loop 16 size 0.25 data set german ml randomforest
+2015-07-15 18:42:51,938 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:51,938 - randomforest_debug - INFO - loop 17 size 0.25 data set german ml randomforest
+2015-07-15 18:42:52,884 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:52,884 - randomforest_debug - INFO - loop 18 size 0.25 data set german ml randomforest
+2015-07-15 18:42:53,834 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:53,834 - randomforest_debug - INFO - loop 19 size 0.25 data set german ml randomforest
+2015-07-15 18:42:54,714 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:54,714 - randomforest_debug - INFO - loop 20 size 0.25 data set german ml randomforest
+2015-07-15 18:42:55,335 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:55,335 - randomforest_debug - INFO - loop 21 size 0.25 data set german ml randomforest
+2015-07-15 18:42:55,958 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:55,958 - randomforest_debug - INFO - loop 22 size 0.25 data set german ml randomforest
+2015-07-15 18:42:56,585 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:56,585 - randomforest_debug - INFO - loop 23 size 0.25 data set german ml randomforest
+2015-07-15 18:42:57,209 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:57,209 - randomforest_debug - INFO - loop 24 size 0.25 data set german ml randomforest
+2015-07-15 18:42:57,827 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:57,827 - randomforest_debug - INFO - loop 25 size 0.25 data set german ml randomforest
+2015-07-15 18:42:58,442 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:58,443 - randomforest_debug - INFO - loop 26 size 0.25 data set german ml randomforest
+2015-07-15 18:42:59,064 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:59,064 - randomforest_debug - INFO - loop 27 size 0.25 data set german ml randomforest
+2015-07-15 18:42:59,679 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:42:59,679 - randomforest_debug - INFO - loop 28 size 0.25 data set german ml randomforest
+2015-07-15 18:43:00,300 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:00,300 - randomforest_debug - INFO - loop 29 size 0.25 data set german ml randomforest
+2015-07-15 18:43:00,922 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:00,922 - randomforest_debug - INFO - loop 30 size 0.25 data set german ml randomforest
+2015-07-15 18:43:01,542 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:01,542 - randomforest_debug - INFO - loop 31 size 0.25 data set german ml randomforest
+2015-07-15 18:43:02,166 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:02,167 - randomforest_debug - INFO - loop 32 size 0.25 data set german ml randomforest
+2015-07-15 18:43:02,789 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:02,789 - randomforest_debug - INFO - loop 33 size 0.25 data set german ml randomforest
+2015-07-15 18:43:03,411 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:03,412 - randomforest_debug - INFO - loop 34 size 0.25 data set german ml randomforest
+2015-07-15 18:43:04,035 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:04,035 - randomforest_debug - INFO - loop 35 size 0.25 data set german ml randomforest
+2015-07-15 18:43:04,656 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:04,656 - randomforest_debug - INFO - loop 36 size 0.25 data set german ml randomforest
+2015-07-15 18:43:05,275 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:05,275 - randomforest_debug - INFO - loop 37 size 0.25 data set german ml randomforest
+2015-07-15 18:43:05,905 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:05,905 - randomforest_debug - INFO - loop 38 size 0.25 data set german ml randomforest
+2015-07-15 18:43:06,524 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:06,524 - randomforest_debug - INFO - loop 39 size 0.25 data set german ml randomforest
+2015-07-15 18:43:07,148 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:07,148 - randomforest_debug - INFO - loop 40 size 0.25 data set german ml randomforest
+2015-07-15 18:43:07,770 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:07,770 - randomforest_debug - INFO - loop 41 size 0.25 data set german ml randomforest
+2015-07-15 18:43:08,394 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:08,394 - randomforest_debug - INFO - loop 42 size 0.25 data set german ml randomforest
+2015-07-15 18:43:09,017 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:09,017 - randomforest_debug - INFO - loop 43 size 0.25 data set german ml randomforest
+2015-07-15 18:43:09,961 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:09,961 - randomforest_debug - INFO - loop 44 size 0.25 data set german ml randomforest
+2015-07-15 18:43:10,885 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:10,885 - randomforest_debug - INFO - loop 45 size 0.25 data set german ml randomforest
+2015-07-15 18:43:11,510 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:11,511 - randomforest_debug - INFO - loop 46 size 0.25 data set german ml randomforest
+2015-07-15 18:43:12,137 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:12,137 - randomforest_debug - INFO - loop 47 size 0.25 data set german ml randomforest
+2015-07-15 18:43:12,761 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:12,761 - randomforest_debug - INFO - loop 48 size 0.25 data set german ml randomforest
+2015-07-15 18:43:13,383 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:13,383 - randomforest_debug - INFO - loop 49 size 0.25 data set german ml randomforest
+2015-07-15 18:43:14,007 - randomforest_debug - INFO - ------------- end loop -----
+2015-07-15 18:43:14,009 - randomforest_debug - INFO - *********** end size
+2015-07-15 18:43:14,009 - randomforest_debug - INFO - ******* end data set
+2015-07-15 18:43:14,009 - randomforest_debug - INFO - ************ end ml
