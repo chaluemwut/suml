@@ -3,7 +3,7 @@ import numpy as np
 from config import Config
 
 libsvm_path = Config.svm_path
-temp_path = 'tmp'
+temp_path = 'tmp/'
 
 class LibSVMWrapper(object):
 
@@ -106,22 +106,3 @@ if __name__ == '__main__':
     from ml_util import MLUtil
     sc = MLUtil.cross_validation(ml, x, y, cv=5)
     print sc
-#     scores = cross_validation.cross_val_score(ml, x, y, cv=5)
-#     print scores
-#     scores = cross_validation.cross_val_score(ml, x, y, cv=5)
-#     print scores
-    
-#     print x[0], y[0]
-#     ml = LibSVMWrapper(kernel=0)
-#     ml.fit(x, y)
-#     ml.predict([x[0], x[1]])
-    
-#     for m in lst:
-#         m.fit(x, y)
-#         y_pred = m.predict([x[0], x])
-#         print accuracy_score(y_test, y_pred)
-
-
-# [ 0.77358491  0.81132075  0.8490566   0.75        0.84615385]
-
-
