@@ -75,7 +75,7 @@ class ParallelManual(object):
                 self.log_debug.info('end cross val')
                 score_lst.append(scores.mean())
             except Exception as e:
-                pass       
+                self.log.info(str(e))       
         np_score = np.array(score_lst)
         max_idx = np_score.argmax()
         return ml_lst[max_idx]
