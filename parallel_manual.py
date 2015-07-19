@@ -182,10 +182,13 @@ class ParallelManual(object):
                     self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, dataset_name, self.ml_key))
                     ran_num = random.randint(1, 10000)
                     x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-                    ml_c = copy.deepcopy(ml)
-                    ml_c.fit(x_train, y_train)
-                    start = time.time()
-                    y_pred = ml_c.predict(x_test)
+                    try:
+                        ml_c = copy.deepcopy(ml)
+                        ml_c.fit(x_train, y_train)
+                        start = time.time()
+                        y_pred = ml_c.predict(x_test)
+                    except Exception as e:
+                        self.log.info(str(e))
                     total_time = time.time() - start
                     acc = accuracy_score(y_test, y_pred)
                     fsc = f1_score(y_test, y_pred)
