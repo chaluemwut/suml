@@ -57,10 +57,20 @@ class ParallelManual(object):
     def gen_knn(self, max_size):
         lst_random = random.sample(range(1, max_size), 10)
         knn_lst = []
-        for i in lst_random:
-            knn_lst.append(KNeighborsClassifier(n_neighbors=i))
+        percent_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+        r_lst = []
+        start_idx = 1
+        for i in percent_list:
+            max_idx = int(i * max_size)
+            print 'max ', max_idx, ' start idx ', start_idx
+            r = random.sample(range(start_idx, max_idx), 1)[0]
+            knn_lst.append(KNeighborsClassifier(n_neighbors=r))
+            start_idx = max_idx
+            r_lst.append(r)
+        print r_lst
         return knn_lst
-        
+ 
+            
     def load_dataset(self):
         loader = DataSetLoader()
         lst = loader.loadData()
@@ -229,5 +239,6 @@ def mainCmp(ml_key):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    ml_key = sys.argv[1]
+#     ml_key = sys.argv[1]
+    ml_key = 'knn'
     mainCmp(ml_key)
