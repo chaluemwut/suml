@@ -117,10 +117,10 @@ class ParallelManual(object):
             perform_result.append([key, acc25, acc50, acc75, f1_25, f1_50, f1_75])
             time_result.append([key, time25, total_ins25, time50, total_ins50, time75, total_ins75])
         self.log.info('---------- ml report ----------')
-        print tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
+        self.log.info(tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
         self.log.info('---------- time report --------')
-        print tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75'))
-        print self.report_by_dataset_v1(result)
+        self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
+        self.log.info(self.report_by_dataset_v1(result))
             
     def report_by_dataset_v1(self, result):
         self.log_debug.info('report by dataset')
