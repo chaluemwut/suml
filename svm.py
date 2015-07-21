@@ -59,6 +59,7 @@ class LibSVMWrapper(object):
             create_model = create_model+' -d '+str(self.degree)
         create_model = create_model+' {} {}'.format(self.path_model_file,
                                                     self.path_model_result)
+        print create_model
         os.system(create_model)
 
     def score(self, X, y):
@@ -73,6 +74,7 @@ class LibSVMWrapper(object):
         create_predict = libsvm_path+'/svm-predict'+' {} {} {}'.format(self.path_test_data,
                                                                     self.path_model_result,
                                                                     self.path_result)
+        print create_predict
         os.system(create_predict)
         return self.__read_result()
 

@@ -51,7 +51,7 @@ class DataSetLoader(object):
         letter = self.template_load('data/binary/letter.p2.data')
         x_letter, y_letter = self.get_y_first(letter)
         
-        austra = self.template_load('data/statlog/australian.data')
+        austra = self.template_load_float('data/statlog/australian.data')
         x_aus, y_aus = self.get_y_last(austra)
         
         german = self.template_load('data/statlog/german.data')
