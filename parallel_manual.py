@@ -239,6 +239,5 @@ def mainCmp(ml_key):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-#     ml_key = sys.argv[1]
-    ml_key = 'knn'
+    ml_key = sys.argv[1]
     mainCmp(ml_key)
