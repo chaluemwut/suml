@@ -149,7 +149,7 @@ class SVMManual(object):
             ml_result.append(f1_50)
             ml_result.append(f1_75)
             result_lst.append(ml_result)
-        print tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
+        self.log.info(tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
                         
     def report(self, result):
         self.report_by_dataset_v1(result)
@@ -167,7 +167,6 @@ class SVMManual(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
-        dataset_map = {}
         datasets_data_lst = []          
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
@@ -182,7 +181,7 @@ class SVMManual(object):
             total_ins = []
             precision_lst = []
             recall_lst = []
-            for i in range(0, 50):
+            for i in range(0, Config.reperating_loop):
                 self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, self.dataset_name, 'svm'))
                 ran_num = random.randint(1, 10000)
                 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
@@ -218,9 +217,8 @@ class SVMManual(object):
             self.log.info('---------------------------------------------')
             self.log_debug.info('*********** end size')                    
         all_data.append(datasets_data_lst)
-        dataset_map[self.dataset_name] = all_data
         self.log_debug.info('******* end data set')
-        result[self.ml_key] = all_data
+        result[self.dataset_name] = all_data
         self.log_debug.info('************ end ml')
         pickle.dump(result, open(self.dataset_name+'_svm_result.obj', 'wb'))
         self.report_all(result)

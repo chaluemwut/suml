@@ -10,7 +10,7 @@ class Config(object):
 #   production
     display_console = True
     base_estimation = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
-    reperating_loop = 10
+    reperating_loop = 5
 
 #   Test
 #     display_console = True
