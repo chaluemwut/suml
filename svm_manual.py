@@ -233,7 +233,6 @@ def mainCmp(dataset_name):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-#     dataset_name = sys.argv[1]
-    dataset_name = 'austra'
+    dataset_name = sys.argv[1]
     mainCmp(dataset_name)
 
