@@ -66,7 +66,7 @@ def report():
     ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree']
     result = {}
     for m in ml_name:
-        file_name = 'result/run1/{}_result.obj'.format(m)
+        file_name = 'result/run2_500/{}_result.obj'.format(m)
         obj_file = pickle.load(open(file_name, 'rb'))
         result[m] = obj_file[m]        
     report_all(result)
