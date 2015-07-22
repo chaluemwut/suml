@@ -124,40 +124,7 @@ class SVMManual(object):
         self.log.info(tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
         self.log.info('---------- time report --------')
         self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
-        self.log.info(self.report_by_dataset_v1(result))
-            
-    def report_by_dataset_v1(self, result):
-        self.log_debug.info('report by dataset')
-        result_lst = []
-        for i in range(0, len(DataSetLoader.dataset_name)):
-            ml_result = []
-            datasets_data = result[self.ml_key][i]
-            acc25 = datasets_data[0]
-            f1_25 = datasets_data[1]
-            time25 = datasets_data[2]
-            total_ins25 = datasets_data[3]
-            acc50 = datasets_data[4]
-            f1_50 = datasets_data[5]
-            time50 = datasets_data[6]
-            total_ins50 = datasets_data[7]
-            acc75 = datasets_data[8]
-            f1_75 = datasets_data[9]
-            time75 = datasets_data[10]
-            total_ins25 = datasets_data[11] 
-            ml_result.append(self.ml_key)                               
-            ml_result.append(DataSetLoader.dataset_name[i])
-            ml_result.append(acc25)
-            ml_result.append(acc50)
-            ml_result.append(acc75)
-            ml_result.append(f1_25)
-            ml_result.append(f1_50)
-            ml_result.append(f1_75)
-            result_lst.append(ml_result)
-        self.log.info(tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
-                        
-    def report(self, result):
-        self.report_by_dataset_v1(result)
-        self.report_all(result)
+
      
     def process(self):
         ml_lst = self.gen_ml_lst()
@@ -224,7 +191,7 @@ class SVMManual(object):
         self.log_debug.info('******* end data set')
         result[self.dataset_name] = all_data
         self.log_debug.info('************ end ml')
-        pickle.dump(result, open(self.dataset_name+'_svm_result.obj', 'wb'))
+        pickle.dump(result, open(self.dataset_name+'_knn_result.obj', 'wb'))
         self.report_all(result)
                  
 def mainCmp(dataset_name):
