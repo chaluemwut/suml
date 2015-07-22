@@ -24,8 +24,8 @@ class SVMManual(object):
     def __init__(self, dataset_name):
         self.dataset_name = dataset_name
         log_file = LogFile()
-        self.log = log_file.get_log(self.dataset_name+'_data', self.dataset_name+'_data.log', Config.display_console)
-        self.log_debug = log_file.get_log(self.dataset_name+'_debug', self.dataset_name+'_debug.log', Config.display_console)
+        self.log = log_file.get_log(self.dataset_name + '_data', self.dataset_name + '_data.log', Config.display_console)
+        self.log_debug = log_file.get_log(self.dataset_name + '_debug', self.dataset_name + '_debug.log', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -71,7 +71,11 @@ class SVMManual(object):
  
     def gen_knn(self):
         knn_lst = []
-        for i in range(2, 10):
+        rng = range(2, 200)
+        if self.dataset_name == 'adult':
+            rng = range(2, 10)
+        
+        for i in rng:
             knn_lst.append(KNeighborsClassifier(n_neighbors=i))
         return knn_lst
                 
@@ -191,7 +195,7 @@ class SVMManual(object):
         self.log_debug.info('******* end data set')
         result[self.dataset_name] = all_data
         self.log_debug.info('************ end ml')
-        pickle.dump(result, open(self.dataset_name+'_knn_result.obj', 'wb'))
+        pickle.dump(result, open(self.dataset_name + '_knn_result.obj', 'wb'))
         self.report_all(result)
                  
 def mainCmp(dataset_name):
