@@ -52,7 +52,7 @@ class LibSVMWrapper(object):
         self.path_model_result = self.__gen_model_name()
         f_file = open(self.path_model_file, 'w')
         self.__write_data_file(f_file, x, y)
-        create_model = libsvm_path+'/svm-train'
+        create_model = libsvm_path+'/svm-train -h 0'
         if self.kernel != None:
             create_model = create_model+' -t '+str(self.kernel)
         if self.degree != None:

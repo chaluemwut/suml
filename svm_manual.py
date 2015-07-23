@@ -173,7 +173,8 @@ class SVMManual(object):
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
             self.log_debug.info('********* start cross validation')
-            ml = self.cross_validation(ml_value, x_train, y_train)
+#             ml = self.cross_validation(ml_value, x_train, y_train)
+            ml = LibSVMWrapper(kernel=0)
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
