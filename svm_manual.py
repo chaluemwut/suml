@@ -167,14 +167,14 @@ class SVMManual(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
-        datasets_data_lst = []          
+        datasets_data_lst = []
+        ml = None         
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
             self.log_debug.info('********* start cross validation')
-#             ml = self.cross_validation(ml_value, x_train, y_train)
-            ml = LibSVMWrapper(kernel=0)
+            ml = self.cross_validation(ml_value, x_train, y_train)
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
@@ -216,7 +216,8 @@ class SVMManual(object):
             self.log.info(time_pred)
             self.log.info(total_ins)
             self.log.info('---------------------------------------------')
-            self.log_debug.info('*********** end size')                    
+            self.log_debug.info('*********** end size')
+        self.log.info('ml type '+str(ml.kernel))                
         all_data.append(datasets_data_lst)
         self.log_debug.info('******* end data set')
         result[self.dataset_name] = all_data
