@@ -182,7 +182,7 @@ class SVMManual(object):
             total_ins = []
             precision_lst = []
             recall_lst = []
-            for i in range(0, Config.reperating_loop):
+            for i in range(0, 1):
                 self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, self.dataset_name, 'svm'))
                 ran_num = random.randint(1, 10000)
                 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
