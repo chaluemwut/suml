@@ -69,11 +69,16 @@ class DataSetLoader(object):
         vechicle = self.template_load('data/statlog/vehicle.data')
         x_vechicle, y_vechicle = self.get_y_last(vechicle)
         
-        return {self.dataset_name[0]:[x_adult, y_adult],
-                self.dataset_name[1]:[x_heart, y_heart],
-                self.dataset_name[2]:[x_letter, y_letter],
-                self.dataset_name[3]:[x_aus, y_aus],
-                self.dataset_name[4]:[x_ger, y_ger]}
+        return {'adult':[x_adult, y_adult],
+                'heart':[x_heart, y_heart],
+                'letter':[x_letter, y_letter],
+                'austra':[x_aus, y_aus],
+                'german':[x_ger, y_ger],
+                'sat':[x_stat, y_stat],
+                'segment':[x_seg, y_seg],
+                'shuttle':[x_shutt, y_shutt],
+                'vehicle':[x_vechicle, y_vechicle]
+                }
         
 #         return {'adult':[x_adult, y_adult],
 #                 'heart':[x_heart, y_heart],
