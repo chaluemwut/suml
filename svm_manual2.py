@@ -24,8 +24,8 @@ class SVMManual(object):
     def __init__(self, dataset_name):
         self.dataset_name = dataset_name
         log_file = LogFile()
-        self.log = log_file.get_log(self.dataset_name + '_data', self.dataset_name + '_data.log', Config.display_console)
-        self.log_debug = log_file.get_log(self.dataset_name + '_debug', self.dataset_name + '_debug.log', Config.display_console)
+        self.log = log_file.get_log(self.dataset_name+'_data', self.dataset_name+'_data.log', Config.display_console)
+        self.log_debug = log_file.get_log(self.dataset_name+'_debug', self.dataset_name+'_debug.log', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -35,8 +35,7 @@ class SVMManual(object):
             random_lst.append(RandomForestClassifier(n_estimators=i))
             boosted_lst.append(GradientBoostingClassifier(n_estimators=i))
             bagging_lst.append(BaggingClassifier(DecisionTreeClassifier(), n_estimators=i))
-
-        knn_lst = self.gen_knn()
+        knn_lst = []
         
         svm_lst = [LibSVMWrapper(kernel=0),
            LibSVMWrapper(kernel=1, degree=2),
@@ -54,8 +53,8 @@ class SVMManual(object):
                 ml_name[5]:[DecisionTreeClassifier()],
                 ml_name[6]:svm_lst
         }
-
-    def gen_knn2(self, max_size):
+     
+    def gen_knn(self, max_size):
         lst_random = random.sample(range(1, max_size), 10)
         knn_lst = []
         percent_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
@@ -63,22 +62,15 @@ class SVMManual(object):
         start_idx = 1
         for i in percent_list:
             max_idx = int(i * max_size)
+            print 'max ', max_idx, ' start idx ', start_idx
             r = random.sample(range(start_idx, max_idx), 1)[0]
             knn_lst.append(KNeighborsClassifier(n_neighbors=r))
             start_idx = max_idx
             r_lst.append(r)
+        print r_lst
         return knn_lst
  
-    def gen_knn(self):
-        knn_lst = []
-        rng = range(2, 200)
-        if self.dataset_name == 'heart':
-            rng = range(2, 10)
-        
-        for i in rng:
-            knn_lst.append(KNeighborsClassifier(n_neighbors=i))
-        return knn_lst
-                
+            
     def load_dataset(self):
         loader = DataSetLoader()
         lst = loader.loadData()
@@ -128,14 +120,13 @@ class SVMManual(object):
         self.log.info(tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
         self.log.info('---------- time report --------')
         self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
-
      
     def process(self):
         ml_lst = self.gen_ml_lst()
         dataset_lst = self.load_dataset()
         result = {}
             
-        ml_value = ml_lst['knn']
+        ml_value = ml_lst['svm']
         self.log_debug.info('*************************************** ' + self.dataset_name)
         all_data = []
         self.log_debug.info('***** start ' + self.dataset_name)
@@ -148,7 +139,8 @@ class SVMManual(object):
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
             self.log_debug.info('********* start cross validation')
-            ml = self.cross_validation(ml_value, x_train, y_train)
+#             ml = self.cross_validation(ml_value, x_train, y_train)
+            ml = LibSVMWrapper(kernel=0)
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
@@ -156,7 +148,7 @@ class SVMManual(object):
             total_ins = []
             precision_lst = []
             recall_lst = []
-            for i in range(0, Config.reperating_loop):
+            for i in range(0, 1):
                 self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, self.dataset_name, 'svm'))
                 ran_num = random.randint(1, 10000)
                 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
@@ -190,22 +182,24 @@ class SVMManual(object):
             self.log.info(time_pred)
             self.log.info(total_ins)
             self.log.info('---------------------------------------------')
-            self.log_debug.info('*********** end size')                    
+            self.log_debug.info('*********** end size')
+                            
         all_data.append(datasets_data_lst)
         self.log_debug.info('******* end data set')
         result[self.dataset_name] = all_data
         self.log_debug.info('************ end ml')
-        pickle.dump(result, open(self.dataset_name + '_knn_result.obj', 'wb'))
+        pickle.dump(result, open(self.dataset_name+'_svm_result.obj', 'wb'))
         self.report_all(result)
                  
 def mainCmp(dataset_name):
-    print ' ---------- start knn process -------'
+    print ' ---------- start svm process -------'
     print 'data set name ', dataset_name
     obj = SVMManual(dataset_name)
     obj.process()
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    dataset_name = sys.argv[1]
+#     dataset_name = sys.argv[1]
+    dataset_name = 'adult'
     mainCmp(dataset_name)
 

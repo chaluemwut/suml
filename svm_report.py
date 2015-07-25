@@ -65,7 +65,7 @@ def report():
     result = {}
     lst = []
     for d_name in dataset_name:
-        file_name = 'result/run2_500/knn/{}_knn_result.obj'.format(d_name)
+        file_name = 'result/run3_500/knn/{}_knn_result.obj'.format(d_name)
         obj_file = pickle.load(open(file_name, 'rb'))  
         data_lst = obj_file[d_name][0]
         lst.append(data_lst)

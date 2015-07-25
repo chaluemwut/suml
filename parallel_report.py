@@ -63,10 +63,10 @@ def report_all(result):
 
 def report():
     np.set_printoptions(precision=4)
-    ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree']
+    ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'decsiontree']
     result = {}
     for m in ml_name:
-        file_name = 'result/run2_500/{}_result.obj'.format(m)
+        file_name = 'result/run3_500/{}_result.obj'.format(m)
         obj_file = pickle.load(open(file_name, 'rb'))
         result[m] = obj_file[m]        
     report_all(result)

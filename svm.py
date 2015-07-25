@@ -63,9 +63,10 @@ class LibSVMWrapper(object):
         os.system(create_model)
 
     def score(self, X, y):
-        from sklearn.metrics import accuracy_score
+        from sklearn.metrics import accuracy_score, f1_score
         y_pred = self.predict(X)
-        return accuracy_score(y, y_pred)
+        average_score = (accuracy_score(y, y_pred) + f1_score(y, y_pred)) / 2.0
+        return average_score
     
     def predict(self, x):
         f_result = open(self.path_test_data, 'w')

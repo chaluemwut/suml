@@ -57,17 +57,17 @@ class DataSetLoader(object):
         german = self.template_load('data/statlog/german.data')
         x_ger, y_ger = self.get_y_last(german)
         
-#         stat = self.template_load('data/statlog/sat.data')
-#         x_stat, y_stat = self.get_y_last(stat)
+        stat = self.template_load('data/statlog/sat.data')
+        x_stat, y_stat = self.get_y_last(stat)
         
-#         seg = self.template_load_float('data/statlog/segment.data')
-#         x_seg, y_seg = self.get_y_last_convert(seg)
-#         
-#         shuttle = self.template_load('data/statlog/shuttle.data')
-#         x_shutt, y_shutt = self.get_y_last(shuttle)
-#         
-#         vechicle = self.template_load('data/statlog/vehicle.data')
-#         x_vechicle, y_vechicle = self.get_y_last(vechicle)
+        seg = self.template_load_float('data/statlog/segment.data')
+        x_seg, y_seg = self.get_y_last_convert(seg)
+         
+        shuttle = self.template_load('data/statlog/shuttle.data')
+        x_shutt, y_shutt = self.get_y_last(shuttle)
+         
+        vechicle = self.template_load('data/statlog/vehicle.data')
+        x_vechicle, y_vechicle = self.get_y_last(vechicle)
         
         return {self.dataset_name[0]:[x_adult, y_adult],
                 self.dataset_name[1]:[x_heart, y_heart],

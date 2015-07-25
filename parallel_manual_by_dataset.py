@@ -18,14 +18,15 @@ from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
 
-class SVMManual(object):
+class ParallelManualByDataSet(object):
     data_size = [0.75, 0.50, 0.25]
     
-    def __init__(self, dataset_name):
-        self.dataset_name = dataset_name
+    def __init__(self, ml_key, dataset_lst):
+        self.ml_key = ml_key
+        self.dataset_lst = dataset_lst
         log_file = LogFile()
-        self.log = log_file.get_log(self.dataset_name+'_data', self.dataset_name+'_data.log', Config.display_console)
-        self.log_debug = log_file.get_log(self.dataset_name+'_debug', self.dataset_name+'_debug.log', Config.display_console)
+        self.log = log_file.get_log(self.ml_key + '_data', self.ml_key + '_data.log', Config.display_console)
+        self.log_debug = log_file.get_log(self.ml_key + '_debug', self.ml_key + '_debug.log', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -55,19 +56,11 @@ class SVMManual(object):
         }
      
     def gen_knn(self, max_size):
-        lst_random = random.sample(range(1, max_size), 10)
         knn_lst = []
-        percent_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-        r_lst = []
-        start_idx = 1
-        for i in percent_list:
-            max_idx = int(i * max_size)
-            print 'max ', max_idx, ' start idx ', start_idx
-            r = random.sample(range(start_idx, max_idx), 1)[0]
-            knn_lst.append(KNeighborsClassifier(n_neighbors=r))
-            start_idx = max_idx
-            r_lst.append(r)
-        print r_lst
+        rng = range(2, 200)
+        
+        for i in rng:
+            knn_lst.append(KNeighborsClassifier(n_neighbors=i))
         return knn_lst
  
             
@@ -125,7 +118,7 @@ class SVMManual(object):
     def report_by_dataset_v1(self, result):
         self.log_debug.info('report by dataset')
         result_lst = []
-        for i in range(0, len(DataSetLoader.dataset_name)):
+        for i in self.dataset_lst:
             ml_result = []
             datasets_data = result[self.ml_key][i]
             acc25 = datasets_data[0]
@@ -149,7 +142,7 @@ class SVMManual(object):
             ml_result.append(f1_50)
             ml_result.append(f1_75)
             result_lst.append(ml_result)
-        self.log.info(tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
+        print tabulate(result_lst, ('ml name', 'data set', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
                         
     def report(self, result):
         self.report_by_dataset_v1(result)
@@ -160,79 +153,85 @@ class SVMManual(object):
         dataset_lst = self.load_dataset()
         result = {}
             
-        ml_value = ml_lst['svm']
-        self.log_debug.info('*************************************** ' + self.dataset_name)
-        all_data = []
-        self.log_debug.info('***** start ' + self.dataset_name)
-        data_value = dataset_lst[self.dataset_name]
-        x_data = data_value[0]
-        y_data = data_value[1]
-        datasets_data_lst = []
-        ml = None         
-        for d_size in self.data_size:
-            self.log_debug.info('***** start size ' + str(d_size))
-            ran_num = random.randint(1, 100)
-            x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-            self.log_debug.info('********* start cross validation')
-            ml = self.cross_validation(ml_value, x_train, y_train)
-            self.log_debug.info('************* end cross validation')
-            acc_lst = []
-            f1_lst = []
-            time_pred = []
-            total_ins = []
-            precision_lst = []
-            recall_lst = []
-            for i in range(0, 1):
-                self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, self.dataset_name, 'svm'))
-                ran_num = random.randint(1, 10000)
+        ml_value = ml_lst[self.ml_key]
+        self.log_debug.info('*************************************** ' + self.ml_key)
+        all_data = []           
+        for dataset_name in self.dataset_lst:
+            self.log_debug.info('***** start ' + dataset_name)
+            data_value = dataset_lst[dataset_name]
+            x_data = data_value[0]
+            y_data = data_value[1]
+            dataset_map = {}
+            datasets_data = []          
+            for d_size in self.data_size:
+                self.log_debug.info('***** start size ' + str(d_size))
+                ran_num = random.randint(1, 100)
                 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-                try:
-                    ml_c = copy.deepcopy(ml)
-                    ml_c.fit(x_train, y_train)
-                    start = time.time()
-                    y_pred = ml_c.predict(x_test)
-                except Exception as e:
-                    self.log.info(str(e))
-                total_time = time.time() - start
-                acc = accuracy_score(y_test, y_pred)
-                fsc = f1_score(y_test, y_pred)
-                acc_lst.append(acc)
-                f1_lst.append(fsc)
-                time_pred.append(total_time)
-                total_ins.append(len(y_test))
-                pre_score = precision_score(y_test, y_pred)
-                recall = recall_score(y_test, y_pred)
-                precision_lst.append(pre_score)
-                recall_lst.append(recall)
-                self.log_debug.info('------------- end loop -----')
-            datasets_data_lst.append(np.mean(acc_lst))
-            datasets_data_lst.append(np.mean(f1_lst))
-            datasets_data_lst.append(np.mean(time_pred))
-            datasets_data_lst.append(np.mean(total_ins))
-            self.log.info('---------------------------------------------') 
-            self.log.info('data size ' + str(d_size) + ' data set ' + self.dataset_name) 
-            self.log.info(acc_lst)
-            self.log.info(f1_lst)
-            self.log.info(time_pred)
-            self.log.info(total_ins)
-            self.log.info('---------------------------------------------')
-            self.log_debug.info('*********** end size')
-        self.log.info('ml type '+str(ml.kernel))                
-        all_data.append(datasets_data_lst)
-        self.log_debug.info('******* end data set')
-        result[self.dataset_name] = all_data
+                self.log_debug.info('********* start cross validation')
+                if self.ml_key == 'knn':
+                    max_knn = int(len(x_train) / 5.0)
+                    knn_lst = self.gen_knn(max_knn)
+                    ml = self.cross_validation(knn_lst, x_train, y_train)
+                else:
+                    ml = self.cross_validation(ml_value, x_train, y_train)
+                self.log_debug.info('************* end cross validation')
+                acc_lst = []
+                f1_lst = []
+                time_pred = []
+                total_ins = []
+                precision_lst = []
+                recall_lst = []
+                for i in range(0, Config.reperating_loop):
+                    self.log_debug.info('loop {} size {} data set {} ml {}'.format(i, d_size, dataset_name, self.ml_key))
+                    ran_num = random.randint(1, 10000)
+                    x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
+                    try:
+                        ml_c = copy.deepcopy(ml)
+                        ml_c.fit(x_train, y_train)
+                        start = time.time()
+                        y_pred = ml_c.predict(x_test)
+                    except Exception as e:
+                        self.log.info(str(e))
+                    total_time = time.time() - start
+                    acc = accuracy_score(y_test, y_pred)
+                    fsc = f1_score(y_test, y_pred)
+                    acc_lst.append(acc)
+                    f1_lst.append(fsc)
+                    time_pred.append(total_time)
+                    total_ins.append(len(y_test))
+                    pre_score = precision_score(y_test, y_pred)
+                    recall = recall_score(y_test, y_pred)
+                    precision_lst.append(pre_score)
+                    recall_lst.append(recall)
+                    self.log_debug.info('------------- end loop -----')
+                datasets_data.append(np.mean(acc_lst))
+                datasets_data.append(np.mean(f1_lst))
+                datasets_data.append(np.mean(time_pred))
+                datasets_data.append(np.mean(total_ins))
+                self.log.info('---------------------------------------------') 
+                self.log.info('data size ' + str(d_size) + ' data set ' + dataset_name) 
+                self.log.info(acc_lst)
+                self.log.info(f1_lst)
+                self.log.info(time_pred)
+                self.log.info(total_ins)
+                self.log.info('---------------------------------------------')
+                self.log_debug.info('*********** end size')                    
+            all_data.append(datasets_data)
+            dataset_map[dataset_name] = all_data
+            self.log_debug.info('******* end data set')
+        result[self.ml_key] = all_data
         self.log_debug.info('************ end ml')
-        pickle.dump(result, open(self.dataset_name+'_svm_result.obj', 'wb'))
+        pickle.dump(result, open(self.ml_key + '_result.obj', 'wb'))
         self.report_all(result)
                  
-def mainCmp(dataset_name):
-    print ' ---------- start svm process -------'
-    print 'data set name ', dataset_name
-    obj = SVMManual(dataset_name)
+def mainCmp(ml_key):
+    print ' ---------- start cmp -------'
+    print 'ml name ', ml_key
+    dataset_lst = ['sat', 'segment', 'shuttle', 'vehicle']
+    obj = ParallelManualByDataSet(ml_key, dataset_lst)
     obj.process()
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    dataset_name = sys.argv[1]
-    mainCmp(dataset_name)
-
+    ml_key = sys.argv[1]
+    mainCmp(ml_key)
