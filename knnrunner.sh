@@ -1,6 +1,5 @@
 #!/bin/sh
-python knn_manual.py adult &
-python knn_manual.py heart &
-python knn_manual.py letter &
-python knn_manual.py austra &
-python knn_manual.py german &
+python knn_manual.py sat &
+python knn_manual.py segment &
+python knn_manual.py shuttle &
+python knn_manual.py vehicle &

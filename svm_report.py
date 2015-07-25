@@ -35,6 +35,36 @@ def report_by_dataset_v1(result):
             result_lst.append(ml_result)
     print tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
 
+def report_by_dataset_v2(result, dataset_lst):
+    print 'report by dataset'
+    result_lst = []
+    for key, value in result.iteritems():
+        for i in range(0, len(dataset_name)):
+            ml_result = []
+            datasets_data = result[key][i]
+            acc25 = datasets_data[0]
+            f1_25 = datasets_data[1]
+            time25 = datasets_data[2]
+            total_ins25 = datasets_data[3]
+            acc50 = datasets_data[4]
+            f1_50 = datasets_data[5]
+            time50 = datasets_data[6]
+            total_ins50 = datasets_data[7]
+            acc75 = datasets_data[8]
+            f1_75 = datasets_data[9]
+            time75 = datasets_data[10]
+            total_ins25 = datasets_data[11] 
+            ml_result.append(key)                               
+            ml_result.append(dataset_name[i])
+            ml_result.append(acc25)
+            ml_result.append(acc50)
+            ml_result.append(acc75)
+            ml_result.append(f1_25)
+            ml_result.append(f1_50)
+            ml_result.append(f1_75)
+            result_lst.append(ml_result)
+    print tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
+
 def report_all(result):
     perform_result = []
     time_result = []

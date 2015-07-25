@@ -54,26 +54,12 @@ class SVMManual(object):
                 ml_name[5]:[DecisionTreeClassifier()],
                 ml_name[6]:svm_lst
         }
-
-    def gen_knn2(self, max_size):
-        lst_random = random.sample(range(1, max_size), 10)
-        knn_lst = []
-        percent_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-        r_lst = []
-        start_idx = 1
-        for i in percent_list:
-            max_idx = int(i * max_size)
-            r = random.sample(range(start_idx, max_idx), 1)[0]
-            knn_lst.append(KNeighborsClassifier(n_neighbors=r))
-            start_idx = max_idx
-            r_lst.append(r)
-        return knn_lst
  
     def gen_knn(self):
         knn_lst = []
         rng = range(2, 200)
-        if self.dataset_name == 'heart':
-            rng = range(2, 10)
+        if self.dataset_name == 'vehicle':
+            rng = range(2, 30)
         
         for i in rng:
             knn_lst.append(KNeighborsClassifier(n_neighbors=i))
