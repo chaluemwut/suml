@@ -2,8 +2,8 @@ import pickle
 import numpy as np
 from tabulate import tabulate
 
-dataset_name = ['adult','heart', 'letter', 'austra', 'german']
-# dataset_name = ['heart', 'austra', 'german']
+# dataset_name = ['adult','heart', 'letter', 'austra', 'german']
+dataset_name = ['sat', 'segment', 'shuttle', 'vehicle']
 
 def report_by_dataset_v1(result):
     print 'report by dataset'
@@ -94,12 +94,13 @@ def report_all(result):
 def report():
     result = {}
     lst = []
+    ml_name = 'knn'
     for d_name in dataset_name:
-        file_name = 'result/run3_500/knn/{}_knn_result.obj'.format(d_name)
+        file_name = 'result/run4/{}/{}_{}_result.obj'.format(ml_name,d_name, ml_name)
         obj_file = pickle.load(open(file_name, 'rb'))  
         data_lst = obj_file[d_name][0]
         lst.append(data_lst)
-    result['knn'] = lst
+    result[ml_name] = lst
     report_all(result)
 
 if __name__ == '__main__':
