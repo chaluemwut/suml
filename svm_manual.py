@@ -26,7 +26,7 @@ class SVMManual(object):
         log_file = LogFile()
         self.log = log_file.get_log(self.dataset_name+'_data', self.dataset_name+'_data.log', Config.display_console)
         self.log_debug = log_file.get_log(self.dataset_name+'_debug', self.dataset_name+'_debug.log', Config.display_console)
-        self.log_error = log_file.get_log(self.ml_name+'_error', self.ml_name+'_error.err', Config.display_console)
+        self.log_error = log_file.get_log(self.dataset_name+'_error', self.dataset_name+'_error.err', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
