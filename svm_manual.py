@@ -26,6 +26,7 @@ class SVMManual(object):
         log_file = LogFile()
         self.log = log_file.get_log(self.dataset_name+'_data', self.dataset_name+'_data.log', Config.display_console)
         self.log_debug = log_file.get_log(self.dataset_name+'_debug', self.dataset_name+'_debug.log', Config.display_console)
+        self.log_error = log_file.get_log(self.ml_name+'_error', self.ml_name+'_error.err', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -150,7 +151,24 @@ class SVMManual(object):
             ml_result.append(f1_75)
             result_lst.append(ml_result)
         self.log.info(tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
-                        
+
+    def remove_by_chi2_process(self, x, y):
+        from sklearn.feature_selection import  SelectKBest, f_classif
+        chi2 = SelectKBest(f_classif, k=3)
+        x_train = chi2.fit_transform(x, y)
+        result_idx = []
+        feature_len = len(x[0])
+        for i in range(0, feature_len):
+            column_data = x[:, i]
+            if  np.array_equal(column_data, x_train[:, 0]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 1]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 2]):
+                result_idx.append(i)
+        x = np.delete(x, result_idx, axis=1)
+        return x, y  
+                            
     def report(self, result):
         self.report_by_dataset_v1(result)
         self.report_all(result)
@@ -167,6 +185,9 @@ class SVMManual(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
+        print 'before************** ',x_data[0]
+        x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
+        print 'after****************',x_data[0]      
         datasets_data_lst = []
         ml = None         
         for d_size in self.data_size:
@@ -232,7 +253,7 @@ def mainCmp(dataset_name):
     try:
         obj.process()
     except Exception as e:
-        obj.log.info(str(e))
+        obj.log_error.info(str(e))
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
