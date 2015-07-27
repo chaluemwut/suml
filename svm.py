@@ -87,25 +87,33 @@ class LibSVMWrapper(object):
             setattr(self, parameter, value)
             
 if __name__ == '__main__':
-    from sklearn.metrics import accuracy_score
+#     from sklearn.metrics import accuracy_score
+#     from sklearn import cross_validation
+
     from dataset_loader import DataSetLoader
-    from sklearn import cross_validation
     loader = DataSetLoader()
-    x, y = loader.loadData()[DataSetLoader.dataset_name[1]]
-    lst = [LibSVMWrapper(kernel=0),
-           LibSVMWrapper(kernel=1, degree=2),
-           LibSVMWrapper(kernel=1, degree=3),
-           LibSVMWrapper(kernel=2),
-           LibSVMWrapper(kernel=3)
-           ]
-    from sklearn import linear_model
+    x, y = loader.loadData()['segment']
+    ml = LibSVMWrapper(kernel=0)
+#     ml.fit(x,y)
+    print 'x0',x[0]
+    print 'x1', x[1]
+    
+#     print ml.predict([x[0], x[1]])
+    
+#     lst = [LibSVMWrapper(kernel=0),
+#            LibSVMWrapper(kernel=1, degree=2),
+#            LibSVMWrapper(kernel=1, degree=3),
+#            LibSVMWrapper(kernel=2),
+#            LibSVMWrapper(kernel=3)
+#            ]
+#     from sklearn import linear_model
 #     clf = linear_model.SGDClassifier()
 #     clf.fit(x,y)
 #     print clf.predict([x[0], x[1]])
 #     scores = cross_validation.cross_val_score(clf, x, y, cv=5)
 #     print scores
-    from sklearn import cross_validation
-    ml = LibSVMWrapper(kernel=0)
-    from ml_util import MLUtil
-    sc = MLUtil.cross_validation(ml, x, y, cv=5)
-    print sc
+#     from sklearn import cross_validation
+    
+#     from ml_util import MLUtil
+#     sc = MLUtil.cross_validation(ml, x, y, cv=5)
+#     print sc
