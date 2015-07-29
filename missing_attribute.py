@@ -231,11 +231,17 @@ class MissingAttribute(object):
         self.log_debug.info('************ end ml')
         pickle.dump(result, open(self.ml_name + '_result.obj', 'wb'))
         self.report_all(result)                    
-                    
-if __name__ == '__main__':
-    ml_key = sys.argv[1]
+
+def mainCmp(ml_key):
+    print ' ---------- start cmp -------'
+    print 'ml name ',ml_key
     obj = MissingAttribute(ml_key)
     try:
         obj.process()
     except Exception as e:
         obj.log_error.info(str(e))
+    print ' ---------- end cmp -------'
+                        
+if __name__ == '__main__':
+    ml_key = sys.argv[1]
+    mainCmp(ml_key)
