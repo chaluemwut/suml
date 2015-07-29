@@ -236,11 +236,7 @@ def mainCmp(ml_key):
     print ' ---------- start cmp -------'
     print 'ml name ',ml_key
     obj = MissingAttribute(ml_key)
-    try:
-        obj.process()
-    except Exception as e:
-        obj.log_error.info(str(e))
-    print ' ---------- end cmp -------'
+    obj.process()
                         
 if __name__ == '__main__':
     ml_key = sys.argv[1]
