@@ -115,7 +115,23 @@ class SVMManual(object):
         self.log.info('---------- time report --------')
         self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
 
-     
+    def remove_by_chi2_process(self, x, y):
+        from sklearn.feature_selection import  SelectKBest, f_classif
+        chi2 = SelectKBest(f_classif, k=3)
+        x_train = chi2.fit_transform(x, y)
+        result_idx = []
+        feature_len = len(x[0])
+        for i in range(0, feature_len):
+            column_data = x[:, i]
+            if  np.array_equal(column_data, x_train[:, 0]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 1]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 2]):
+                result_idx.append(i)
+        x = np.delete(x, result_idx, axis=1)
+        return x, y 
+         
     def process(self):
         ml_lst = self.gen_ml_lst()
         dataset_lst = self.load_dataset()
@@ -128,6 +144,9 @@ class SVMManual(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
+        print 'before************** ', x_data[0]
+        x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
+        print 'after****************', x_data[0]
         datasets_data_lst = []          
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
@@ -192,6 +211,6 @@ def mainCmp(dataset_name):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    dataset_name = sys.argv[1]
+    dataset_name = 'adult'#sys.argv[1]
     mainCmp(dataset_name)
 

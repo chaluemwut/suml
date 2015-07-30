@@ -1,5 +1,5 @@
 from sklearn.naive_bayes import GaussianNB
-from sklearn.ensemble import RandomForestClassifier, BaggingClassifier, GradientBoostingClassifier
+from sklearn.ensemble import RandomForestClassifier, BaggingClassifier, AdaBoostClassifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cross_validation import train_test_split
@@ -33,7 +33,7 @@ class ParallelManual(object):
         bagging_lst = []
         for i in Config.base_estimation:
             random_lst.append(RandomForestClassifier(n_estimators=i))
-            boosted_lst.append(GradientBoostingClassifier(n_estimators=i))
+            boosted_lst.append(AdaBoostClassifier(n_estimators=i))
             bagging_lst.append(BaggingClassifier(DecisionTreeClassifier(), n_estimators=i))
         knn_lst = []
         
@@ -54,20 +54,17 @@ class ParallelManual(object):
                 ml_name[6]:svm_lst
         }
      
-    def gen_knn(self, max_size):
-        lst_random = random.sample(range(1, max_size), 10)
+    def gen_knn(self, dataset_name):
         knn_lst = []
-        percent_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-        r_lst = []
-        start_idx = 1
-        for i in percent_list:
-            max_idx = int(i * max_size)
-            print 'max ', max_idx, ' start idx ', start_idx
-            r = random.sample(range(start_idx, max_idx), 1)[0]
-            knn_lst.append(KNeighborsClassifier(n_neighbors=r))
-            start_idx = max_idx
-            r_lst.append(r)
-        print r_lst
+        rng = range(2, 200)
+        if dataset_name == 'vehicle':
+            rng = range(2, 30)
+
+        if dataset_name == 'heart':
+            rng = range(2, 10)
+                    
+        for i in rng:
+            knn_lst.append(KNeighborsClassifier(n_neighbors=i))
         return knn_lst
  
             
@@ -154,23 +151,6 @@ class ParallelManual(object):
     def report(self, result):
         self.report_by_dataset_v1(result)
         self.report_all(result)
-
-    def remove_by_chi2_process(self, x, y):
-        from sklearn.feature_selection import  SelectKBest, f_classif
-        chi2 = SelectKBest(f_classif, k=3)
-        x_train = chi2.fit_transform(x, y)
-        result_idx = []
-        feature_len = len(x[0])
-        for i in range(0, feature_len):
-            column_data = x[:, i]
-            if  np.array_equal(column_data, x_train[:, 0]):
-                result_idx.append(i)
-            if  np.array_equal(column_data, x_train[:, 1]):
-                result_idx.append(i)
-            if  np.array_equal(column_data, x_train[:, 2]):
-                result_idx.append(i)
-        x = np.delete(x, result_idx, axis=1)
-        return x, y 
          
     def process(self):
         ml_lst = self.gen_ml_lst()
@@ -184,10 +164,7 @@ class ParallelManual(object):
             self.log_debug.info('***** start ' + dataset_name)
             data_value = dataset_lst[dataset_name]
             x_data = data_value[0]
-            y_data = data_value[1]
-            print 'before************** ', x_data[0]
-            x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
-            print 'after****************', x_data[0]            
+            y_data = data_value[1]           
             dataset_map = {}
             datasets_data = []          
             for d_size in self.data_size:
@@ -196,8 +173,7 @@ class ParallelManual(object):
                 x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
                 self.log_debug.info('********* start cross validation')
                 if self.ml_key == 'knn':
-                    max_knn = int(len(x_train) / 5.0)
-                    knn_lst = self.gen_knn(max_knn)
+                    knn_lst = self.gen_knn(dataset_name)
                     ml = self.cross_validation(knn_lst, x_train, y_train)
                 else:
                     ml = self.cross_validation(ml_value, x_train, y_train)

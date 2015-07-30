@@ -1,7 +1,7 @@
 import numpy as np
 
 class DataSetLoader(object):
-    dataset_name = ['adult','heart', 'letter', 'austra', 'german']
+    dataset_name = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'segment','shuttle','vehicle']
 
     def __init__(self):
         pass
@@ -79,18 +79,3 @@ class DataSetLoader(object):
                 'shuttle':[x_shutt, y_shutt],
                 'vehicle':[x_vechicle, y_vechicle]
                 }
-        
-#         return {'adult':[x_adult, y_adult],
-#                 'heart':[x_heart, y_heart],
-#                 'letter':[x_letter, y_letter],
-#                 'austra':[x_aus, y_aus],
-#                 'german':[x_ger, y_ger],
-#                 'stat':[x_stat, y_stat],
-# #                 'seg':[x_seg, y_seg],
-#                 'shuttle':[x_shutt, y_shutt],
-#                 'vechicle':[x_vechicle, y_vechicle]}
-
-#     
-# if __name__ == '__main__':
-#     obj = DataSetLoader()
-#     print obj.loadData()['vechicle'][1]

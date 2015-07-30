@@ -35,7 +35,7 @@ def report_by_dataset_v1(result):
     print tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
 
 def report_by_dataset_v2(result):
-    dataset_lst = ['sat', 'segment', 'shuttle', 'vehicle']
+    dataset_lst = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'segment', 'shuttle', 'vehicle']
     print 'report by dataset'
     result_lst = []
     for key, value in result.iteritems():
@@ -94,9 +94,10 @@ def report_all(result):
 
 def report():
     ml_name = ['boosted', 'randomforest', 'nb', 'decsiontree']
+#     ml_name = ['bagging']
     result = {}
     for m in ml_name:
-        file_name = 'result/run4/{}_result.obj'.format(m)
+        file_name = 'result/missing/run1/{}_result.obj'.format(m)
         obj_file = pickle.load(open(file_name, 'rb'))
         result[m] = obj_file[m]
     report_all(result)

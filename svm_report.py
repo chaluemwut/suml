@@ -4,6 +4,7 @@ from tabulate import tabulate
 
 # dataset_name = ['adult','heart', 'letter', 'austra', 'german']
 dataset_name = ['sat', 'segment', 'shuttle', 'vehicle']
+# dataset_name = ['sat','vehicle']
 
 def report_by_dataset_v1(result):
     print 'report by dataset'
@@ -94,10 +95,11 @@ def report_all(result):
 def report():
     result = {}
     lst = []
-    ml_name = 'knn'
+    ml_name = 'bagging'
     for d_name in dataset_name:
-        file_name = 'result/run4/{}/{}_{}_result.obj'.format(ml_name,d_name, ml_name)
+        file_name = 'result/run4/{}_result.obj'.format(ml_name)
         obj_file = pickle.load(open(file_name, 'rb'))  
+        print obj_file
         data_lst = obj_file[d_name][0]
         lst.append(data_lst)
     result[ml_name] = lst
