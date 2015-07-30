@@ -55,6 +55,7 @@ class MissingAttribute(object):
         }
     
     def cross_validation(self, ml_lst, x, y):
+        print 'start cross val -------------'
         score_lst = []    
         for ml in ml_lst:
             self.log_debug.info('start cross val')
@@ -68,13 +69,13 @@ class MissingAttribute(object):
         max_idx = np_score.argmax()
         return ml_lst[max_idx]
          
-    def gen_knn(self):
+    def gen_knn(self, dataset_name):
         knn_lst = []
         rng = range(2, 200)
-        if self.ml_name == 'vehicle':
+        if dataset_name == 'vehicle':
             rng = range(2, 30)
 
-        if self.ml_name == 'heart':
+        if dataset_name == 'heart':
             rng = range(2, 10)
                     
         for i in rng:
@@ -165,8 +166,8 @@ class MissingAttribute(object):
         self.log_debug.info('*************************************** ' + self.ml_name)
         all_data = []
         ml_lst = self.gen_ml_lst() 
-        ml_value = ml_lst[self.ml_name]       
         for data_set_name in self.dataset_name_lst:
+            ml_value = self.gen_knn(data_set_name)       
             self.log_debug.info('***** start ' + data_set_name)
             data_value = dataset_lst[data_set_name]
             x_data = data_value[0]
@@ -239,5 +240,5 @@ def mainCmp(ml_key):
     obj.process()
                         
 if __name__ == '__main__':
-    ml_key = sys.argv[1]
+    ml_key = 'knn'#sys.argv[1]
     mainCmp(ml_key)
