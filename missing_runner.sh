@@ -1,2 +1,2 @@
 #!/bin/sh
-python missing_attribute.py knn &
+python missing_attribute.py svm &
