@@ -240,5 +240,5 @@ def mainCmp(ml_key):
     obj.process()
                         
 if __name__ == '__main__':
-    ml_key = 'knn'#sys.argv[1]
+    ml_key = sys.argv[1]
     mainCmp(ml_key)
