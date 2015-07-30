@@ -166,8 +166,8 @@ class MissingAttribute(object):
         self.log_debug.info('*************************************** ' + self.ml_name)
         all_data = []
         ml_lst = self.gen_ml_lst() 
+        ml_value = ml_lst[self.ml_name]      
         for data_set_name in self.dataset_name_lst:
-            ml_value = self.gen_knn(data_set_name)       
             self.log_debug.info('***** start ' + data_set_name)
             data_value = dataset_lst[data_set_name]
             x_data = data_value[0]
