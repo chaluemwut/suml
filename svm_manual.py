@@ -185,17 +185,18 @@ class SVMManual(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
-        print 'before************** ',x_data[0]
-        x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
-        print 'after****************',x_data[0]      
+#         print 'before************** ',x_data[0]
+#         x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
+#         print 'after****************',x_data[0]    
         datasets_data_lst = []
-        ml = None         
+        ml = LibSVMWrapper(kernel=0)         
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
+            print 'x train ',x_train
             self.log_debug.info('********* start cross validation')
-            ml = self.cross_validation(ml_value, x_train, y_train)
+#             ml = self.cross_validation(ml_value, x_train, y_train)
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
@@ -216,6 +217,8 @@ class SVMManual(object):
                     self.log.info(str(e))
                 total_time = time.time() - start
                 acc = accuracy_score(y_test, y_pred)
+                print 'y_test ',y_test
+                print 'y_pred ',y_pred
                 fsc = f1_score(y_test, y_pred)
                 acc_lst.append(acc)
                 f1_lst.append(fsc)
@@ -227,7 +230,7 @@ class SVMManual(object):
                 recall_lst.append(recall)
                 self.log_debug.info('------------- end loop -----')
             datasets_data_lst.append(np.mean(acc_lst))
-            datasets_data_lst.append(np.mean(f1_lst))
+            datasets_data_lst.append(float("{:.5f}".format(np.mean(f1_lst))))
             datasets_data_lst.append(np.mean(time_pred))
             datasets_data_lst.append(np.mean(total_ins))
             self.log.info('---------------------------------------------') 
@@ -257,6 +260,7 @@ def mainCmp(dataset_name):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    dataset_name = sys.argv[1]
+#     dataset_name = sys.argv[1]
+    dataset_name = 'heart'
     mainCmp(dataset_name)
 
