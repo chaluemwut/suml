@@ -185,9 +185,9 @@ class SVMManual(object):
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
-        print 'before************** ',x_data[0]
-        x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
-        print 'after****************',x_data[0]      
+#         print 'before************** ',x_data[0]
+#         x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
+#         print 'after****************',x_data[0]      
         datasets_data_lst = []
         ml = None         
         for d_size in self.data_size:
