@@ -17,6 +17,7 @@ from svm import LibSVMWrapper
 from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
+is_run_missing = False
 
 class SVMManual(object):
     data_size = [0.75, 0.50, 0.25]
@@ -141,7 +142,7 @@ class SVMManual(object):
             f1_75 = datasets_data[9]
             time75 = datasets_data[10]
             total_ins25 = datasets_data[11] 
-            ml_result.append(self.ml_key)                               
+            ml_result.append('svm')                               
             ml_result.append(DataSetLoader.dataset_name[i])
             ml_result.append(acc25)
             ml_result.append(acc50)
@@ -184,16 +185,20 @@ class SVMManual(object):
         self.log_debug.info('***** start ' + self.dataset_name)
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
-        y_data = data_value[1]  
+        y_data = data_value[1]
+        if is_run_missing:
+            print 'before************** ',x_data[0]
+            x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
+            print 'after****************',x_data[0]    
         datasets_data_lst = []
-        ml = LibSVMWrapper(kernel=0)         
+        ml = None        
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
             print 'x train ',x_train
             self.log_debug.info('********* start cross validation')
-#             ml = self.cross_validation(ml_value, x_train, y_train)
+            ml = self.cross_validation(ml_value, x_train, y_train)
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
@@ -257,7 +262,6 @@ def mainCmp(dataset_name):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-#     dataset_name = sys.argv[1]
-    dataset_name = 'heart'
+    dataset_name = sys.argv[1]
     mainCmp(dataset_name)
 
