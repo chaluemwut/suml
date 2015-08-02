@@ -17,7 +17,7 @@ from svm import LibSVMWrapper
 from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
-is_run_missing = False
+is_run_missing = True
 
 class SVMManual(object):
     data_size = [0.75, 0.50, 0.25]
