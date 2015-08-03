@@ -17,7 +17,7 @@ from svm import LibSVMWrapper
 from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
-is_run_missing = True
+is_run_missing = False
 
 class SVMManual(object):
     data_size = [0.75, 0.50, 0.25]
@@ -168,7 +168,25 @@ class SVMManual(object):
             if  np.array_equal(column_data, x_train[:, 2]):
                 result_idx.append(i)
         x = np.delete(x, result_idx, axis=1)
-        return x, y  
+        return x, y
+    
+    def svm_uni_remove(self, x, y):
+        from sklearn.feature_selection import  SelectKBest, f_classif
+        chi2 = SelectKBest(f_classif, k=3)
+        x_train = chi2.fit_transform(x, y)
+        result_idx = []
+        feature_len = len(x[0])
+        for i in range(0, feature_len):
+            column_data = x[:, i]
+            if  np.array_equal(column_data, x_train[:, 0]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 1]):
+                result_idx.append(i)
+            if  np.array_equal(column_data, x_train[:, 2]):
+                result_idx.append(i)
+        x = np.delete(x, result_idx, axis=1)
+        idx_uni = np.unique(x)
+        return x[idx_uni], y[idx_uni]
                             
     def report(self, result):
         self.report_by_dataset_v1(result)
@@ -183,15 +201,25 @@ class SVMManual(object):
         self.log_debug.info('*************************************** ' + self.dataset_name)
         all_data = []
         self.log_debug.info('***** start ' + self.dataset_name)
-        data_value = dataset_lst[self.dataset_name]
-        x_data = data_value[0]
-        y_data = data_value[1]
-        if is_run_missing:
-            print 'before************** ',x_data[0]
-            x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
-            print 'after****************',x_data[0]    
+        if self.dataset_name == 'shuttle':
+            d_loader = DataSetLoader()
+            data_value = d_loader.svm_shuttle('data/statlog/shuttle.data')['shuttle']
+            x_data = data_value[0]
+            y_data = data_value[1]
+            if is_run_missing:
+                print 'before************** ',x_data[0], y_data
+                x_data, y_data = self.svm_uni_remove(x_data, y_data)
+                print 'after****************',x_data[0], y_data          
+        else:
+            data_value = dataset_lst[self.dataset_name]
+            x_data = data_value[0]
+            y_data = data_value[1]
+            if is_run_missing:
+                print 'before************** ',x_data[0], y_data
+                x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
+                print 'after****************',x_data[0], y_data
         datasets_data_lst = []
-        ml = None        
+        ml = LibSVMWrapper(kernel=0)        
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
@@ -262,6 +290,6 @@ def mainCmp(dataset_name):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    dataset_name = sys.argv[1]
+    dataset_name = 'shuttle'#sys.argv[1]
     mainCmp(dataset_name)
 
