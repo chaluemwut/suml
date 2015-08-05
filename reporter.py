@@ -2,13 +2,13 @@ import pickle
 import numpy as np
 from tabulate import tabulate
 
-dataset_name = ['adult','heart', 'letter', 'austra', 'german']
+dataset_lst = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'segment', 'shuttle', 'vehicle']
 
 def report_by_dataset_v1(result):
     print 'report by dataset'
     result_lst = []
     for key, value in result.iteritems():
-        for i in range(0, len(dataset_name)):
+        for i in range(0, len(dataset_lst)):
             ml_result = []
             datasets_data = result[key][i]
             acc25 = datasets_data[0]
@@ -24,7 +24,7 @@ def report_by_dataset_v1(result):
             time75 = datasets_data[10]
             total_ins25 = datasets_data[11] 
             ml_result.append(key)                               
-            ml_result.append(dataset_name[i])
+            ml_result.append(dataset_lst[i])
             ml_result.append(acc25)
             ml_result.append(acc50)
             ml_result.append(acc75)
@@ -35,8 +35,6 @@ def report_by_dataset_v1(result):
     print tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
 
 def report_by_dataset_v2(result):
-    dataset_lst = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'segment', 'shuttle', 'vehicle']
-    print 'report by dataset'
     result_lst = []
     for key, value in result.iteritems():
         for i in range(0, len(dataset_lst)):
@@ -93,11 +91,11 @@ def report_all(result):
 
 
 def report():
-    ml_name = ['boosted', 'randomforest', 'nb', 'decsiontree']
+    ml_name = ['bagging','boosted', 'randomforest', 'nb', 'decsiontree', 'knn']
 #     ml_name = ['bagging']
     result = {}
     for m in ml_name:
-        file_name = 'result/missing/run1/{}_result.obj'.format(m)
+        file_name = 'result/missing/run2/{}_result.obj'.format(m)
         obj_file = pickle.load(open(file_name, 'rb'))
         result[m] = obj_file[m]
     report_all(result)

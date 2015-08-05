@@ -191,7 +191,7 @@ class SVMManual(object):
             x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
             print 'after****************',x_data[0]    
         datasets_data_lst = []
-        ml = LibSVMWrapper(kernel=0)        
+        ml = LibSVMWrapper(kernel=1, degree=2)        
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
@@ -262,7 +262,7 @@ def mainCmp(dataset_name):
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
+    dataset_name = 'heart'
 #     dataset_name = sys.argv[1]
-    dataset_name = 'shuttle'
     mainCmp(dataset_name)
 

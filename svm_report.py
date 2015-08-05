@@ -3,7 +3,7 @@ import numpy as np
 from tabulate import tabulate
 
 # dataset_name = ['adult','heart', 'letter', 'austra', 'german']
-dataset_name = ['sat', 'segment', 'shuttle', 'vehicle']
+dataset_name = ['heart', 'letter', 'austra', 'german', 'sat', 'vehicle']
 # dataset_name = ['sat','vehicle']
 
 def report_by_dataset_v1(result):
@@ -14,7 +14,7 @@ def report_by_dataset_v1(result):
             ml_result = []
             datasets_data = result[key][i]
             acc25 = datasets_data[0]
-            f1_25 = datasets_data[1]
+            f1_25 = format(datasets_data[1], '.10f')
             time25 = datasets_data[2]
             total_ins25 = datasets_data[3]
             acc50 = datasets_data[4]
@@ -44,7 +44,7 @@ def report_by_dataset_v2(result, dataset_lst):
             ml_result = []
             datasets_data = result[key][i]
             acc25 = datasets_data[0]
-            f1_25 = datasets_data[1]
+            f1_25 = format(datasets_data[1], '.5f')
             time25 = datasets_data[2]
             total_ins25 = datasets_data[3]
             acc50 = datasets_data[4]
@@ -95,11 +95,10 @@ def report_all(result):
 def report():
     result = {}
     lst = []
-    ml_name = 'bagging'
+    ml_name = 'svm'
     for d_name in dataset_name:
-        file_name = 'result/run4/{}_result.obj'.format(ml_name)
+        file_name = 'result/allrun/run1/svm/{}_svm_result.obj'.format(d_name)
         obj_file = pickle.load(open(file_name, 'rb'))  
-        print obj_file
         data_lst = obj_file[d_name][0]
         lst.append(data_lst)
     result[ml_name] = lst
