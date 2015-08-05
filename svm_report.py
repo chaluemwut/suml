@@ -3,7 +3,7 @@ import numpy as np
 from tabulate import tabulate
 
 # dataset_name = ['adult','heart', 'letter', 'austra', 'german']
-dataset_name = ['heart', 'letter', 'austra', 'german', 'sat', 'vehicle']
+dataset_name = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'vehicle']
 # dataset_name = ['sat','vehicle']
 
 def report_by_dataset_v1(result):

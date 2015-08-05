@@ -219,15 +219,15 @@ class SVMManual(object):
                 x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
                 print 'after****************',x_data[0], y_data
         datasets_data_lst = []
-        ml = LibSVMWrapper(kernel=0)        
+        ml = None      
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
             print 'x train ',x_train
-#             self.log_debug.info('********* start cross validation')
-#             ml = self.cross_validation(ml_value, x_train, y_train)
-#             self.log_debug.info('************* end cross validation')
+            self.log_debug.info('********* start cross validation')
+            ml = self.cross_validation(ml_value, x_train, y_train)
+            self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
             time_pred = []
@@ -244,7 +244,7 @@ class SVMManual(object):
                     start = time.time()
                     y_pred = ml_c.predict(x_test)
                 except Exception as e:
-                    self.log.info(str(e))
+                    self.log_error.info(str(e))
                 total_time = time.time() - start
                 acc = accuracy_score(y_test, y_pred)
                 print 'y_test ',y_test
