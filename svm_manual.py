@@ -122,14 +122,14 @@ class SVMManual(object):
         self.log.info(tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
         self.log.info('---------- time report --------')
         self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
-        self.log.info(self.report_by_dataset_v1(result))
+#         self.log.info(self.report_by_dataset_v1(result))
             
     def report_by_dataset_v1(self, result):
         self.log_debug.info('report by dataset')
         result_lst = []
         for i in range(0, len(DataSetLoader.dataset_name)):
             ml_result = []
-            datasets_data = result[self.ml_key][i]
+            datasets_data = result[self.dataset_name][i]
             acc25 = datasets_data[0]
             f1_25 = datasets_data[1]
             time25 = datasets_data[2]
@@ -219,7 +219,7 @@ class SVMManual(object):
                 x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
                 print 'after****************',x_data[0], y_data
         datasets_data_lst = []
-        ml = None      
+        ml = LibSVMWrapper(kernel=0)      
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
@@ -291,6 +291,15 @@ def mainCmp(dataset_name):
     
 if __name__ == '__main__':
 #     dataset_name = sys.argv[1]
-    dataset_name = 'shuttle'
+    dataset_name = 'segment'
     mainCmp(dataset_name)
-
+    
+# python svm_manual.py adult &
+# python svm_manual.py heart &
+# python svm_manual.py letter &
+# python svm_manual.py austra &
+# python svm_manual.py german &
+# python svm_manual.py sat &
+# python svm_manual.py segment &
+# python svm_manual.py shuttle &
+# python svm_manual.py vehicle &    
