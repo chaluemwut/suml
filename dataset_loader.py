@@ -40,6 +40,13 @@ class DataSetLoader(object):
         x = data[:, r]
         y = self.reshape_y(data[:, [0]])
         return x, y
+    
+    def svm_shuttle(self, data_set_name):
+        shuttle = self.template_load(data_set_name)
+#         uni_shuttle = np.unique(shuttle)
+        x_shutt, y_shutt = self.get_y_last(shuttle)
+        return {'shuttle':[x_shutt, y_shutt]}
+        
            
     def loadData(self):
         adult = self.template_load('data/binary/adult.data')
