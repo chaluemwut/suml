@@ -245,6 +245,7 @@ class SVMManual(object):
                     y_pred = ml_c.predict(x_test)
                 except Exception as e:
                     self.log_error.info(str(e))
+                    continue
                 total_time = time.time() - start
                 acc = accuracy_score(y_test, y_pred)
                 print 'y_test ',y_test
@@ -283,10 +284,11 @@ def mainCmp(dataset_name):
     print ' ---------- start svm process -------'
     print 'data set name ', dataset_name
     obj = SVMManual(dataset_name)
-    try:
-        obj.process()
-    except Exception as e:
-        obj.log_error.info(str(e))
+    obj.process()
+#     try:
+#         obj.process()
+#     except Exception as e:
+#         obj.log_error.info(str(e))
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
