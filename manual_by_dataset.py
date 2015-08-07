@@ -17,17 +17,18 @@ from svm import LibSVMWrapper
 from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
-is_run_missing = False
+is_run_missing = True
 
-class SVMManual(object):
+class ManualDataSet(object):
     data_size = [0.75, 0.50, 0.25]
     
-    def __init__(self, dataset_name):
+    def __init__(self, dataset_name, ml_name_run):
         self.dataset_name = dataset_name
+        self.ml_name_run = ml_name_run
         log_file = LogFile()
-        self.log = log_file.get_log(self.dataset_name + '_data', self.dataset_name + '_data.log', Config.display_console)
-        self.log_debug = log_file.get_log(self.dataset_name + '_debug', self.dataset_name + '_debug.log', Config.display_console)
-        self.log_error = log_file.get_log(self.dataset_name + '_error', self.dataset_name + '_error.err', Config.display_console)
+        self.log = log_file.get_log(self.dataset_name+'_data', self.dataset_name+'_data.log', Config.display_console)
+        self.log_debug = log_file.get_log(self.dataset_name+'_debug', self.dataset_name+'_debug.log', Config.display_console)
+        self.log_error = log_file.get_log(self.dataset_name+'_error', self.dataset_name+'_error.err', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -56,20 +57,17 @@ class SVMManual(object):
                 ml_name[6]:svm_lst
         }
      
-    def gen_knn(self, max_size):
-        lst_random = random.sample(range(1, max_size), 10)
+    def gen_knn(self, dataset_name):
         knn_lst = []
-        percent_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-        r_lst = []
-        start_idx = 1
-        for i in percent_list:
-            max_idx = int(i * max_size)
-            print 'max ', max_idx, ' start idx ', start_idx
-            r = random.sample(range(start_idx, max_idx), 1)[0]
-            knn_lst.append(KNeighborsClassifier(n_neighbors=r))
-            start_idx = max_idx
-            r_lst.append(r)
-        print r_lst
+        rng = range(2, 200)
+        if dataset_name == 'vehicle':
+            rng = range(2, 30)
+
+        if dataset_name == 'heart':
+            rng = range(2, 10)
+                    
+        for i in rng:
+            knn_lst.append(KNeighborsClassifier(n_neighbors=i))
         return knn_lst
  
             
@@ -122,12 +120,12 @@ class SVMManual(object):
         self.log.info(tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
         self.log.info('---------- time report --------')
         self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
-#         self.log.info(self.report_by_dataset_v1(result))
+        self.log.info(self.report_by_dataset_v1(result))
             
     def report_by_dataset_v1(self, result):
         self.log_debug.info('report by dataset')
         result_lst = []
-        for i in range(0, len(DataSetLoader.dataset_name)):
+        for i in range(0, 1):
             ml_result = []
             datasets_data = result[self.dataset_name][i]
             acc25 = datasets_data[0]
@@ -142,7 +140,7 @@ class SVMManual(object):
             f1_75 = datasets_data[9]
             time75 = datasets_data[10]
             total_ins25 = datasets_data[11] 
-            ml_result.append('svm')                               
+            ml_result.append(self.ml_name_run)                               
             ml_result.append(DataSetLoader.dataset_name[i])
             ml_result.append(acc25)
             ml_result.append(acc50)
@@ -151,7 +149,7 @@ class SVMManual(object):
             ml_result.append(f1_50)
             ml_result.append(f1_75)
             result_lst.append(ml_result)
-        self.log.info(tabulate(result_lst, ('ml name', 'data set', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
+        self.log.info(tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
 
     def remove_by_chi2_process(self, x, y):
         from sklearn.feature_selection import  SelectKBest, f_classif
@@ -197,8 +195,10 @@ class SVMManual(object):
         dataset_lst = self.load_dataset()
         result = {}
             
-        ml_value = ml_lst['svm']
+        ml_value = ml_lst[self.ml_name_run]
         self.log_debug.info('*************************************** ' + self.dataset_name)
+        print ml_value
+        self.log_debug.info('****************************** '+self.ml_name_run)
         all_data = []
         self.log_debug.info('***** start ' + self.dataset_name)
         if self.dataset_name == 'shuttle':
@@ -207,31 +207,30 @@ class SVMManual(object):
             x_data = data_value[0]
             y_data = data_value[1]
             if is_run_missing:
-                print 'before************** ', x_data[0], y_data
+                print 'before************** ',x_data[0], y_data
                 x_data, y_data = self.svm_uni_remove(x_data, y_data)
-                print 'after****************', x_data[0], y_data
-        elif self.dataset_name == 'segment':
-            d_loader = DataSetLoader()
-            data_value = d_loader.load_segment()
-            x_data = data_value[0]
-            y_data = data_value[1]              
+                print 'after****************',x_data[0], y_data          
         else:
             data_value = dataset_lst[self.dataset_name]
             x_data = data_value[0]
             y_data = data_value[1]
             if is_run_missing:
-                print 'before************** ', x_data[0], y_data
+                print 'before************** ',x_data[0], y_data
                 x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
-                print 'after****************', x_data[0], y_data
+                print 'after****************',x_data[0], y_data
         datasets_data_lst = []
-        ml = None 
+        ml = None      
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-            print 'x train ', x_train
+            print 'x train ',x_train
             self.log_debug.info('********* start cross validation')
-            ml = self.cross_validation(ml_value, x_train, y_train)
+            if self.ml_name_run == 'knn':
+                knn_lst = self.gen_knn(dataset_name)
+                ml = self.cross_validation(knn_lst, x_train, y_train)
+            else:
+                ml = self.cross_validation(ml_value, x_train, y_train)            
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
@@ -252,8 +251,6 @@ class SVMManual(object):
                     self.log_error.info(str(e))
                 total_time = time.time() - start
                 acc = accuracy_score(y_test, y_pred)
-                print 'y_test ', y_test
-                print 'y_pred ', y_pred
                 fsc = f1_score(y_test, y_pred)
                 acc_lst.append(acc)
                 f1_lst.append(fsc)
@@ -275,34 +272,26 @@ class SVMManual(object):
             self.log.info(time_pred)
             self.log.info(total_ins)
             self.log.info('---------------------------------------------')
-            self.log_debug.info('*********** end size')
-        self.log.info('ml type ' + str(ml.kernel))                
+            self.log_debug.info('*********** end size')               
         all_data.append(datasets_data_lst)
         self.log_debug.info('******* end data set')
-        self.result[self.dataset_name] = all_data
+        result[self.dataset_name] = all_data
         self.log_debug.info('************ end ml')
-        pickle.dump(result, open(self.dataset_name + '_svm_result.obj', 'wb'))
+        pickle.dump(result, open(self.dataset_name+'_svm_result.obj', 'wb'))
         self.report_all(result)
                  
-def mainCmp(dataset_name):
-    print ' ---------- start svm process -------'
+def mainCmp(dataset_name, ml_name_run):
+    print ' ---------- start {} process -------'.format(ml_name_run)
     print 'data set name ', dataset_name
-    obj = SVMManual(dataset_name)
+    obj = ManualDataSet(dataset_name, ml_name_run)
     try:
         obj.process()
     except Exception as e:
-        obj.log_error.info('write unit data')
-        pickle.dump(obj.result, open(obj.dataset_name + '_svm_result.obj', 'wb'))
-        obj.report_all(obj.result)
         obj.log_error.info(str(e))
     print ' ---------- end cmp -------'
-   
+    
 if __name__ == '__main__':
-    dataset_name = sys.argv[1]
-#     dataset_name = 'segment'
-    mainCmp(dataset_name)
-#     loader = DataSetLoader()
-#     segment = loader.load_segment('data/statlog/segment.data')
-#     print len(segment)
-#     x_uni = np.vstack({tuple(row) for row in segment})
-#     print len(x_uni)
+    dataset_name = 'german' #sys.argv[1]
+    ml_name_run = 'knn' #sys.argv[2]
+    mainCmp(dataset_name, ml_name_run)
+

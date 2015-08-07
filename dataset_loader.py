@@ -1,7 +1,7 @@
 import numpy as np
 
 class DataSetLoader(object):
-    dataset_name = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'segment','shuttle','vehicle']
+    dataset_name = ['adult', 'heart', 'letter', 'austra', 'german', 'sat', 'segment', 'shuttle', 'vehicle']
 
     def __init__(self):
         pass
@@ -46,7 +46,12 @@ class DataSetLoader(object):
 #         uni_shuttle = np.unique(shuttle)
         x_shutt, y_shutt = self.get_y_last(shuttle)
         return {'shuttle':[x_shutt, y_shutt]}
-        
+
+    def load_segment(self):
+        segment = self.template_load_float('data/statlog/segment.data')
+        uni_seg = np.vstack({tuple(row) for row in segment})
+        x_seg, y_seg = self.get_y_last_convert(uni_seg)
+        return x_seg, y_seg   
            
     def loadData(self):
         adult = self.template_load('data/binary/adult.data')
