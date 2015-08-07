@@ -21,6 +21,7 @@ is_run_missing = False
 
 class SVMManual(object):
     data_size = [0.75, 0.50, 0.25]
+    result = {}
     
     def __init__(self, dataset_name):
         self.dataset_name = dataset_name
@@ -281,7 +282,7 @@ class SVMManual(object):
         self.log_debug.info('******* end data set')
         self.result[self.dataset_name] = all_data
         self.log_debug.info('************ end ml')
-        pickle.dump(result, open(self.dataset_name + '_svm_result.obj', 'wb'))
+        pickle.dump(self.result, open(self.dataset_name + '_svm_result.obj', 'wb'))
         self.report_all(result)
                  
 def mainCmp(dataset_name):
