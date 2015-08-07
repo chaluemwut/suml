@@ -233,6 +233,7 @@ class SVMManual(object):
             print 'x train ', x_train
             self.log_debug.info('********* start cross validation')
             ml = self.cross_validation(ml_value, x_train, y_train)
+            self.log_debug.info('************* kernel : '+str(ml.kernel))
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
