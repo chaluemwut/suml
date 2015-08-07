@@ -292,9 +292,6 @@ def mainCmp(dataset_name):
     try:
         obj.process()
     except Exception as e:
-        obj.log_error.info('write unit data')
-        pickle.dump(obj.result, open(obj.dataset_name + '_svm_result.obj', 'wb'))
-        obj.report_all(obj.result)
         obj.log_error.info(str(e))
     print ' ---------- end cmp -------'
    

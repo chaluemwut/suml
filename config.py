@@ -14,7 +14,7 @@ class Config(object):
 #   production
 #     svm_path = '/home/ecp/program/libsvm-3.20'
     base_estimation = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
-    reperating_loop = 50
+    reperating_loop = 5
 
 #   Test
 #     base_estimation = [2, 4]
