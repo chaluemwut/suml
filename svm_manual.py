@@ -29,6 +29,7 @@ class SVMManual(object):
         self.log = log_file.get_log(self.dataset_name + '_data', self.dataset_name + '_data.log', Config.display_console)
         self.log_debug = log_file.get_log(self.dataset_name + '_debug', self.dataset_name + '_debug.log', Config.display_console)
         self.log_error = log_file.get_log(self.dataset_name + '_error', self.dataset_name + '_error.err', Config.display_console)
+        self.log_kernel = log_file.get_log(self.dataset_name + '_kernel', self.dataset_name + '_kernel.kernel', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -233,7 +234,7 @@ class SVMManual(object):
             print 'x train ', x_train
             self.log_debug.info('********* start cross validation')
             ml = self.cross_validation(ml_value, x_train, y_train)
-            self.log_debug.info('************* kernel : '+str(ml.kernel))
+            self.log_kernel.info('************* kernel : '+str(ml.kernel)+" | degree : "+str(ml.degree))
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
