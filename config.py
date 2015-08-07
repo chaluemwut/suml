@@ -8,13 +8,15 @@ class Config(object):
 #     svm_path = '/home/off/libsvm-3.20'
     display_console = True
 
-    svm_path = '/home/ecp/program/libsvm-3.20'
+#     svm_path = '/home/ecp/program/libsvm-3.20'
 #     svm_path = '/home/ubuntu/libsvm-3.20'
+#     svm_path = '/home/ubuntu/libsvm2'
+    svm_path = '/home/ecp/program/libsvm2'
     
 #   production
 #     svm_path = '/home/ecp/program/libsvm-3.20'
     base_estimation = [2, 4, 8, 16, 32, 64, 128, 256, 512, 1024]
-    reperating_loop = 5
+    reperating_loop = 50
 
 #   Test
 #     base_estimation = [2, 4]
