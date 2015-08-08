@@ -235,7 +235,7 @@ class SVMManual(object):
             print 'x train ', x_train
             self.log_debug.info('********* start cross validation')
             ml = self.cross_validation(ml_value, x_train, y_train)
-            self.log_kernel.info('************* kernel : '+str(ml.kernel)+" | degree : "+str(ml.degree))
+            self.log_kernel.info('************* kernel : ' + str(ml.kernel) + " | degree : " + str(ml.degree))
             self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
@@ -289,10 +289,10 @@ class SVMManual(object):
         pickle.dump(self.result, open(file_name, 'wb'))
         self.report_all(result)
                  
-def mainCmp(dataset_name):
+def mainCmp(dataset_name, n_loop):
     print ' ---------- start svm process -------'
-    print 'data set name ', dataset_name
-    obj = SVMManual(dataset_name)
+    print 'data set name {} loop {}'.format(dataset_name, n_loop)
+    obj = SVMManual(dataset_name, n_loop)
     try:
         obj.process()
     except Exception as e:
@@ -302,10 +302,4 @@ def mainCmp(dataset_name):
 if __name__ == '__main__':
     dataset_name = sys.argv[1]
     n_loop = sys.argv[2]
-#     dataset_name = 'segment'
-    mainCmp(dataset_name)
-#     loader = DataSetLoader()
-#     segment = loader.load_segment('data/statlog/segment.data')
-#     print len(segment)
-#     x_uni = np.vstack({tuple(row) for row in segment})
-#     print len(x_uni)
+    mainCmp(dataset_name, n_loop)
