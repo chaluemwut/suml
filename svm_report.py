@@ -3,7 +3,8 @@ import numpy as np
 from tabulate import tabulate
 
 # dataset_name = ['adult','heart', 'letter', 'austra', 'german']
-dataset_name = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'vehicle']
+# dataset_name = ['adult','heart', 'letter', 'austra', 'german', 'sat', 'vehicle']
+dataset_name = ['segment']
 # dataset_name = ['sat','vehicle']
 
 def report_by_dataset_v1(result):
@@ -97,7 +98,8 @@ def report():
     lst = []
     ml_name = 'svm'
     for d_name in dataset_name:
-        file_name = 'result/allrun/run1/svm/{}_svm_result.obj'.format(d_name)
+#         file_name = 'result/allrun/run1/svm/{}_svm_result.obj'.format(d_name)
+        file_name = 'result/allrun/run4/{}_svm_result.obj'.format(d_name)
         obj_file = pickle.load(open(file_name, 'rb'))  
         data_lst = obj_file[d_name][0]
         lst.append(data_lst)
