@@ -301,5 +301,6 @@ def mainCmp(dataset_name, n_loop):
    
 if __name__ == '__main__':
     dataset_name = sys.argv[1]
-    n_loop = sys.argv[2]
+    from random import randint
+    n_loop = randint(10,100)
     mainCmp(dataset_name, n_loop)
