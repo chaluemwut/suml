@@ -1,0 +1,7 @@
+Heart disease 263
+letter 2000
+Australian credit approval 690
+German credit data 1000
+Landsat satellite 6435
+Image segmentation 2310
+Vehicle silhouettes 752
