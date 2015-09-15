@@ -19,7 +19,7 @@ from log_file import LogFile
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
 is_run_missing = False
 
-class SVMManual(object):
+class KNNChecker(object):
     data_size = [0.75, 0.50, 0.25]
     result = {}
     
@@ -292,7 +292,7 @@ class SVMManual(object):
 def mainCmp(dataset_name, n_loop):
     print ' ---------- start svm process -------'
     print 'data set name {} loop {}'.format(dataset_name, n_loop)
-    obj = SVMManual(dataset_name, n_loop)
+    obj = KNNChecker(dataset_name, n_loop)
     try:
         obj.process()
     except Exception as e:

@@ -17,7 +17,6 @@ from svm import LibSVMWrapper
 from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
-is_run_missing = True
 
 class KNNChecker(object):
     data_size = [0.75, 0.50, 0.25]
@@ -25,9 +24,8 @@ class KNNChecker(object):
     def __init__(self, dataset_name):
         self.dataset_name = dataset_name
         log_file = LogFile()
-        self.log = log_file.get_log(self.dataset_name+'_data', self.dataset_name+'_data.log', Config.display_console)
-        self.log_debug = log_file.get_log(self.dataset_name+'_debug', self.dataset_name+'_debug.log', Config.display_console)
-        self.log_error = log_file.get_log(self.dataset_name+'_error', self.dataset_name+'_error.err', Config.display_console)
+        self.log = log_file.get_log(self.dataset_name + '_data', self.dataset_name + '_data.log', Config.display_console)
+        self.log_debug = log_file.get_log(self.dataset_name + '_debug', self.dataset_name + '_debug.log', Config.display_console)
         
     def gen_ml_lst(self):
         random_lst = []
@@ -37,7 +35,8 @@ class KNNChecker(object):
             random_lst.append(RandomForestClassifier(n_estimators=i))
             boosted_lst.append(GradientBoostingClassifier(n_estimators=i))
             bagging_lst.append(BaggingClassifier(DecisionTreeClassifier(), n_estimators=i))
-        knn_lst = []
+
+        knn_lst = self.gen_knn()
         
         svm_lst = [LibSVMWrapper(kernel=0),
            LibSVMWrapper(kernel=1, degree=2),
@@ -55,24 +54,65 @@ class KNNChecker(object):
                 ml_name[5]:[DecisionTreeClassifier()],
                 ml_name[6]:svm_lst
         }
-     
-    def gen_knn(self, max_size):
-        lst_random = random.sample(range(1, max_size), 10)
-        knn_lst = []
-        percent_list = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-        r_lst = []
-        start_idx = 1
-        for i in percent_list:
-            max_idx = int(i * max_size)
-            print 'max ', max_idx, ' start idx ', start_idx
-            r = random.sample(range(start_idx, max_idx), 1)[0]
-            knn_lst.append(KNeighborsClassifier(n_neighbors=r))
-            start_idx = max_idx
-            r_lst.append(r)
-        print r_lst
-        return knn_lst
  
+    def gen_knn(self, d_size):
+        knn_lst = []
+        rng = None
+        if self.dataset_name == 'heart':
+            if d_size == 0.75:
+                rng = range(2, 12)
+            elif d_size == 0.5:
+                rng = range(2, 25)
+            elif d_size == 0.25:
+                rng = range(2, 38)
+        elif self.dataset_name == 'letter':
+            if d_size == 0.75:
+                rng = range(2, 100)
+            elif d_size == 0.5:
+                rng = range(2, 200)
+            elif d_size == 0.25:
+                rng = range(2, 300)
+        elif self.dataset_name == 'austra':
+            if d_size == 0.75:
+                rng = range(2, 171)
+            elif d_size == 0.5:
+                rng = range(2, 344)
+            elif d_size == 0.25:
+                rng = range(2, 102)
+        elif self.dataset_name == 'german':
+            if d_size == 0.75:
+                rng = range(2, 49)
+            elif d_size == 0.5:
+                rng = range(2, 99)
+            elif d_size == 0.25:
+                rng = range(2, 149)
+        elif self.dataset_name == 'sat':
+            if d_size == 0.75:
+                rng = range(2, 320)
+            elif d_size == 0.5:
+                rng = range(2, 642)
+            elif d_size == 0.25:
+                rng = range(2, 964)
+        elif self.dataset_name == 'segment':
+            if d_size == 0.75:
+                rng = range(2, 114)
+            elif d_size == 0.5:
+                rng = range(2, 230)
+            elif d_size == 0.25:
+                rng = range(2, 345)
+        elif self.dataset_name == 'vehicle':
+            if d_size == 0.75:
+                rng = range(2, 36)
+            elif d_size == 0.5:
+                rng = range(2, 74)
+            elif d_size == 0.25:
+                rng = range(2, 111)
+
+        for i in rng:
+            knn_lst.append(KNeighborsClassifier(n_neighbors=i))
             
+        return knn_lst
+                
     def load_dataset(self):
         loader = DataSetLoader()
         lst = loader.loadData()
@@ -122,36 +162,6 @@ class KNNChecker(object):
         self.log.info(tabulate(perform_result, headers=('ml name', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
         self.log.info('---------- time report --------')
         self.log.info(tabulate(time_result, headers=('ml name', 'time 25', 'ins 25', 'time 50', 'ins 50', 'time 75', 'ins 75')))
-        self.log.info(self.report_by_dataset_v1(result))
-            
-    def report_by_dataset_v1(self, result):
-        self.log_debug.info('report by dataset')
-        result_lst = []
-        for i in range(0, len(DataSetLoader.dataset_name)):
-            ml_result = []
-            datasets_data = result[self.ml_key][i]
-            acc25 = datasets_data[0]
-            f1_25 = datasets_data[1]
-            time25 = datasets_data[2]
-            total_ins25 = datasets_data[3]
-            acc50 = datasets_data[4]
-            f1_50 = datasets_data[5]
-            time50 = datasets_data[6]
-            total_ins50 = datasets_data[7]
-            acc75 = datasets_data[8]
-            f1_75 = datasets_data[9]
-            time75 = datasets_data[10]
-            total_ins25 = datasets_data[11] 
-            ml_result.append('svm')                               
-            ml_result.append(DataSetLoader.dataset_name[i])
-            ml_result.append(acc25)
-            ml_result.append(acc50)
-            ml_result.append(acc75)
-            ml_result.append(f1_25)
-            ml_result.append(f1_50)
-            ml_result.append(f1_75)
-            result_lst.append(ml_result)
-        self.log.info(tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75')))
 
     def remove_by_chi2_process(self, x, y):
         from sklearn.feature_selection import  SelectKBest, f_classif
@@ -168,38 +178,32 @@ class KNNChecker(object):
             if  np.array_equal(column_data, x_train[:, 2]):
                 result_idx.append(i)
         x = np.delete(x, result_idx, axis=1)
-        return x, y  
-                            
-    def report(self, result):
-        self.report_by_dataset_v1(result)
-        self.report_all(result)
-     
+        return x, y 
+         
     def process(self):
-        ml_lst = self.gen_ml_lst()
+#         ml_lst = self.gen_ml_lst()
         dataset_lst = self.load_dataset()
         result = {}
             
-        ml_value = ml_lst['svm']
+#         ml_value = ml_lst['knn']
         self.log_debug.info('*************************************** ' + self.dataset_name)
         all_data = []
         self.log_debug.info('***** start ' + self.dataset_name)
         data_value = dataset_lst[self.dataset_name]
         x_data = data_value[0]
         y_data = data_value[1]
-        if is_run_missing:
-            print 'before************** ',x_data[0]
-            x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
-            print 'after****************',x_data[0]    
-        datasets_data_lst = []
-        ml = LibSVMWrapper(kernel=1, degree=2)        
+        print 'before************** ', x_data[0]
+        x_data, y_data = self.remove_by_chi2_process(x_data, y_data)
+        print 'after****************', x_data[0]
+        datasets_data_lst = []          
         for d_size in self.data_size:
             self.log_debug.info('***** start size ' + str(d_size))
             ran_num = random.randint(1, 100)
             x_train, x_test, y_train, y_test = train_test_split(x_data, y_data, test_size=d_size, random_state=ran_num)
-            print 'x train ',x_train
-#             self.log_debug.info('********* start cross validation')
-#             ml = self.cross_validation(ml_value, x_train, y_train)
-#             self.log_debug.info('************* end cross validation')
+            self.log_debug.info('********* start cross validation')
+            ml_value = self.gen_knn(d_size)
+            ml = self.cross_validation(ml_value, x_train, y_train)
+            self.log_debug.info('************* end cross validation')
             acc_lst = []
             f1_lst = []
             time_pred = []
@@ -219,8 +223,6 @@ class KNNChecker(object):
                     self.log.info(str(e))
                 total_time = time.time() - start
                 acc = accuracy_score(y_test, y_pred)
-                print 'y_test ',y_test
-                print 'y_pred ',y_pred
                 fsc = f1_score(y_test, y_pred)
                 acc_lst.append(acc)
                 f1_lst.append(fsc)
@@ -232,7 +234,7 @@ class KNNChecker(object):
                 recall_lst.append(recall)
                 self.log_debug.info('------------- end loop -----')
             datasets_data_lst.append(np.mean(acc_lst))
-            datasets_data_lst.append(float("{:.5f}".format(np.mean(f1_lst))))
+            datasets_data_lst.append(np.mean(f1_lst))
             datasets_data_lst.append(np.mean(time_pred))
             datasets_data_lst.append(np.mean(total_ins))
             self.log.info('---------------------------------------------') 
@@ -242,27 +244,22 @@ class KNNChecker(object):
             self.log.info(time_pred)
             self.log.info(total_ins)
             self.log.info('---------------------------------------------')
-            self.log_debug.info('*********** end size')
-        self.log.info('ml type '+str(ml.kernel))                
+            self.log_debug.info('*********** end size')                    
         all_data.append(datasets_data_lst)
         self.log_debug.info('******* end data set')
         result[self.dataset_name] = all_data
         self.log_debug.info('************ end ml')
-        pickle.dump(result, open(self.dataset_name+'_svm_result.obj', 'wb'))
+        pickle.dump(result, open(self.dataset_name + '_knn_result.obj', 'wb'))
         self.report_all(result)
                  
 def mainCmp(dataset_name):
-    print ' ---------- start svm process -------'
+    print ' ---------- start knn process -------'
     print 'data set name ', dataset_name
     obj = KNNChecker(dataset_name)
-    try:
-        obj.process()
-    except Exception as e:
-        obj.log_error.info(str(e))
+    obj.process()
     print ' ---------- end cmp -------'
     
 if __name__ == '__main__':
-    dataset_name = 'heart'
-#     dataset_name = sys.argv[1]
+    dataset_name = 'heart'#sys.argv[1]
     mainCmp(dataset_name)
 

@@ -18,7 +18,7 @@ from log_file import LogFile
 
 ml_name = ['bagging', 'boosted', 'randomforest', 'nb', 'knn', 'decsiontree', 'svm']
 
-class SVMManual(object):
+class KNNChecker(object):
     data_size = [0.75, 0.50, 0.25]
     
     def __init__(self, dataset_name):
@@ -206,7 +206,7 @@ class SVMManual(object):
 def mainCmp(dataset_name):
     print ' ---------- start knn process -------'
     print 'data set name ', dataset_name
-    obj = SVMManual(dataset_name)
+    obj = KNNChecker(dataset_name)
     obj.process()
     print ' ---------- end cmp -------'
     
