@@ -35,7 +35,7 @@ def report_by_dataset_v1(result):
             ml_result.append(f1_50)
             ml_result.append(f1_75)
             result_lst.append(ml_result)
-    print tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
+    print tabulate(result_lst, ('ml name', 'data set', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
 
 def report_by_dataset_v2(result, dataset_lst):
     print 'report by dataset'
@@ -65,7 +65,7 @@ def report_by_dataset_v2(result, dataset_lst):
             ml_result.append(f1_50)
             ml_result.append(f1_75)
             result_lst.append(ml_result)
-    print tabulate(result_lst, ('ml name','data set','acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
+    print tabulate(result_lst, ('ml name', 'data set', 'acc 25', 'acc 50', 'acc 75', 'f1 25', 'f1 50', 'f1 75'))
 
 def report_all(result):
     perform_result = []
@@ -106,5 +106,20 @@ def report():
     result[ml_name] = lst
     report_all(result)
 
+def seg_report():
+    r_lst = [13, 28, 55, 61,81,85,87,89,97,99]
+    result = {}
+    lst = []
+    ml_name = 'svm'
+    for i in range(1,11):
+        file_name = 'result/segment/data/segment_svm_result_{}.obj'.format(i)
+        obj_file = pickle.load(open(file_name, 'rb'))  
+        data_lst = obj_file['segment'][0]
+        lst.append(data_lst)
+        result[ml_name] = lst
+        print '************* start report **', i
+        report_all(result)
+        print '************* end report **', i
+       
 if __name__ == '__main__':
-    report()
+    seg_report()
