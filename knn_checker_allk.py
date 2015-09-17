@@ -60,53 +60,74 @@ class KNNChecker(object):
         rng = None
         if self.dataset_name == 'heart':
             if d_size == 0.75:
-                rng = range(2, 12)
+                # rng = range(2, 12)
+                rng = range(22, 51)
             elif d_size == 0.5:
-                rng = range(2, 25)
+                # rng = range(2, 25)
+                rng = range(2, 104)
             elif d_size == 0.25:
-                rng = range(2, 38)
+                # rng = range(2, 38)
+                rng = range(2, 156)
         elif self.dataset_name == 'letter':
             if d_size == 0.75:
-                rng = range(2, 100)
+                # rng = range(2, 100)
+                rng = range(2, 399)
             elif d_size == 0.5:
-                rng = range(2, 200)
+                # rng = range(2, 200)
+                rng = range(2, 799)
             elif d_size == 0.25:
-                rng = range(2, 300)
+                # rng = range(2, 300)
+                rng = range(2, 1199)
         elif self.dataset_name == 'austra':
             if d_size == 0.75:
-                rng = range(2, 171)
+                # rng = range(2, 171)
+                rng = range(2, 137)
             elif d_size == 0.5:
-                rng = range(2, 344)
+                # rng = range(2, 344)
+                rng = range(2, 275)
             elif d_size == 0.25:
-                rng = range(2, 102)
+                # rng = range(2, 102)
+                rng = range(2, 413)
         elif self.dataset_name == 'german':
             if d_size == 0.75:
-                rng = range(2, 49)
+                # rng = range(2, 49)
+                rng = range(2, 199)
             elif d_size == 0.5:
-                rng = range(2, 99)
+                # rng = range(2, 99)
+                rng = range(2, 399)
             elif d_size == 0.25:
-                rng = range(2, 149)
+                # rng = range(2, 149)
+                rng = range(2, 599)
         elif self.dataset_name == 'sat':
             if d_size == 0.75:
-                rng = range(2, 320)
+                # rng = range(2, 320)
+                rng = range(2, 1286)
             elif d_size == 0.5:
-                rng = range(2, 642)
+                # rng = range(2, 642)
+                rng = range(2, 2573)
             elif d_size == 0.25:
-                rng = range(2, 964)
+                # rng = range(2, 964)
+                rng = range(2, 3860)
         elif self.dataset_name == 'segment':
             if d_size == 0.75:
-                rng = range(2, 114)
+                # rng = range(2, 114)
+                rng = range(2, 461)
             elif d_size == 0.5:
-                rng = range(2, 230)
+                # rng = range(2, 230)
+                rng = range(2, 923)
             elif d_size == 0.25:
-                rng = range(2, 345)
+                # rng = range(2, 345)
+                rng = range(2, 1385)
         elif self.dataset_name == 'vehicle':
             if d_size == 0.75:
-                rng = range(2, 36)
+                # rng = range(2, 36)
+                rng = range(2, 149)
             elif d_size == 0.5:
-                rng = range(2, 74)
+                # rng = range(2, 74)
+                rng = range(2, 299)
             elif d_size == 0.25:
-                rng = range(2, 111)
+                # rng = range(2, 111)
+                rng = range(2, 450)
 
         for i in rng:
             knn_lst.append(KNeighborsClassifier(n_neighbors=i))
